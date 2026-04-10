@@ -794,18 +794,20 @@ class SettingController extends Controller
 
     public function siteServicesPage()
     {
+        $homeSetting = HomeSetting::firstOrNew(['id' => 1]);
         $mainServices = Service::whereNull('parentid')->orderBy('name')->get(['id', 'name']);
 
-        return view('admin.sitesetting.pages.services', compact('mainServices'));
+        return view('admin.sitesetting.pages.services', compact('mainServices', 'homeSetting'));
     }
 
     public function sitePatientGuidePage()
     {
+        $homeSetting = HomeSetting::firstOrNew(['id' => 1]);
         $mainPatientGuides = PatientGuide::whereNull('parentid')
             ->orderBy('name')
             ->get(['id', 'name']);
 
-        return view('admin.sitesetting.pages.patientguide', compact('mainPatientGuides'));
+        return view('admin.sitesetting.pages.patientguide', compact('mainPatientGuides', 'homeSetting'));
     }
 
     public function siteSmtpPage()
@@ -1110,6 +1112,7 @@ public function storeHeaderFooterSettings(Request $request)
             'faq5_question' => ['nullable', 'string', 'max:255'],
             'faq5_answer' => ['nullable', 'string'],
 
+            'page_header_image' => ['nullable', 'image', 'mimes:jpg,jpeg,png,webp', 'max:5120'],
             'about_image1' => ['nullable', 'image', 'mimes:jpg,jpeg,png,webp', 'max:5120'],
             'about_image2' => ['nullable', 'image', 'mimes:jpg,jpeg,png,webp', 'max:5120'],
             'about_helped_fund_image' => ['nullable', 'image', 'mimes:jpg,jpeg,png,webp', 'max:5120'],
@@ -1131,6 +1134,7 @@ public function storeHeaderFooterSettings(Request $request)
         $aboutPageData = $homeSetting->about_page_data ?? [];
 
         $imageFields = [
+            'page_header_image',
             'about_image1',
             'about_image2',
             'about_helped_fund_image',
@@ -1563,10 +1567,22 @@ public function storeHeaderFooterSettings(Request $request)
             'social_linkedin' => ['nullable', 'string', 'max:255'],
             'social_youtube' => ['nullable', 'string', 'max:255'],
             'social_whatsapp' => ['nullable', 'string', 'max:255'],
+            'page_header_image' => ['nullable', 'image', 'mimes:jpg,jpeg,png,webp', 'max:5120'],
         ]);
 
         $homeSetting = HomeSetting::firstOrNew(['id' => 1]);
         $existing = is_array($homeSetting->contact_data) ? $homeSetting->contact_data : [];
+
+        if ($request->hasFile('page_header_image')) {
+            if (!empty($existing['page_header_image']) && Storage::disk('public')->exists($existing['page_header_image'])) {
+                Storage::disk('public')->delete($existing['page_header_image']);
+            }
+            $existing['page_header_image'] = $request->file('page_header_image')->store('site-settings/contact-page', 'public');
+            unset($validated['page_header_image']);
+        } else {
+            unset($validated['page_header_image']);
+        }
+
         $homeSetting->contact_data = array_merge($existing, $validated);
         $homeSetting->save();
 
@@ -2131,5 +2147,49 @@ public function storeHeaderFooterSettings(Request $request)
         $homeSetting->save();
 
         return redirect()->route('admin.site.home')->with('success', 'Last hope section updated successfully.');
+    }
+
+    public function storeServicesPageSettings(Request $request)
+    {
+        $request->validate([
+            'services_page_header_image' => ['nullable', 'image', 'mimes:jpg,jpeg,png,webp', 'max:5120'],
+        ]);
+
+        $homeSetting = HomeSetting::firstOrNew(['id' => 1]);
+        $servicesData = is_array($homeSetting->services_data) ? $homeSetting->services_data : [];
+
+        if ($request->hasFile('services_page_header_image')) {
+            if (!empty($servicesData['page_header_image']) && Storage::disk('public')->exists($servicesData['page_header_image'])) {
+                Storage::disk('public')->delete($servicesData['page_header_image']);
+            }
+            $servicesData['page_header_image'] = $request->file('services_page_header_image')->store('site-settings/services-page', 'public');
+        }
+
+        $homeSetting->services_data = $servicesData;
+        $homeSetting->save();
+
+        return redirect()->route('admin.site.pages.services')->with('success', 'Services page header image updated successfully.');
+    }
+
+    public function storePatientGuidePageSettings(Request $request)
+    {
+        $request->validate([
+            'patient_guide_page_header_image' => ['nullable', 'image', 'mimes:jpg,jpeg,png,webp', 'max:5120'],
+        ]);
+
+        $homeSetting = HomeSetting::firstOrNew(['id' => 1]);
+        $patientGuidePageData = is_array($homeSetting->patient_guide_page_data) ? $homeSetting->patient_guide_page_data : [];
+
+        if ($request->hasFile('patient_guide_page_header_image')) {
+            if (!empty($patientGuidePageData['page_header_image']) && Storage::disk('public')->exists($patientGuidePageData['page_header_image'])) {
+                Storage::disk('public')->delete($patientGuidePageData['page_header_image']);
+            }
+            $patientGuidePageData['page_header_image'] = $request->file('patient_guide_page_header_image')->store('site-settings/patient-guide-page', 'public');
+        }
+
+        $homeSetting->patient_guide_page_data = $patientGuidePageData;
+        $homeSetting->save();
+
+        return redirect()->route('admin.site.pages.patientguide')->with('success', 'Patient guide page header image updated successfully.');
     }
 }

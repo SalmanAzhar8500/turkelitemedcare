@@ -2,7 +2,11 @@
 
 @section('content')
 
-    <div class="page-header parallaxie">
+    @php
+        $servicesData = is_array($homeSetting->services_data ?? null) ? $homeSetting->services_data : [];
+    @endphp
+
+    <div class="page-header parallaxie" @if(!empty($servicesData['page_header_image'])) style="background-image: url('{{ asset('storage/' . $servicesData['page_header_image']) }}');" @endif>
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12">

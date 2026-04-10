@@ -15,9 +15,23 @@
 							<div class="alert alert-success">{{ session('success') }}</div>
 						@endif
 
-						<form action="{{ route('admin.site.contact.store') }}" method="POST">
+						<form action="{{ route('admin.site.contact.store') }}" method="POST" enctype="multipart/form-data">
 							@csrf
 							<div class="row clearfix">
+								<div class="col-md-12 mt-2"><h5>Page Header</h5></div>
+								<div class="col-md-12">
+									<div class="form-group">
+										<label>Page Header Background Image</label>
+										<input type="file" name="page_header_image" class="form-control" accept="image/*">
+										@if(!empty($contactData['page_header_image']))
+											<div class="mt-2">
+												<img src="{{ asset('storage/' . $contactData['page_header_image']) }}" alt="Current Header Image" style="max-height: 100px; border-radius: 4px;">
+												<small class="text-muted d-block">Current header image. Upload a new one to replace it.</small>
+											</div>
+										@endif
+									</div>
+								</div>
+
 								<div class="col-md-12 mt-2"><h5>Page Content</h5></div>
 								<div class="col-md-6"><div class="form-group"><label>Page Title</label><input type="text" name="contact_page_title" class="form-control" value="{{ old('contact_page_title', $contactData['contact_page_title'] ?? 'Contact') }}"></div></div>
 								<div class="col-md-6"><div class="form-group"><label>Page Heading</label><input type="text" name="contact_page_heading" class="form-control" value="{{ old('contact_page_heading', $contactData['contact_page_heading'] ?? 'Contact us') }}"></div></div>

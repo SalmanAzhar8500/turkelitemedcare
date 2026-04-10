@@ -1,7 +1,11 @@
 @extends('frontend.layouts.app')
 
 @section('content')
-    <div class="page-header parallaxie">
+    @php
+        $patientGuidePageData = is_array($homeSetting->patient_guide_page_data ?? null) ? $homeSetting->patient_guide_page_data : [];
+    @endphp
+
+    <div class="page-header parallaxie" @if(!empty($patientGuidePageData['page_header_image'])) style="background-image: url('{{ asset('storage/' . $patientGuidePageData['page_header_image']) }}');" @endif>
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12">

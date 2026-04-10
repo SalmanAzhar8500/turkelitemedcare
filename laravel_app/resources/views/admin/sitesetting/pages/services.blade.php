@@ -7,6 +7,42 @@
 				<div class="col-lg-12 col-md-12 col-sm-12">
 					<div class="card">
 						<div class="header">
+							<h2><strong>Services</strong> Page Header</h2>
+						</div>
+						<div class="body">
+							@if(session('success'))
+								<div class="alert alert-success">{{ session('success') }}</div>
+							@endif
+							<form action="{{ route('admin.site.pages.services.header.store') }}" method="POST" enctype="multipart/form-data">
+								@csrf
+								<div class="row clearfix">
+									<div class="col-md-12">
+										<div class="form-group">
+											<label>Page Header Background Image</label>
+											<input type="file" name="services_page_header_image" class="form-control" accept="image/*">
+											@php $servicesData = is_array($homeSetting->services_data ?? null) ? $homeSetting->services_data : []; @endphp
+											@if(!empty($servicesData['page_header_image']))
+												<div class="mt-2">
+													<img src="{{ asset('storage/' . $servicesData['page_header_image']) }}" alt="Current Header Image" style="max-height: 100px; border-radius: 4px;">
+													<small class="text-muted d-block">Current header image. Upload a new one to replace it.</small>
+												</div>
+											@endif
+										</div>
+									</div>
+									<div class="col-md-12">
+										<button type="submit" class="btn btn-primary btn-round">Save Header Image</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row clearfix">
+				<div class="col-lg-12 col-md-12 col-sm-12">
+					<div class="card">
+						<div class="header">
 							<h2><strong>Services</strong> Page Data</h2>
 						</div>
 						<div class="body">

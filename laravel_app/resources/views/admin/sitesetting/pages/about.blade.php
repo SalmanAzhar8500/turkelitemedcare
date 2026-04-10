@@ -59,6 +59,18 @@
 											<input type="text" name="breadcrumb_home_link" class="form-control" value="{{ old('breadcrumb_home_link', $aboutPage['breadcrumb_home_link'] ?? route('home')) }}">
 										</div>
 									</div>
+									<div class="col-sm-12">
+										<div class="form-group">
+											<label>Page Header Background Image</label>
+											<input type="file" name="page_header_image" class="form-control" accept="image/*">
+											@if(!empty($aboutPage['page_header_image']))
+												<div class="mt-2">
+													<img src="{{ asset('storage/' . $aboutPage['page_header_image']) }}" alt="Current Header Image" style="max-height: 100px; border-radius: 4px;">
+													<small class="text-muted d-block">Current header image. Upload a new one to replace it.</small>
+												</div>
+											@endif
+										</div>
+									</div>
 								</div>
 
 								<hr>

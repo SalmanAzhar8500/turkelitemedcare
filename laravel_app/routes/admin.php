@@ -79,7 +79,9 @@ Route::prefix('admin')->middleware(['auth', 'admin'])->group(function () {
     Route::get('/site-contact', [SettingController::class, 'siteContactPage'])->name('admin.site.contact');
     Route::post('/site-contact', [SettingController::class, 'storeContactPage'])->name('admin.site.contact.store');
     Route::get('/site-services-page', [SettingController::class, 'siteServicesPage'])->name('admin.site.pages.services');
+    Route::post('/site-services-page/header', [SettingController::class, 'storeServicesPageSettings'])->name('admin.site.pages.services.header.store');
     Route::get('/site-patient-guide-page', [SettingController::class, 'sitePatientGuidePage'])->name('admin.site.pages.patientguide');
+    Route::post('/site-patient-guide-page/header', [SettingController::class, 'storePatientGuidePageSettings'])->name('admin.site.pages.patientguide.header.store');
     Route::get('/site-smtp', [SettingController::class, 'siteSmtpPage'])->name('admin.site.smtp');
     Route::post('/site-smtp', [SettingController::class, 'storeSmtpSettings'])->name('admin.site.smtp.store');
     Route::get('/site-header-footer', [SettingController::class, 'siteHeaderFooterPage'])->name('admin.site.header-footer');

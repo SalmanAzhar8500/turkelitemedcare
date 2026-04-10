@@ -22,7 +22,7 @@
     @endphp
 
     <!-- Page Header Start -->
-    <div class="page-header parallaxie">
+    <div class="page-header parallaxie" @if(!empty($contactData['page_header_image'])) style="background-image: url('{{ asset('storage/' . $contactData['page_header_image']) }}');" @endif>
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12">

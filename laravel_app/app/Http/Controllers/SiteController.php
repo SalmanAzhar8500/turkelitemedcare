@@ -33,10 +33,11 @@ class SiteController extends Controller
     }
     public function services()
     {
+        $homeSetting = HomeSetting::first();
         $services = Service::latest()->take(6)->get();
         $totalServices = Service::count();
 
-        return view('frontend.pages.services', compact('services', 'totalServices'));
+        return view('frontend.pages.services', compact('services', 'totalServices', 'homeSetting'));
     }
 
     public function loadMoreServices(Request $request)
@@ -207,6 +208,7 @@ class SiteController extends Controller
 
     public function patientGuide()
     {
+        $homeSetting = HomeSetting::first();
         $guides = PatientGuide::query()
             ->where('type', 'main')
             ->orderBy('name')
@@ -217,7 +219,7 @@ class SiteController extends Controller
             }])
             ->get();
 
-        return view('frontend.pages.patient-guide', compact('guides'));
+        return view('frontend.pages.patient-guide', compact('guides', 'homeSetting'));
     }
 
     public function patientGuideDetails($slug)
