@@ -10,7 +10,7 @@
 
 
     <!-- Page Header Start -->
-    <div class="page-header parallaxie">
+    <div class="page-header parallaxie" style="background-image: url('{{ $pageHeaderImageUrl }}');">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12">

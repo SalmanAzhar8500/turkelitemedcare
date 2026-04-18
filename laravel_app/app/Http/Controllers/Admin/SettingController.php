@@ -1110,6 +1110,7 @@ public function storeHeaderFooterSettings(Request $request)
             'faq5_question' => ['nullable', 'string', 'max:255'],
             'faq5_answer' => ['nullable', 'string'],
 
+            'page_header_image' => ['nullable', 'image', 'mimes:jpg,jpeg,png,webp', 'max:5120'],
             'about_image1' => ['nullable', 'image', 'mimes:jpg,jpeg,png,webp', 'max:5120'],
             'about_image2' => ['nullable', 'image', 'mimes:jpg,jpeg,png,webp', 'max:5120'],
             'about_helped_fund_image' => ['nullable', 'image', 'mimes:jpg,jpeg,png,webp', 'max:5120'],
@@ -1131,6 +1132,7 @@ public function storeHeaderFooterSettings(Request $request)
         $aboutPageData = $homeSetting->about_page_data ?? [];
 
         $imageFields = [
+            'page_header_image',
             'about_image1',
             'about_image2',
             'about_helped_fund_image',

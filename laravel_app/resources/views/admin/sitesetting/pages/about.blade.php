@@ -59,6 +59,12 @@
 											<input type="text" name="breadcrumb_home_link" class="form-control" value="{{ old('breadcrumb_home_link', $aboutPage['breadcrumb_home_link'] ?? route('home')) }}">
 										</div>
 									</div>
+										<div class="col-sm-12">
+											<div class="form-group">
+												<label>Page Header Background Image</label>
+												<input type="file" name="page_header_image" class="form-control" accept="image/*">
+											</div>
+										</div>
 								</div>
 
 								<hr>

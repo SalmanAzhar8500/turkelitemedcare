@@ -6,6 +6,7 @@ use App\Http\Controllers\Frontend\NavbarPatientGuideController;
 use App\Http\Controllers\Frontend\NavbarServiceController;
 use App\Models\HomeSetting;
 use App\Models\Service;
+use Illuminate\Support\Str;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\Facades\Cache;
@@ -58,6 +59,20 @@ class AppServiceProvider extends ServiceProvider
 
             $view->with('headerFooterData', $headerFooterData);
             $view->with('services', $services);
+        });
+
+        View::composer('frontend.pages.*', function ($view) {
+            $homeSetting = HomeSetting::firstOrNew(['id' => 1]);
+            $aboutPageData = is_array($homeSetting->about_page_data) ? $homeSetting->about_page_data : [];
+            $pageHeaderImage = $aboutPageData['page_header_image'] ?? null;
+
+            $pageHeaderImageUrl = filled($pageHeaderImage)
+                ? (Str::startsWith((string) $pageHeaderImage, ['http://', 'https://', '/', 'data:image/'])
+                    ? $pageHeaderImage
+                    : asset('storage/' . ltrim((string) $pageHeaderImage, '/')))
+                : asset('frontend/assets/images/page-header-bg.jpg');
+
+            $view->with('pageHeaderImageUrl', $pageHeaderImageUrl);
         });
     }
 }
