@@ -361,11 +361,13 @@ class SettingController extends Controller
                 },
             ],
             'image' => ['nullable', 'image', 'mimes:jpg,jpeg,png,webp', 'max:5120'],
+            'remove_image' => ['nullable', 'boolean'],
             'detail_sidebar_title' => ['nullable', 'string', 'max:255'],
             'detail_cta_text' => ['nullable', 'string', 'max:255'],
             'detail_cta_title' => ['nullable', 'string', 'max:255'],
             'detail_cta_button_text' => ['nullable', 'string', 'max:255'],
             'detail_cta_image' => ['nullable', 'image', 'mimes:jpg,jpeg,png,webp', 'max:5120'],
+            'remove_detail_cta_image' => ['nullable', 'boolean'],
             'detail_highlights_title' => ['nullable', 'string', 'max:255'],
             'detail_highlights_text' => ['nullable', 'string'],
             'detail_highlights_items' => ['nullable', 'string'],
@@ -377,6 +379,9 @@ class SettingController extends Controller
             'detail_features.*.icon' => ['nullable', 'string'],
             'detail_features.*.icon_image' => ['nullable', 'image', 'mimes:jpg,jpeg,png,webp,svg', 'max:2048'],
             'detail_features.*.existing_image' => ['nullable', 'string'],
+            'detail_features.*.existing_icon' => ['nullable', 'string'],
+            'detail_features.*.remove_image' => ['nullable', 'boolean'],
+            'detail_features.*.remove_icon' => ['nullable', 'boolean'],
             'detail_feature1_title' => ['nullable', 'string', 'max:255'],
             'detail_feature1_description' => ['nullable', 'string'],
             'detail_feature2_title' => ['nullable', 'string', 'max:255'],
@@ -424,6 +429,14 @@ class SettingController extends Controller
             $service->slug = $slug;
         }
 
+        if ($request->boolean('remove_image')) {
+            if ($service->image && Storage::disk('public')->exists($service->image)) {
+                Storage::disk('public')->delete($service->image);
+            }
+
+            $service->image = null;
+        }
+
         if ($request->hasFile('image')) {
             if ($service->image && Storage::disk('public')->exists($service->image)) {
                 Storage::disk('public')->delete($service->image);
@@ -434,6 +447,18 @@ class SettingController extends Controller
 
         $existingDetailContent = is_array($service->detail_content) ? $service->detail_content : [];
         $ctaImagePath = $existingDetailContent['cta_image'] ?? null;
+
+        if ($request->boolean('remove_detail_cta_image')) {
+            if (
+                filled($ctaImagePath)
+                && !Str::startsWith((string) $ctaImagePath, ['http://', 'https://'])
+                && Storage::disk('public')->exists($ctaImagePath)
+            ) {
+                Storage::disk('public')->delete($ctaImagePath);
+            }
+
+            $ctaImagePath = null;
+        }
 
         if ($request->hasFile('detail_cta_image')) {
             if (
@@ -591,7 +616,21 @@ class SettingController extends Controller
             $description = isset($feature['description']) ? trim((string) $feature['description']) : null;
             $icon = isset($feature['icon']) ? trim((string) $feature['icon']) : null;
             $existingImage = $feature['existing_image'] ?? ($existingFeatures[$index]['image'] ?? null);
-            $existingIcon = $existingFeatures[$index]['icon'] ?? null;
+            $existingIcon = $feature['existing_icon'] ?? ($existingFeatures[$index]['icon'] ?? null);
+            $removeImage = filter_var($feature['remove_image'] ?? false, FILTER_VALIDATE_BOOLEAN);
+            $removeIcon = filter_var($feature['remove_icon'] ?? false, FILTER_VALIDATE_BOOLEAN);
+
+            if ($removeImage) {
+                if (
+                    filled($existingImage)
+                    && !Str::startsWith((string) $existingImage, ['http://', 'https://'])
+                    && Storage::disk('public')->exists($existingImage)
+                ) {
+                    Storage::disk('public')->delete($existingImage);
+                }
+
+                $existingImage = null;
+            }
 
             if ($request->hasFile("detail_features.$index.image")) {
                 if (
@@ -605,6 +644,20 @@ class SettingController extends Controller
                 $existingImage = $request->file("detail_features.$index.image")->store('site-settings/services/features', 'public');
             }
 
+            if ($removeIcon) {
+                if (
+                    filled($existingIcon)
+                    && !Str::startsWith((string) $existingIcon, ['http://', 'https://'])
+                    && !preg_match('/\s/', (string) $existingIcon)
+                    && Storage::disk('public')->exists($existingIcon)
+                ) {
+                    Storage::disk('public')->delete($existingIcon);
+                }
+
+                $existingIcon = null;
+                $icon = null;
+            }
+
             if ($request->hasFile("detail_features.$index.icon_image")) {
                 if (
                     filled($existingIcon)
@@ -616,7 +669,7 @@ class SettingController extends Controller
                 }
 
                 $icon = $request->file("detail_features.$index.icon_image")->store('site-settings/services/features/icons', 'public');
-            } elseif (!filled($icon)) {
+            } elseif (!filled($icon) && !$removeIcon) {
                 $icon = $existingIcon;
             }
 

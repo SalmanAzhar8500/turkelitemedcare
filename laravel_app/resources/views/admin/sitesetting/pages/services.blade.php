@@ -38,6 +38,8 @@
 							<form id="serviceDataForm" class="mt-4 d-none" enctype="multipart/form-data">
 								@csrf
 								<input type="hidden" id="selectedServiceId" value="">
+								<input type="hidden" name="remove_image" id="removeServiceImage" value="0">
+								<input type="hidden" name="remove_detail_cta_image" id="removeDetailCtaImage" value="0">
 
 								<div class="row clearfix">
 									<div class="col-md-6">
@@ -56,6 +58,7 @@
 
 									<div class="col-md-12">
 										<img id="serviceImagePreview" src="" alt="Service Preview" style="max-width:180px;display:none;margin-bottom:15px;">
+										<button type="button" id="removeServiceImageBtn" class="btn btn-sm btn-danger mb-3 d-none">Remove Service Image</button>
 									</div>
 
 									<div class="col-md-12">
@@ -102,6 +105,7 @@
 									</div>
 									<div class="col-md-12">
 										<img id="detailCtaImagePreview" src="" alt="CTA Preview" style="max-width:180px;display:none;margin-bottom:15px;">
+										<button type="button" id="removeDetailCtaImageBtn" class="btn btn-sm btn-danger mb-3 d-none">Remove CTA Image</button>
 									</div>
 
 									<div class="col-md-6">
@@ -424,6 +428,9 @@
 						<button type="button" class="btn btn-sm btn-danger remove-feature-btn">Remove</button>
 					</div>
 					<input type="hidden" name="detail_features[${index}][existing_image]" class="feature-existing-image" value="${$('<div>').text(existingPath).html()}">
+					<input type="hidden" name="detail_features[${index}][existing_icon]" class="feature-existing-icon" value="${$('<div>').text(icon).html()}">
+					<input type="hidden" name="detail_features[${index}][remove_image]" class="feature-remove-image" value="0">
+					<input type="hidden" name="detail_features[${index}][remove_icon]" class="feature-remove-icon" value="0">
 					<div class="row">
 						<div class="col-md-4">
 							<div class="form-group">
@@ -451,9 +458,11 @@
 						</div>
 						<div class="col-md-6">
 							<img src="${iconPreviewUrl}" alt="Feature Icon Preview" class="feature-icon-preview" style="max-width:80px;margin-bottom:12px;${iconPreviewStyle}">
+							<button type="button" class="btn btn-sm btn-danger mb-3 feature-remove-icon-btn ${iconPreviewUrl || icon ? '' : 'd-none'}">Remove Icon</button>
 						</div>
 						<div class="col-md-6">
 							<img src="${imageUrl || ''}" alt="Feature Preview" class="feature-image-preview" style="max-width:180px;margin-bottom:12px;${previewStyle}">
+							<button type="button" class="btn btn-sm btn-danger mb-3 feature-remove-image-btn ${imageUrl ? '' : 'd-none'}">Remove Image</button>
 						</div>
 						<div class="col-md-12">
 							<div class="form-group mb-0">
@@ -485,7 +494,21 @@
 				$(this).find('input.feature-icon-input').attr('name', `detail_features[${index}][icon]`);
 				$(this).find('input.feature-icon-image-input').attr('name', `detail_features[${index}][icon_image]`);
 				$(this).find('input.feature-existing-image').attr('name', `detail_features[${index}][existing_image]`);
+				$(this).find('input.feature-existing-icon').attr('name', `detail_features[${index}][existing_icon]`);
+				$(this).find('input.feature-remove-image').attr('name', `detail_features[${index}][remove_image]`);
+				$(this).find('input.feature-remove-icon').attr('name', `detail_features[${index}][remove_icon]`);
 			});
+		}
+
+		function toggleSinglePreview(previewSelector, buttonSelector, url) {
+			if (url) {
+				$(previewSelector).attr('src', url).show();
+				$(buttonSelector).removeClass('d-none');
+				return;
+			}
+
+			$(previewSelector).attr('src', '').hide();
+			$(buttonSelector).addClass('d-none');
 		}
 
 		function renderFaqItems(faqs) {
@@ -531,16 +554,15 @@
 
 				$('#selectedServiceId').val(res.id);
 				$('#serviceName').val(res.name ?? '');
+				$('#removeServiceImage').val('0');
+				$('#removeDetailCtaImage').val('0');
+				$('#serviceImage').val('');
 				setDescriptionContent(res.description ?? '');
 				setValue('#detailSidebarTitle', detail.sidebar_title);
 				setValue('#detailCtaText', detail.cta_text);
 				setValue('#detailCtaTitle', detail.cta_title);
 				setValue('#detailCtaButtonText', detail.cta_button_text);
-				if (detail.cta_image_url) {
-					$('#detailCtaImagePreview').attr('src', detail.cta_image_url).show();
-				} else {
-					$('#detailCtaImagePreview').hide().attr('src', '');
-				}
+				toggleSinglePreview('#detailCtaImagePreview', '#removeDetailCtaImageBtn', detail.cta_image_url || '');
 				$('#detailCtaImage').val('');
 				setValue('#detailHighlightsTitle', detail.highlights_title);
 				setValue('#detailHighlightsText', detail.highlights_text);
@@ -563,15 +585,23 @@
 				setValue('#detailFaqTitle', detail.faq_title);
 				renderFaqItems(detail.faqs || []);
 
-				if (res.image_url) {
-					$('#serviceImagePreview').attr('src', res.image_url).show();
-				} else {
-					$('#serviceImagePreview').hide();
-				}
+				toggleSinglePreview('#serviceImagePreview', '#removeServiceImageBtn', res.image_url || '');
 
 				$('#serviceDataForm').removeClass('d-none');
 			});
 		}
+
+		$('#removeServiceImageBtn').on('click', function () {
+			$('#removeServiceImage').val('1');
+			$('#serviceImage').val('');
+			toggleSinglePreview('#serviceImagePreview', '#removeServiceImageBtn', '');
+		});
+
+		$('#removeDetailCtaImageBtn').on('click', function () {
+			$('#removeDetailCtaImage').val('1');
+			$('#detailCtaImage').val('');
+			toggleSinglePreview('#detailCtaImagePreview', '#removeDetailCtaImageBtn', '');
+		});
 
 		$(document).on('click', '#addMoreFaqBtn', function () {
 			const index = $('#faqItemsWrapper .faq-item').length;
@@ -609,9 +639,11 @@
 			const $item = $(this).closest('.feature-item');
 			if (total <= 1) {
 				$item.find('input[type="text"], textarea, input.feature-existing-image').val('');
+				$item.find('input.feature-existing-icon, input.feature-remove-image, input.feature-remove-icon').val('0');
 				$item.find('input[type="file"]').val('');
 				$item.find('.feature-image-preview').attr('src', '').hide();
 				$item.find('.feature-icon-preview').attr('src', '').hide();
+				$item.find('.feature-remove-image-btn, .feature-remove-icon-btn').addClass('d-none');
 				return;
 			}
 
@@ -628,7 +660,9 @@
 			}
 
 			$item.find('.feature-existing-image').val('');
+			$item.find('.feature-remove-image').val('0');
 			$preview.attr('src', URL.createObjectURL(file)).show();
+			$item.find('.feature-remove-image-btn').removeClass('d-none');
 		});
 
 		$(document).on('change', '.feature-icon-image-input', function () {
@@ -639,7 +673,46 @@
 				return;
 			}
 
+			$item.find('.feature-remove-icon').val('0');
+			$item.find('.feature-icon-input').val('');
 			$preview.attr('src', URL.createObjectURL(file)).show();
+			$item.find('.feature-remove-icon-btn').removeClass('d-none');
+		});
+
+		$(document).on('click', '.feature-remove-image-btn', function () {
+			const $item = $(this).closest('.feature-item');
+			$item.find('.feature-remove-image').val('1');
+			$item.find('.feature-existing-image').val('');
+			$item.find('.feature-image-input').val('');
+			$item.find('.feature-image-preview').attr('src', '').hide();
+			$(this).addClass('d-none');
+		});
+
+		$(document).on('click', '.feature-remove-icon-btn', function () {
+			const $item = $(this).closest('.feature-item');
+			$item.find('.feature-remove-icon').val('1');
+			$item.find('.feature-existing-icon').val('');
+			$item.find('.feature-icon-input').val('');
+			$item.find('.feature-icon-image-input').val('');
+			$item.find('.feature-icon-preview').attr('src', '').hide();
+			$(this).addClass('d-none');
+		});
+
+		$(document).on('input', '.feature-icon-input', function () {
+			const $item = $(this).closest('.feature-item');
+			const value = ($(this).val() || '').trim();
+			const isImagePath = /^(https?:\/\/|\/)/i.test(value) || /\.(svg|png|jpe?g|webp)$/i.test(value);
+			$item.find('.feature-remove-icon').val('0');
+			$item.find('.feature-existing-icon').val(value);
+
+			if (isImagePath) {
+				$item.find('.feature-icon-preview').attr('src', value).show();
+				$item.find('.feature-remove-icon-btn').removeClass('d-none');
+				return;
+			}
+
+			$item.find('.feature-icon-preview').attr('src', '').hide();
+			$item.find('.feature-remove-icon-btn').toggleClass('d-none', value === '');
 		});
 
 		$('#detailCtaImage').on('change', function () {
@@ -649,7 +722,18 @@
 			}
 
 			const previewUrl = URL.createObjectURL(file);
-			$('#detailCtaImagePreview').attr('src', previewUrl).show();
+			$('#removeDetailCtaImage').val('0');
+			toggleSinglePreview('#detailCtaImagePreview', '#removeDetailCtaImageBtn', previewUrl);
+		});
+
+		$('#serviceImage').on('change', function () {
+			const file = this.files && this.files[0] ? this.files[0] : null;
+			if (!file) {
+				return;
+			}
+
+			$('#removeServiceImage').val('0');
+			toggleSinglePreview('#serviceImagePreview', '#removeServiceImageBtn', URL.createObjectURL(file));
 		});
 
 
