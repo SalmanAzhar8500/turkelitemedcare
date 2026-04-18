@@ -347,9 +347,11 @@ class SettingController extends Controller
 
     public function updateService(Request $request, $id)
     {
+        
         $service = Service::findOrFail($id);
 
-        $validated = $request->validate([
+        try {
+            $validated = $request->validate([
             'name' => ['required','string','max:255'],
             'description' => [
                 'nullable',
@@ -413,7 +415,14 @@ class SettingController extends Controller
             'detail_faq4_answer' => ['nullable', 'string'],
             'detail_faq5_question' => ['nullable', 'string', 'max:255'],
             'detail_faq5_answer' => ['nullable', 'string'],
-        ]);
+            ]);
+        } catch (\Illuminate\Validation\ValidationException $e) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Validation Error',
+                'errors' => $e->validator->errors()->toArray(),
+            ], 422);
+        }
 
         // Slug regenerate only if name changed
         if($service->name != $validated['name']){
@@ -847,8 +856,9 @@ class SettingController extends Controller
 
     public function siteServicesPage()
     {
+          
         $mainServices = Service::whereNull('parentid')->orderBy('name')->get(['id', 'name']);
-
+          
         return view('admin.sitesetting.pages.services', compact('mainServices'));
     }
 
