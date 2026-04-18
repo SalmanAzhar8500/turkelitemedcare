@@ -122,13 +122,7 @@
                                         </div>
                                         <div class="service-entry-content-box wow fadeInUp" data-wow-delay="{{ $loop->index * 0.2 }}s">
                                             <div class="icon-box">
-                                                @if($isInlineSvg)
-                                                    {!! $itemIconStringDecoded !!}
-                                                @elseif($itemIconStringDecoded !== '' && !$isIconImage)
-                                                    <i class="{{ $itemIconStringDecoded }}"></i>
-                                                @else
-                                                    <img src="{{ $itemIconUrl }}" alt="Icon">
-                                                @endif
+                                                
                                             </div>
                                             <div class="service-entry-content">
                                                 <h3>{{ $itemTitle ?: $service->name }}</h3>
