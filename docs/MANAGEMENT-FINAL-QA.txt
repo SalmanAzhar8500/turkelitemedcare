@@ -1,0 +1,80 @@
+Content pack: /mnt/data/Turkelitemedcare-MANAGEMENT-FINAL-COMPLETE/FINAL/content/en
++------------------+---------+
+| Dataset          | Records |
++------------------+---------+
+| settings         | 30      |
+| site_pages       | 26      |
+| specialties      | 10      |
+| conditions       | 0       |
+| procedures       | 100     |
+| clinics          | 1       |
+| doctors          | 0       |
+| guides           | 8       |
+| patient_services | 9       |
+| patient_stories  | 0       |
+| legal_documents  | 8       |
++------------------+---------+
+Validation passed. Database import is safe to run.
+
+TURKELITE FINAL — PRESENTATION READINESS AUDIT
+  PASS  Content pack schema v2 declares EN / DE / AR.
+  PASS  Canonical catalog is complete: 10 specialties with exactly 10 procedures each (100 total).
+  PASS  Build identity is isolated: FINAL-MGMT / port 8135 / turenewtheme_final_mgmt.
+  PASS  Exactly 20 commercial priority procedures are configured.
+  PASS  All 20 priority pages have EN / DE / AR copy and metadata.
+  PASS  EN / DE / AR record parity covers all 10 specialties, 100 procedures, Clinic Expert, 8 guides, 9 patient services, 26 site pages and 8 legal documents.
+  PASS  Priority treatment copy clears multilingual depth and unique-title QA gates.
+  PASS  Long-tail treatment library is noindex until editorial depth is added.
+  PASS  Configured Clinic Expert profile is indexable; no synthetic clinic profiles are published.
+  PASS  Doctors sample records are noindex.
+  PASS  Patient stories sample records are noindex.
+  PASS  No known mojibake / import-marker patterns found in canonical content or views.
+  PASS  Public page copy is free of internal SEO/demo/video-placeholder language.
+  PASS  Legacy video-era runtime is not loaded by the FINAL public layout.
+  PASS  All 20 in-depth treatment pages have a local procedure visual.
+  PASS  All 20 priority pages have FINAL presentation visuals.
+  PASS  All 100 procedure cards have local FINAL visuals; no procedure relies on the old placeholder layer.
+  PASS  All 10 specialty overviews have FINAL presentation visuals.
+  PASS  Public FINAL pages do not depend on remote Google Fonts.
+  PASS  Future-video placeholders have been replaced by decision-article content.
+  PASS  Clinic directory is restricted to the configured Clinic Expert record; synthetic clinic/doctor records are not published.
+  WARN  8 legal documents still contain draft/legal-review placeholders. This is acceptable for tomorrow's private presentation, not public launch.
+
+Summary: 21 pass / 1 warning / 0 fail
+Presentation gates passed.
+compiled=73 failures=0
+TURKELITE MEDCARE — MANAGEMENT FINAL STATIC QA
+====================================================
+PASS  Canonical catalogue: 10 specialties x 10 procedures = 100.
+PASS  Only published clinic data source is Clinic Expert.
+PASS  Synthetic doctor and patient-story datasets are empty.
+PASS  specialties: DE/AR translation coverage 10/10.
+PASS  procedures: DE/AR translation coverage 100/100.
+PASS  clinics: DE/AR translation coverage 1/1.
+PASS  guides: DE/AR translation coverage 8/8.
+PASS  patient_services: DE/AR translation coverage 9/9.
+PASS  site_pages: DE/AR translation coverage 26/26.
+PASS  legal_documents: DE/AR translation coverage 8/8.
+PASS  Patient-service list counts match EN/DE/AR.
+PASS  Procedure imagery: 100 present, >=900x550, readable, 100 exact-unique files.
+PASS  Specialty imagery: all 10 present.
+PASS  Local logo/mark and SVG language flags are present.
+PASS  Search index parity: 119 records each for EN/DE/AR.
+PASS  Build identity isolated: FINAL-MGMT / 8135 / turenewtheme_final_mgmt.
+PASS  Public sitemap uses production domain and contains 125 curated URLs.
+PASS  No stale 8132/R2.1 runtime references.
+PASS  No old synthetic clinic names in public/runtime code.
+PASS  Public account self-registration disabled.
+PASS  Contact and treatment-plan POST routes are rate-limited in root/localized routes.
+PASS  Admin catalogue supports DE/AR translation persistence and blocks SVG catalogue uploads.
+PASS  Inquiry pipeline has mail dependencies + honeypot wiring.
+PASS  Procedure detail template contains patient-decision IA, timeline, responsibility split and deeper detail.
+PASS  Language selector uses local flags and path-aware locale switching.
+PASS  management CSS layer present.
+PASS  CTA contrast rule present.
+PASS  footer grid present.
+WARN  Legal documents require counsel review/sign-off (8 records).
+
+Summary: 28 pass / 1 warning / 0 fail
+
+FINAL QA RESULT: PASS — one intentional production warning remains: legal counsel review before public launch.

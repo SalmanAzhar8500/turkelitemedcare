@@ -1,0 +1,11 @@
+{
+  "_README": "Only verified facts go in here. Every accreditation must be checked against the issuing body's own register, never against a logo supplied by the clinic. Blocks render an honest 'not yet published' state while the values are empty, so nothing unproven is ever shown to a patient.",
+  "commercial_model": {
+    "published": false,
+    "revenue_source": "",
+    "varies_by_clinic": "",
+    "patient_pays": "",
+    "paid_placement": ""
+  },
+  "clinics": {}
+}

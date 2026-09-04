@@ -1,0 +1,262 @@
+[
+  {
+    "name": "Dental",
+    "slug": "dental",
+    "summary": "Restorative, implant and aesthetic dentistry with a focus on clear treatment planning and follow-up after international travel.",
+    "description": "Restorative, implant and aesthetic dentistry with a focus on clear treatment planning and follow-up after international travel.",
+    "sort_order": 0,
+    "is_active": 1,
+    "seo_title": "Dental in Turkey | Turkelite Medcare",
+    "seo_description": "Restorative, implant and aesthetic dentistry with a focus on clear treatment planning and follow-up after international travel. Compare priority treatment guide",
+    "seo_keywords": null,
+    "seo_robots": "index,follow",
+    "image_path": "assets/img/v5/hero-dental.svg",
+    "breadcrumb_image_path": "assets/img/v5/hero-dental.svg",
+    "translations": {
+      "de": {
+        "name": "Zahnmedizin",
+        "summary": "Restaurative, implantologische und ästhetische Zahnmedizin mit klarer Behandlungsplanung und Nachsorge nach internationaler Reise.",
+        "description": "Restaurative, implantologische und ästhetische Zahnmedizin mit klarer Behandlungsplanung und Nachsorge nach internationaler Reise."
+      },
+      "ar": {
+        "name": "طب الأسنان",
+        "summary": "طب ترميمي وزراعة وتجميل أسنان مع التركيز على وضوح الخطة والمتابعة بعد السفر الدولي.",
+        "description": "طب ترميمي وزراعة وتجميل أسنان مع التركيز على وضوح الخطة والمتابعة بعد السفر الدولي."
+      }
+    }
+  },
+  {
+    "name": "Hair Restoration",
+    "slug": "hair-restoration",
+    "summary": "Hair-restoration pathways with attention to donor assessment, technique, operator roles and realistic follow-up.",
+    "description": "Hair-restoration pathways with attention to donor assessment, technique, operator roles and realistic follow-up.",
+    "sort_order": 1,
+    "is_active": 1,
+    "seo_title": "Hair Restoration in Turkey | Turkelite Medcare",
+    "seo_description": "Hair-restoration pathways with attention to donor assessment, technique, operator roles and realistic follow-up. Compare priority treatment guides and understan",
+    "seo_keywords": null,
+    "seo_robots": "index,follow",
+    "image_path": "assets/img/v5/hero-hair-restoration.svg",
+    "breadcrumb_image_path": "assets/img/content/specialties/hair-restoration-breadcrumb.svg",
+    "translations": {
+      "de": {
+        "name": "Haartransplantation",
+        "summary": "Haartransplantationswege mit Fokus auf Spenderanalyse, Technik, Zuständigkeiten und realistischer Nachsorge.",
+        "description": "Haartransplantationswege mit Fokus auf Spenderanalyse, Technik, Zuständigkeiten und realistischer Nachsorge."
+      },
+      "ar": {
+        "name": "زراعة واستعادة الشعر",
+        "summary": "مسارات زراعة واستعادة الشعر مع التركيز على تقييم المنطقة المانحة والتقنية ومسؤوليات الفريق والمتابعة الواقعية.",
+        "description": "مسارات زراعة واستعادة الشعر مع التركيز على تقييم المنطقة المانحة والتقنية ومسؤوليات الفريق والمتابعة الواقعية."
+      }
+    }
+  },
+  {
+    "name": "Plastic & Cosmetic Surgery",
+    "slug": "cosmetic-surgery",
+    "summary": "Face, breast and body procedures explained around goals, limitations, consent, recovery and provider responsibility.",
+    "description": "Face, breast and body procedures explained around goals, limitations, consent, recovery and provider responsibility.",
+    "sort_order": 2,
+    "is_active": 1,
+    "seo_title": "Plastic & Cosmetic Surgery in Turkey | Turkelite Medcare",
+    "seo_description": "Face, breast and body procedures explained around goals, limitations, consent, recovery and provider responsibility. Compare priority treatment guides and under",
+    "seo_keywords": null,
+    "seo_robots": "index,follow",
+    "image_path": "assets/img/v5/hero-cosmetic-surgery.svg",
+    "breadcrumb_image_path": "assets/img/v5/hero-cosmetic-surgery.svg",
+    "translations": {
+      "de": {
+        "name": "Plastische & Ästhetische Chirurgie",
+        "summary": "Eingriffe an Gesicht, Brust und Körper – erklärt anhand von Zielen, Grenzen, Einwilligung, Erholung und Zuständigkeiten.",
+        "description": "Eingriffe an Gesicht, Brust und Körper – erklärt anhand von Zielen, Grenzen, Einwilligung, Erholung und Zuständigkeiten."
+      },
+      "ar": {
+        "name": "الجراحة التجميلية والترميمية",
+        "summary": "إجراءات الوجه والثدي والجسم مع توضيح الأهداف والحدود والموافقة والتعافي ومسؤولية مقدم الرعاية.",
+        "description": "إجراءات الوجه والثدي والجسم مع توضيح الأهداف والحدود والموافقة والتعافي ومسؤولية مقدم الرعاية."
+      }
+    }
+  },
+  {
+    "name": "Bariatric & Weight Loss",
+    "slug": "bariatric-surgery",
+    "summary": "Bariatric and metabolic pathways where eligibility, nutrition and long-term follow-up matter as much as the operation itself.",
+    "description": "Bariatric and metabolic pathways where eligibility, nutrition and long-term follow-up matter as much as the operation itself.",
+    "sort_order": 3,
+    "is_active": 1,
+    "seo_title": "Bariatric & Weight Loss in Turkey | Turkelite Medcare",
+    "seo_description": "Bariatric and metabolic pathways where eligibility, nutrition and long-term follow-up matter as much as the operation itself. Compare priority treatment guides ",
+    "seo_keywords": null,
+    "seo_robots": "index,follow",
+    "image_path": "assets/img/v5/hero-bariatric-surgery.svg",
+    "breadcrumb_image_path": "assets/img/v5/hero-bariatric-surgery.svg",
+    "translations": {
+      "de": {
+        "name": "Adipositas- & Stoffwechselchirurgie",
+        "summary": "Bariatrische und metabolische Verfahren, bei denen Eignung, Ernährung und langfristige Nachsorge ebenso wichtig sind wie die Operation.",
+        "description": "Bariatrische und metabolische Verfahren, bei denen Eignung, Ernährung und langfristige Nachsorge ebenso wichtig sind wie die Operation."
+      },
+      "ar": {
+        "name": "جراحة السمنة وإنقاص الوزن",
+        "summary": "مسارات جراحة السمنة والتمثيل الغذائي حيث التقييم والتغذية والمتابعة طويلة المدى لا تقل أهمية عن العملية.",
+        "description": "مسارات جراحة السمنة والتمثيل الغذائي حيث التقييم والتغذية والمتابعة طويلة المدى لا تقل أهمية عن العملية."
+      }
+    }
+  },
+  {
+    "name": "Eye Care",
+    "slug": "eye-care",
+    "summary": "Vision-correction and ophthalmology pathways built around proper examination, candidacy and practical post-treatment review.",
+    "description": "Vision-correction and ophthalmology pathways built around proper examination, candidacy and practical post-treatment review.",
+    "sort_order": 4,
+    "is_active": 1,
+    "seo_title": "Eye Care in Turkey | Turkelite Medcare",
+    "seo_description": "Vision-correction and ophthalmology pathways built around proper examination, candidacy and practical post-treatment review. Compare priority treatment guides a",
+    "seo_keywords": null,
+    "seo_robots": "index,follow",
+    "image_path": "assets/img/v5/hero-eye-care.svg",
+    "breadcrumb_image_path": "assets/img/v5/hero-eye-care.svg",
+    "translations": {
+      "de": {
+        "name": "Augenheilkunde",
+        "summary": "Augenheilkunde und Sehkorrektur mit Fokus auf Untersuchung, Eignung und praktikable Nachkontrollen.",
+        "description": "Augenheilkunde und Sehkorrektur mit Fokus auf Untersuchung, Eignung und praktikable Nachkontrollen."
+      },
+      "ar": {
+        "name": "طب العيون",
+        "summary": "مسارات تصحيح النظر وطب العيون المبنية على الفحص المناسب وتحديد الملاءمة والمتابعة العملية.",
+        "description": "مسارات تصحيح النظر وطب العيون المبنية على الفحص المناسب وتحديد الملاءمة والمتابعة العملية."
+      }
+    }
+  },
+  {
+    "name": "Orthopedics",
+    "slug": "orthopedics",
+    "summary": "Joint and musculoskeletal treatment pathways with special attention to rehabilitation, mobility and safe travel timing.",
+    "description": "Joint and musculoskeletal treatment pathways with special attention to rehabilitation, mobility and safe travel timing.",
+    "sort_order": 5,
+    "is_active": 1,
+    "seo_title": "Orthopedics in Turkey | Turkelite Medcare",
+    "seo_description": "Joint and musculoskeletal treatment pathways with special attention to rehabilitation, mobility and safe travel timing. Compare priority treatment guides and un",
+    "seo_keywords": null,
+    "seo_robots": "index,follow",
+    "image_path": "assets/img/v5/hero-orthopedics.svg",
+    "breadcrumb_image_path": "assets/img/v5/hero-orthopedics.svg",
+    "translations": {
+      "de": {
+        "name": "Orthopädie",
+        "summary": "Orthopädische Behandlungswege mit besonderem Fokus auf Rehabilitation, Mobilität und sicheres Reisetiming.",
+        "description": "Orthopädische Behandlungswege mit besonderem Fokus auf Rehabilitation, Mobilität und sicheres Reisetiming."
+      },
+      "ar": {
+        "name": "جراحة العظام",
+        "summary": "مسارات علاج المفاصل والجهاز الحركي مع اهتمام خاص بالتأهيل والحركة وتوقيت السفر الآمن.",
+        "description": "مسارات علاج المفاصل والجهاز الحركي مع اهتمام خاص بالتأهيل والحركة وتوقيت السفر الآمن."
+      }
+    }
+  },
+  {
+    "name": "ENT",
+    "slug": "ent",
+    "summary": "Ear, nose and throat procedures explained around diagnosis, functional goals and follow-up.",
+    "description": "Ear, nose and throat procedures explained around diagnosis, functional goals and follow-up.",
+    "sort_order": 6,
+    "is_active": 1,
+    "seo_title": "ENT in Turkey | Turkelite Medcare",
+    "seo_description": "Ear, nose and throat procedures explained around diagnosis, functional goals and follow-up. Compare priority treatment guides and understand how medical travel ",
+    "seo_keywords": null,
+    "seo_robots": "index,follow",
+    "image_path": "assets/img/v5/hero-ent.svg",
+    "breadcrumb_image_path": "assets/img/v5/hero-ent.svg",
+    "translations": {
+      "de": {
+        "name": "HNO",
+        "summary": "HNO-Verfahren mit Fokus auf Diagnose, funktionelle Ziele und Nachsorge.",
+        "description": "HNO-Verfahren mit Fokus auf Diagnose, funktionelle Ziele und Nachsorge."
+      },
+      "ar": {
+        "name": "الأنف والأذن والحنجرة",
+        "summary": "إجراءات الأنف والأذن والحنجرة مع التركيز على التشخيص والأهداف الوظيفية والمتابعة.",
+        "description": "إجراءات الأنف والأذن والحنجرة مع التركيز على التشخيص والأهداف الوظيفية والمتابعة."
+      }
+    }
+  },
+  {
+    "name": "Urology",
+    "slug": "urology",
+    "summary": "Urology pathways where diagnosis, specialist scope and post-procedure follow-up must remain clear across borders.",
+    "description": "Urology pathways where diagnosis, specialist scope and post-procedure follow-up must remain clear across borders.",
+    "sort_order": 7,
+    "is_active": 1,
+    "seo_title": "Urology in Turkey | Turkelite Medcare",
+    "seo_description": "Urology pathways where diagnosis, specialist scope and post-procedure follow-up must remain clear across borders. Compare priority treatment guides and understa",
+    "seo_keywords": null,
+    "seo_robots": "index,follow",
+    "image_path": "assets/img/v5/hero-urology.svg",
+    "breadcrumb_image_path": "assets/img/v5/hero-urology.svg",
+    "translations": {
+      "de": {
+        "name": "Urologie",
+        "summary": "Urologische Behandlungswege mit klarer Diagnose, fachärztlicher Zuständigkeit und Nachsorge über Ländergrenzen hinweg.",
+        "description": "Urologische Behandlungswege mit klarer Diagnose, fachärztlicher Zuständigkeit und Nachsorge über Ländergrenzen hinweg."
+      },
+      "ar": {
+        "name": "المسالك البولية",
+        "summary": "مسارات المسالك البولية مع وضوح التشخيص واختصاص الطبيب والمتابعة بعد الإجراء عبر الحدود.",
+        "description": "مسارات المسالك البولية مع وضوح التشخيص واختصاص الطبيب والمتابعة بعد الإجراء عبر الحدود."
+      }
+    }
+  },
+  {
+    "name": "Fertility & Reproductive Medicine",
+    "slug": "fertility",
+    "summary": "Fertility pathways that depend on precise timing, medication, laboratory transparency and continuity of care.",
+    "description": "Fertility pathways that depend on precise timing, medication, laboratory transparency and continuity of care.",
+    "sort_order": 8,
+    "is_active": 1,
+    "seo_title": "Fertility & Reproductive Medicine in Turkey | Turkelite Medc",
+    "seo_description": "Fertility pathways that depend on precise timing, medication, laboratory transparency and continuity of care. Compare priority treatment guides and understand h",
+    "seo_keywords": null,
+    "seo_robots": "index,follow",
+    "image_path": "assets/img/v5/hero-fertility.svg",
+    "breadcrumb_image_path": "assets/img/v5/hero-fertility.svg",
+    "translations": {
+      "de": {
+        "name": "Kinderwunsch & Reproduktionsmedizin",
+        "summary": "Kinderwunschbehandlungen mit genauer Terminplanung, Medikamentensteuerung, Labortransparenz und kontinuierlicher Betreuung.",
+        "description": "Kinderwunschbehandlungen mit genauer Terminplanung, Medikamentensteuerung, Labortransparenz und kontinuierlicher Betreuung."
+      },
+      "ar": {
+        "name": "الخصوبة والطب التناسلي",
+        "summary": "مسارات الخصوبة التي تعتمد على دقة المواعيد والأدوية وشفافية المختبر واستمرارية الرعاية.",
+        "description": "مسارات الخصوبة التي تعتمد على دقة المواعيد والأدوية وشفافية المختبر واستمرارية الرعاية."
+      }
+    }
+  },
+  {
+    "name": "General Surgery",
+    "slug": "general-surgery",
+    "summary": "Planned surgical pathways with emphasis on diagnosis, hospital planning, recovery and a safe follow-up handover.",
+    "description": "Planned surgical pathways with emphasis on diagnosis, hospital planning, recovery and a safe follow-up handover.",
+    "sort_order": 9,
+    "is_active": 1,
+    "seo_title": "General Surgery in Turkey | Turkelite Medcare",
+    "seo_description": "Planned surgical pathways with emphasis on diagnosis, hospital planning, recovery and a safe follow-up handover. Compare priority treatment guides and understan",
+    "seo_keywords": null,
+    "seo_robots": "index,follow",
+    "image_path": "assets/img/v5/hero-general-surgery.svg",
+    "breadcrumb_image_path": "assets/img/v5/hero-general-surgery.svg",
+    "translations": {
+      "de": {
+        "name": "Allgemeinchirurgie",
+        "summary": "Planbare chirurgische Behandlungswege mit Fokus auf Diagnose, Klinikplanung, Erholung und sichere Nachsorgeübergabe.",
+        "description": "Planbare chirurgische Behandlungswege mit Fokus auf Diagnose, Klinikplanung, Erholung und sichere Nachsorgeübergabe."
+      },
+      "ar": {
+        "name": "الجراحة العامة",
+        "summary": "مسارات جراحية مخططة تركز على التشخيص وخطة المستشفى والتعافي وتسليم متابعة آمن.",
+        "description": "مسارات جراحية مخططة تركز على التشخيص وخطة المستشفى والتعافي وتسليم متابعة آمن."
+      }
+    }
+  }
+]

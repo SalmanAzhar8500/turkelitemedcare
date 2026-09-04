@@ -1,0 +1,32 @@
+TURKELITE MEDCARE — MANAGEMENT FINAL
+====================================
+
+This is the management handoff build. It supersedes every earlier FINAL/R2 package.
+
+Build identity
+- Build: FINAL-MGMT
+- English: http://127.0.0.1:8135/
+- German:  http://127.0.0.1:8135/de
+- Arabic:  http://127.0.0.1:8135/ar
+- Admin:   http://127.0.0.1:8135/admin
+- Build check: http://127.0.0.1:8135/__build
+- Database: turenewtheme_final_mgmt
+
+FIRST INSTALL ON WINDOWS / MAMP
+1. Start MAMP PRO and MySQL.
+2. Open PowerShell in this FINAL folder.
+3. Run:
+   Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force
+4. Run:
+   .\INSTALL-WINDOWS.ps1
+5. After the installer passes validation, run:
+   .\PRESENT-FINAL.ps1
+
+NORMAL LATER START
+   .\START-WINDOWS.ps1
+
+The FULL package includes Composer vendor dependencies and prebuilt frontend assets.
+Composer/npm installs are not required for the normal Windows/MAMP first launch.
+
+PUBLIC-LAUNCH NOTE
+The website/content/technical build is ready for management review. The legal-document drafts still require counsel sign-off before a public production launch.

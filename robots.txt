@@ -1,0 +1,14 @@
+# Turkelitemedcare
+User-agent: *
+Allow: /
+
+# Nothing behind these should reach an index
+Disallow: /api/
+Disallow: /tools/
+Disallow: /legal/*?
+Disallow: /treatment-plan.html?
+
+# Procedure pages still carrying templated copy are excluded per-page with a
+# robots meta tag rather than here, so they can still be crawled and followed.
+
+Sitemap: https://www.turkelitemedcare.com/sitemap.xml

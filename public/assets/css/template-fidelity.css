@@ -1,0 +1,236 @@
+
+/* Turkelitemedcare V5 — Doctor-template fidelity + business conversion layer */
+:root{--v5-teal:#20bda5;--v5-teal-dark:#15967f;--v5-navy:#153948;--v5-navy-deep:#0e2d3b;--v5-ink:#344c57;--v5-muted:#778991;--v5-line:#e1e8eb;--v5-pale:#f5f8f9;--v5-head:"Montserrat","Segoe UI",Arial,sans-serif;--v5-body:"Open Sans","Segoe UI",Arial,sans-serif}
+body{font-family:var(--v5-body);font-size:13px;line-height:1.72;color:var(--v5-ink)}
+h1,h2,h3,h4,h5,.main-nav,.btn,.brand,.eyebrow{font-family:var(--v5-head)}
+.topbar{background:#f4f6f7!important;color:#788890!important;border-bottom:1px solid #e9edef!important}.topbar-inner{height:36px!important}.site-header{background:#fff!important;box-shadow:0 1px 0 rgba(22,53,66,.09)!important}.nav-wrap{height:82px!important}.main-nav{font-size:10px!important;font-weight:600!important;letter-spacing:.035em!important;text-transform:uppercase!important;gap:18px!important}.main-nav>a,.nav-link{padding-top:32px!important;padding-bottom:32px!important}.brand-logo{width:205px!important}.btn{border-radius:1px!important;text-transform:uppercase!important;letter-spacing:.05em!important;font-size:10px!important;padding:13px 18px!important}.btn-primary{background:var(--v5-teal)!important;border-color:var(--v5-teal)!important}.btn-primary:hover{background:var(--v5-teal-dark)!important}.eyebrow{font-size:9px!important;letter-spacing:.15em!important;color:var(--v5-teal)!important}.section{padding:72px 0!important}.template-heading h2,.section-head h2{font-size:28px!important;line-height:1.22!important;text-transform:uppercase!important;letter-spacing:-.025em!important;color:#344c57!important}.template-heading p,.section-head p{font-size:11px!important;max-width:720px!important;color:#7e8f96!important}.template-heading h2:after{width:38px!important;height:2px!important;background:var(--v5-teal)!important}
+/* Specialty pages: image-led Doctor theme rhythm */
+.specialty-hero{min-height:500px;position:relative;color:#fff;background-image:linear-gradient(90deg,rgba(11,45,58,.88) 0%,rgba(11,45,58,.72) 46%,rgba(11,45,58,.18) 78%),var(--specialty-photo),var(--specialty-fallback);background-size:cover;background-position:center;display:flex;align-items:center}.specialty-hero-inner{padding-top:35px;padding-bottom:74px}.specialty-hero .breadcrumbs{margin-bottom:40px}.specialty-hero .breadcrumbs a,.specialty-hero .breadcrumbs span,.specialty-hero .breadcrumbs b{color:#d7e6e9}.specialty-hero .hero-kicker{font-family:var(--v5-head);font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#88e4d3;font-weight:600}.specialty-hero h1{font-size:54px;line-height:1.04;letter-spacing:-.035em;text-transform:uppercase;color:#fff;margin:10px 0 15px;max-width:760px}.specialty-hero p{max-width:760px;font-size:14px;color:#e2eef1;margin:0 0 27px}.specialty-assurance{position:relative;z-index:3;margin-top:-38px}.specialty-assurance-grid{display:grid;grid-template-columns:repeat(4,1fr);background:#fff;box-shadow:0 18px 42px rgba(14,49,62,.13)}.specialty-assurance-grid>div{padding:26px 24px;border-right:1px solid #e4eaed}.specialty-assurance-grid>div:last-child{border:0}.specialty-assurance-grid span{color:var(--v5-teal);font-family:var(--v5-head);font-size:10px;font-weight:700}.specialty-assurance-grid b{display:block;font-family:var(--v5-head);font-size:11px;text-transform:uppercase;color:#3a505b;margin:6px 0}.specialty-assurance-grid p{font-size:10px;line-height:1.6;color:#87969d;margin:0}.specialty-procedures-section{padding-top:86px!important}.specialty-procedure-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}.specialty-procedure-card{background:#fff;border:1px solid #e2e9ec;transition:.24s;overflow:hidden}.specialty-procedure-card:hover{transform:translateY(-4px);box-shadow:0 16px 38px rgba(19,56,71,.12);border-color:#d1e2e5}.specialty-procedure-image{height:210px;overflow:hidden;background:#173d4d}.specialty-procedure-image img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .4s}.specialty-procedure-card:hover img{transform:scale(1.035)}.specialty-procedure-body{padding:22px 22px 19px;min-height:236px;display:flex;flex-direction:column}.procedure-kicker{font-family:var(--v5-head);font-size:8px;letter-spacing:.12em;text-transform:uppercase;color:var(--v5-teal);font-weight:700}.specialty-procedure-body h3{font-size:15px;text-transform:uppercase;line-height:1.3;color:#3a505b;margin:8px 0}.specialty-procedure-body p{font-size:10.5px;color:#7d8e95;margin:0 0 15px;flex:1}.procedure-card-meta{border-top:1px solid #e7edef;padding-top:13px;display:flex;justify-content:space-between;gap:12px;align-items:center;font-size:8.5px}.procedure-card-meta span{color:#8a9aa1}.procedure-card-meta b{font-family:var(--v5-head);color:var(--v5-teal);text-transform:uppercase}.specialty-assurance-split{min-height:420px}.specialty-assurance-split .service-copy{padding:54px 58px}.specialty-assurance-split .service-copy h2{font-size:28px}
+/* Procedure conversion pages */
+.procedure-hero-v5{min-height:485px;position:relative;color:#fff;background-image:linear-gradient(90deg,rgba(13,47,60,.90),rgba(13,47,60,.74) 48%,rgba(13,47,60,.24) 78%),var(--procedure-photo),var(--procedure-fallback);background-size:cover;background-position:center;display:flex;align-items:center}.procedure-hero-inner{padding:48px 0 72px}.procedure-hero-v5 .breadcrumbs{margin-bottom:38px}.procedure-hero-v5 .breadcrumbs a,.procedure-hero-v5 .breadcrumbs span,.procedure-hero-v5 .breadcrumbs b{color:#d7e8eb}.procedure-hero-v5 .hero-kicker{font-family:var(--v5-head);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:#83e2cf;font-weight:600}.procedure-hero-v5 h1{font-size:50px;line-height:1.04;max-width:800px;text-transform:uppercase;letter-spacing:-.035em;color:#fff;margin:10px 0 15px}.procedure-hero-v5 p{max-width:770px;color:#e1edf0;font-size:14px;margin:0 0 27px}.procedure-trust-strip{position:relative;z-index:5;margin-top:-35px}.procedure-trust-grid{display:grid;grid-template-columns:repeat(4,1fr);background:#fff;box-shadow:0 17px 42px rgba(15,51,65,.13)}.procedure-trust-grid>div{padding:24px;border-right:1px solid #e3e9ec}.procedure-trust-grid>div:last-child{border:0}.procedure-trust-grid b{display:block;font-family:var(--v5-head);font-size:11px;text-transform:uppercase;color:#3c525c;margin-bottom:4px}.procedure-trust-grid span{font-size:9.5px;color:#87969c}.procedure-conversion-section{padding-top:86px!important}.procedure-conversion-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:34px;align-items:stretch}.conversion-video{height:100%;min-height:430px;margin:0!important}.procedure-lead-card{border-top:4px solid var(--v5-teal);background:#fff;padding:33px 32px;border-left:1px solid #e2e9ec;border-right:1px solid #e2e9ec;border-bottom:1px solid #e2e9ec;box-shadow:0 14px 34px rgba(18,55,69,.08)}.procedure-lead-card h2{font-size:24px;text-transform:uppercase;color:#384f59;margin:7px 0 10px}.procedure-lead-card>p{font-size:11px;color:#788991}.consultation-mini-form{display:grid;grid-template-columns:1fr 1fr;gap:10px 12px;margin-top:18px}.consultation-mini-form label{font-family:var(--v5-head);font-size:8px;text-transform:uppercase;letter-spacing:.08em;color:#60747d}.consultation-mini-form input{width:100%;height:42px;border:1px solid #dce6e9;padding:0 11px;margin-top:5px;font-family:var(--v5-body);font-size:11px;outline:0}.consultation-mini-form input:focus{border-color:var(--v5-teal);box-shadow:0 0 0 3px rgba(32,189,165,.08)}.consultation-mini-form button{grid-column:1/-1}.procedure-lead-card>small{display:block;font-size:8.5px;color:#8d9aa0;margin-top:10px}.procedure-assurance-section{background:#f5f8f9!important}.assurance-card-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:#dfe7e9}.assurance-card-grid>div{background:#fff;padding:26px}.assurance-card-grid span{display:grid;width:34px;height:34px;place-items:center;background:#eef8f6;color:var(--v5-teal);font-family:var(--v5-head);font-size:9px;font-weight:700}.assurance-card-grid h3{font-size:12px;text-transform:uppercase;line-height:1.4;color:#3c535d;margin:18px 0 7px}.assurance-card-grid p{font-size:10px;color:#839299;margin:0}.procedure-article-v5>h2{font-size:22px!important;text-transform:uppercase!important}.procedure-journey-row{display:grid;grid-template-columns:repeat(5,1fr);gap:1px;background:#e0e7e9;margin:18px 0 38px}.procedure-journey-row>div{background:#f9fbfb;padding:20px 15px;min-height:116px}.procedure-journey-row b{display:block;color:var(--v5-teal);font-family:var(--v5-head);font-size:9px}.procedure-journey-row span{display:block;font-family:var(--v5-head);font-size:10px;text-transform:uppercase;line-height:1.4;margin-top:10px;color:#536a74}.patient-story-link{padding:28px;background:#153b4b;color:#fff;margin:36px 0}.patient-story-link h3{font-size:18px;text-transform:uppercase;color:#fff;margin:6px 0}.patient-story-link p{color:#cfe0e5}.patient-story-link .text-link{color:#7de1ce}.procedure-faq details{border-top:1px solid #dfe7ea;padding:15px 0}.procedure-faq details:last-child{border-bottom:1px solid #dfe7ea}.procedure-faq summary{font-family:var(--v5-head);font-size:11px;font-weight:600;text-transform:uppercase;cursor:pointer;color:#455d67}.procedure-faq p{font-size:11px;color:#73868e;padding-right:25px}.procedure-sidebar-v5{border-radius:0!important}.procedure-sidebar-v5 h3{font-size:18px;text-transform:uppercase}.procedure-sidebar-v5 .btn{width:100%}
+/* Clinics: force visible images */
+.clinic-visual{background:#e7f0f2!important;overflow:hidden}.clinic-visual img{display:block;width:100%;height:100%;object-fit:cover}.clinic-visual span{z-index:3!important}.clinic-photo-gallery-v5{display:grid;grid-template-columns:2fr 1fr 1fr;gap:8px;margin:22px 0 35px}.clinic-photo-gallery-v5 figure{margin:0;position:relative;height:230px;overflow:hidden;background:#edf3f4}.clinic-photo-gallery-v5 img{width:100%;height:100%;object-fit:cover}.clinic-photo-gallery-v5 figcaption{position:absolute;left:12px;bottom:10px;background:rgba(14,45,59,.85);color:#fff;padding:6px 9px;font-family:var(--v5-head);font-size:8px;text-transform:uppercase;letter-spacing:.06em}
+/* Template-like homepage/general skin */
+.doctor-hero{height:570px!important}.slide-copy h1{font-size:56px!important}.welcome-shell{margin-top:-42px!important}.welcome-panel{box-shadow:0 18px 42px rgba(17,53,67,.13)!important}.appointment-panel{background:var(--v5-teal)!important}.treatment-gallery{gap:2px!important}.treatment-tile{height:235px!important}.template-doctor,.template-news-card,.specialty-card,.clinic-card,.guide-card{border-radius:0!important}.department-strip{background:#153948!important}.prefooter-contact{background:#eef3f4!important}.footer{background:#102f3e!important}.floating-cta{border-radius:1px!important;background:var(--v5-teal)!important}
+@media(max-width:1050px){.specialty-procedure-grid{grid-template-columns:repeat(2,1fr)}.specialty-assurance-grid,.procedure-trust-grid,.assurance-card-grid{grid-template-columns:repeat(2,1fr)}.procedure-conversion-grid{grid-template-columns:1fr}.procedure-journey-row{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:760px){.brand-logo{width:175px!important}.specialty-hero,.procedure-hero-v5{min-height:450px}.specialty-hero h1,.procedure-hero-v5 h1{font-size:38px}.specialty-hero-inner,.procedure-hero-inner{padding-bottom:62px}.specialty-assurance,.procedure-trust-strip{margin-top:0}.specialty-procedure-grid,.specialty-assurance-grid,.procedure-trust-grid,.assurance-card-grid,.procedure-journey-row{grid-template-columns:1fr}.consultation-mini-form{grid-template-columns:1fr}.clinic-photo-gallery-v5{grid-template-columns:1fr}.clinic-photo-gallery-v5 figure{height:230px}.specialty-assurance-split .service-copy{padding:36px 28px}}
+.procedure-provider-line{border-top:1px solid #edf1f2;padding-top:11px;margin-top:3px;margin-bottom:11px}.procedure-provider-line small{display:block;font-family:var(--v5-head);font-size:7.5px;text-transform:uppercase;letter-spacing:.1em;color:#95a2a7;margin-bottom:3px}.procedure-provider-line span{display:block;font-size:9.5px;line-height:1.45;color:#526a74}
+
+
+/* =========================================================
+   Turkelitemedcare V6 — procedure editorial conversion pass
+   ========================================================= */
+:root{
+  --v6-ui:"Manrope","Segoe UI",Arial,sans-serif;
+  --v6-body:"Open Sans","Segoe UI",Arial,sans-serif;
+  --v6-teal:#20bda5;
+  --v6-teal-dark:#168f7d;
+  --v6-navy:#143b4b;
+  --v6-ink:#314d59;
+  --v6-muted:#71858e;
+  --v6-line:#e2eaed;
+  --v6-soft:#f6f9fa;
+}
+body{font-family:var(--v6-body)!important;color:var(--v6-ink)}
+h1,h2,h3,h4,h5,h6,.main-nav,.btn,.eyebrow,.procedure-stat-label,.brand{font-family:var(--v6-ui)!important}
+
+/* Header: one disciplined baseline on desktop */
+.site-header .nav-wrap{
+  width:min(1480px,calc(100% - 48px))!important;
+  max-width:none!important;
+  height:76px!important;
+  display:grid!important;
+  grid-template-columns:auto minmax(0,1fr) auto!important;
+  align-items:center!important;
+  column-gap:27px!important;
+}
+.brand{height:58px!important;display:flex!important;align-items:center!important;padding:0!important}
+.brand-logo{width:236px!important;height:52px!important;display:block!important;object-fit:contain!important;object-position:left center!important}
+.main-nav{
+  height:76px!important;
+  display:flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  gap:23px!important;
+  margin:0!important;
+  min-width:0!important;
+  white-space:nowrap!important;
+  font-family:var(--v6-ui)!important;
+  font-size:11px!important;
+  font-weight:700!important;
+  letter-spacing:.035em!important;
+  text-transform:uppercase!important;
+  line-height:1!important;
+}
+.main-nav>a,.main-nav .nav-link{
+  height:76px!important;
+  padding:0!important;
+  display:flex!important;
+  align-items:center!important;
+  white-space:nowrap!important;
+  line-height:1!important;
+}
+.main-nav .has-mega{height:76px!important;display:flex!important;align-items:center!important;position:static!important;white-space:nowrap!important}
+.main-nav .has-mega .nav-link{height:76px!important;display:flex!important;align-items:center!important}
+.mega-toggle{height:32px!important;width:22px!important;padding:0!important;margin-left:2px!important;border:0!important;background:transparent!important;display:grid!important;place-items:center!important;color:#667c85!important;font-size:15px!important;line-height:1!important;align-self:center!important}
+.nav-actions{height:76px!important;display:flex!important;align-items:center!important;gap:12px!important;white-space:nowrap!important}
+.nav-actions .search-toggle{width:34px!important;height:34px!important;display:grid!important;place-items:center!important;border:0!important}
+.nav-actions .btn-sm{height:44px!important;min-width:142px!important;padding:0 18px!important;display:flex!important;align-items:center!important;justify-content:center!important;font-size:9.5px!important;line-height:1!important}
+.topbar-inner{width:min(1480px,calc(100% - 48px))!important;max-width:none!important}
+
+/* Procedure page: editorial article + integrated consultation */
+.procedure-hero-v6{min-height:470px;position:relative;overflow:hidden;color:#fff;background-image:linear-gradient(90deg,rgba(11,44,57,.94) 0%,rgba(11,44,57,.81) 46%,rgba(11,44,57,.27) 76%),var(--procedure-photo),var(--procedure-fallback);background-size:cover;background-position:center;display:flex;align-items:center}
+.procedure-hero-v6:after{content:"";position:absolute;right:-40px;top:58px;width:430px;height:294px;background-image:var(--procedure-fallback);background-size:cover;background-position:center;border:1px solid rgba(255,255,255,.18);box-shadow:0 22px 60px rgba(0,0,0,.18);opacity:.42;transform:rotate(-1deg);pointer-events:none}
+.procedure-hero-v6 .procedure-hero-inner{position:relative;z-index:2;max-width:1480px;padding:58px 0 75px!important}
+.procedure-hero-v6 .breadcrumbs{margin-bottom:34px!important}
+.procedure-hero-v6 .breadcrumbs a,.procedure-hero-v6 .breadcrumbs b,.procedure-hero-v6 .breadcrumbs span{color:#d6e8eb!important}
+.procedure-hero-v6 .hero-kicker{font-family:var(--v6-ui);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:#84e4d2;font-weight:700}
+.procedure-hero-v6 h1{font-family:var(--v6-ui)!important;font-size:52px;line-height:1.02;letter-spacing:-.045em;text-transform:none;color:#fff;margin:10px 0 17px;max-width:820px;font-weight:750}
+.procedure-hero-v6 p{max-width:780px;font-size:14px;line-height:1.8;color:#e2eef1;margin:0 0 28px}
+.procedure-hero-v6 .slide-actions{display:flex;gap:10px;flex-wrap:wrap}
+.procedure-hero-v6 .btn{height:44px;padding:0 18px!important}
+
+.procedure-trust-strip-v6{position:relative;z-index:5;margin-top:-31px}
+.procedure-trust-strip-v6 .procedure-trust-grid{box-shadow:0 16px 40px rgba(14,49,62,.14)}
+.procedure-trust-strip-v6 .procedure-trust-grid>div{padding:21px 23px}
+.procedure-trust-strip-v6 .procedure-trust-grid b{font-size:10px;letter-spacing:.02em}
+.procedure-trust-strip-v6 .procedure-trust-grid span{font-size:9px;line-height:1.45}
+
+.procedure-editorial-shell{padding:82px 0 78px;background:#fff}
+.procedure-editorial-grid{display:grid;grid-template-columns:minmax(0,1fr) 336px;gap:58px;align-items:start}
+.procedure-editorial-main{min-width:0;max-width:890px}
+.procedure-editorial-main>.eyebrow{margin-bottom:10px}
+.procedure-editorial-main h2{font-family:var(--v6-ui)!important;font-size:31px!important;line-height:1.16!important;letter-spacing:-.035em!important;text-transform:none!important;color:#2c4a58!important;margin:0 0 15px!important}
+.procedure-editorial-main h2:after{content:"";display:block;width:38px;height:2px;background:var(--v6-teal);margin-top:13px}
+.procedure-editorial-main h3{font-family:var(--v6-ui)!important;font-size:20px!important;line-height:1.3!important;letter-spacing:-.025em!important;color:#34515e!important;margin:35px 0 11px!important}
+.procedure-editorial-main p{font-size:13.5px!important;line-height:1.83!important;color:#667b84!important;margin:0 0 18px!important}
+.procedure-editorial-main ul{padding-left:20px;color:#667b84;font-size:13px;line-height:1.75}
+.procedure-editorial-intro{font-size:17px!important;line-height:1.72!important;color:#425f6b!important;margin-bottom:30px!important}
+
+.procedure-at-glance{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--v6-line);margin:30px 0 38px;background:#fff}
+.procedure-at-glance>div{padding:20px 17px;border-right:1px solid var(--v6-line);min-height:92px}
+.procedure-at-glance>div:last-child{border-right:0}
+.procedure-stat-label{display:block;font-size:8px;line-height:1.3;letter-spacing:.11em;text-transform:uppercase;color:#7d9199;font-weight:700;margin-bottom:8px}
+.procedure-at-glance b{display:block;font-family:var(--v6-ui);font-size:11px;line-height:1.45;color:#37535f;font-weight:700}
+
+/* Exact YouTube viewing ratio */
+.video-module.conversion-video-v6{width:100%!important;height:auto!important;min-height:0!important;aspect-ratio:16/9!important;margin:32px 0 42px!important;border-radius:0!important;background:#123b4a!important;overflow:hidden!important;position:relative!important}
+.video-module.conversion-video-v6 iframe{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;border:0!important}
+.conversion-video-v6 .video-placeholder{position:absolute!important;inset:0!important;height:100%!important;min-height:0!important;display:flex!important;flex-direction:column!important;align-items:center!important;justify-content:center!important;padding:34px!important;background-image:linear-gradient(rgba(10,47,60,.83),rgba(10,47,60,.88)),var(--video-thumb)!important;background-size:cover!important;background-position:center!important}
+.conversion-video-v6 .video-placeholder h3{font-family:var(--v6-ui)!important;font-size:20px!important;line-height:1.3!important;margin:17px 0 7px!important;color:#fff!important;text-align:center!important}
+.conversion-video-v6 .video-placeholder p{font-size:11px!important;line-height:1.65!important;color:#d8e8ec!important;max-width:520px!important;text-align:center!important;margin:0!important}
+
+/* Sticky consultation card: one calm column, not a hanging form bar */
+.procedure-consultation-v6{position:sticky;top:98px;border:1px solid #dfe8eb;border-top:3px solid var(--v6-teal);background:#fff;padding:27px 25px 24px;box-shadow:0 16px 38px rgba(15,52,66,.08)}
+.procedure-consultation-v6 .eyebrow{font-size:8px!important}
+.procedure-consultation-v6 h2{font-family:var(--v6-ui)!important;font-size:21px!important;line-height:1.25!important;letter-spacing:-.025em!important;text-transform:none!important;color:#304e5b!important;margin:7px 0 9px!important}
+.procedure-consultation-v6>p{font-size:11px!important;line-height:1.68!important;color:#778b93!important;margin:0 0 16px!important}
+.consultation-mini-form-v6{display:grid!important;grid-template-columns:1fr!important;gap:10px!important;margin:0!important}
+.consultation-mini-form-v6 label{display:block!important;font-family:var(--v6-ui)!important;font-size:8px!important;line-height:1.25!important;text-transform:uppercase!important;letter-spacing:.09em!important;color:#5f747d!important;margin:0!important}
+.consultation-mini-form-v6 input,.consultation-mini-form-v6 select{display:block!important;width:100%!important;height:43px!important;border:1px solid #dce6e9!important;background:#fff!important;padding:0 12px!important;margin:6px 0 0!important;font-family:var(--v6-body)!important;font-size:11px!important;color:#425d68!important;border-radius:0!important;outline:0!important;box-shadow:none!important}
+.consultation-mini-form-v6 input:focus,.consultation-mini-form-v6 select:focus{border-color:var(--v6-teal)!important;box-shadow:0 0 0 3px rgba(32,189,165,.08)!important}
+.consultation-mini-form-v6 button{width:100%!important;height:45px!important;margin-top:4px!important;padding:0 12px!important}
+.procedure-consultation-v6 .consultation-promise{display:grid;gap:8px;margin:17px 0 0;padding:15px 0 0;border-top:1px solid var(--v6-line)}
+.procedure-consultation-v6 .consultation-promise span{display:flex;gap:8px;align-items:flex-start;font-size:9px;line-height:1.45;color:#71858e}
+.procedure-consultation-v6 .consultation-promise span:before{content:"✓";color:var(--v6-teal);font-weight:800}
+.procedure-consultation-v6 small{display:block;font-size:8px;line-height:1.55;color:#8c9aa0;margin-top:14px}
+
+.procedure-callout-v6{margin:34px 0;padding:28px 30px;background:#f2f8f7;border-left:3px solid var(--v6-teal)}
+.procedure-callout-v6 span{font-family:var(--v6-ui);font-size:8px;text-transform:uppercase;letter-spacing:.12em;color:var(--v6-teal);font-weight:750}
+.procedure-callout-v6 h3{margin:8px 0 7px!important;font-size:20px!important}
+.procedure-callout-v6 p{margin:0!important}
+
+.procedure-decision-matrix{margin:30px 0 42px;border:1px solid var(--v6-line)}
+.procedure-decision-row{display:grid;grid-template-columns:1.05fr 1.2fr 1.35fr;border-bottom:1px solid var(--v6-line)}
+.procedure-decision-row:last-child{border-bottom:0}
+.procedure-decision-row>div{padding:16px 18px;border-right:1px solid var(--v6-line);font-size:10.5px;line-height:1.55;color:#70838c}
+.procedure-decision-row>div:last-child{border-right:0}
+.procedure-decision-row.header{background:#163d4c}
+.procedure-decision-row.header>div{font-family:var(--v6-ui);font-size:8px;letter-spacing:.09em;text-transform:uppercase;color:#eaf6f7;font-weight:700}
+.procedure-decision-row b{font-family:var(--v6-ui);font-size:10.5px;color:#38545f}
+
+.procedure-journey-v6{display:grid;grid-template-columns:repeat(5,1fr);gap:0;border:1px solid var(--v6-line);margin:25px 0 42px}
+.procedure-journey-v6>div{min-height:132px;padding:20px 16px;border-right:1px solid var(--v6-line);background:#fbfcfc}
+.procedure-journey-v6>div:last-child{border-right:0}
+.procedure-journey-v6 b{display:grid;width:28px;height:28px;place-items:center;background:#e9f7f4;color:var(--v6-teal);font-family:var(--v6-ui);font-size:9px;margin-bottom:14px}
+.procedure-journey-v6 span{display:block;font-family:var(--v6-ui);font-size:10px;line-height:1.45;color:#506a75;font-weight:650}
+
+.procedure-provider-grid-v6{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin:23px 0 42px}
+.procedure-provider-card-v6{display:block;border:1px solid var(--v6-line);background:#fff;padding:21px 20px;transition:.2s}
+.procedure-provider-card-v6:hover{transform:translateY(-3px);box-shadow:0 12px 30px rgba(16,53,67,.09);border-color:#cfe1e4}
+.procedure-provider-card-v6 span{font-family:var(--v6-ui);font-size:8px;text-transform:uppercase;letter-spacing:.1em;color:var(--v6-teal);font-weight:750}
+.procedure-provider-card-v6 h3{font-size:15px!important;margin:8px 0 6px!important;color:#3d5965!important}
+.procedure-provider-card-v6 p{font-size:10px!important;line-height:1.6!important;margin:0 0 9px!important;color:#7b8d94!important}
+.procedure-provider-card-v6 b{font-family:var(--v6-ui);font-size:9px;color:#1a7691}
+
+.procedure-faq-v6 details{border-top:1px solid var(--v6-line);padding:16px 0}
+.procedure-faq-v6 details:last-child{border-bottom:1px solid var(--v6-line)}
+.procedure-faq-v6 summary{font-family:var(--v6-ui);font-size:11px;line-height:1.45;font-weight:700;color:#3e5965;cursor:pointer;list-style-position:outside}
+.procedure-faq-v6 p{font-size:11.5px!important;line-height:1.7!important;margin:10px 0 0!important;color:#71858e!important}
+
+.procedure-related-v6{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:21px}
+.procedure-related-v6 a{border:1px solid var(--v6-line);padding:18px;background:#fff;min-height:96px}
+.procedure-related-v6 span{display:block;font-family:var(--v6-ui);font-size:8px;text-transform:uppercase;letter-spacing:.1em;color:var(--v6-teal);font-weight:700}
+.procedure-related-v6 b{display:block;font-family:var(--v6-ui);font-size:13px;line-height:1.35;color:#3f5b66;margin-top:8px}
+
+.procedure-inline-cta-v6{margin:42px 0;padding:30px 32px;background:#153c4b;color:#fff;display:flex;justify-content:space-between;align-items:center;gap:28px}
+.procedure-inline-cta-v6 h3{color:#fff!important;margin:0 0 6px!important;font-size:21px!important}
+.procedure-inline-cta-v6 p{color:#d0e1e5!important;margin:0!important;font-size:11px!important;max-width:560px}
+.procedure-inline-cta-v6 .btn{flex:none}
+
+.procedure-assurance-band-v6{background:#f5f8f9;padding:68px 0}
+.procedure-assurance-band-v6 .assurance-card-grid{grid-template-columns:repeat(4,1fr)}
+
+/* Footer wordmark scale */
+.footer .brand-logo{width:226px!important;height:54px!important}
+
+@media(max-width:1280px){
+  .site-header .nav-wrap{width:calc(100% - 34px)!important;column-gap:18px!important}
+  .brand-logo{width:205px!important}
+  .main-nav{gap:15px!important;font-size:9.7px!important}
+  .nav-actions .btn-sm{min-width:126px!important;padding:0 13px!important;font-size:8.8px!important}
+}
+@media(max-width:1100px){
+  .site-header .nav-wrap{display:flex!important;height:72px!important}
+  .brand-logo{width:196px!important;height:48px!important}
+  .main-nav{position:absolute!important;top:72px!important;height:auto!important;white-space:normal!important;display:none!important}
+  .main-nav.open{display:flex!important}
+  .main-nav>a,.main-nav .nav-link,.main-nav .has-mega{height:auto!important}
+  .mobile-toggle{display:block!important;margin-left:auto!important}
+  .nav-actions{height:72px!important;margin-left:0!important}
+  .nav-actions .search-toggle{display:none!important}
+  .nav-actions .btn-sm{display:none!important}
+}
+@media(max-width:900px){
+  .procedure-hero-v6:after{display:none}
+  .procedure-editorial-grid{grid-template-columns:1fr;gap:42px}
+  .procedure-editorial-main{max-width:none}
+  .procedure-consultation-v6{position:static;max-width:520px}
+  .procedure-at-glance{grid-template-columns:repeat(2,1fr)}
+  .procedure-at-glance>div:nth-child(2){border-right:0}
+  .procedure-at-glance>div:nth-child(-n+2){border-bottom:1px solid var(--v6-line)}
+  .procedure-journey-v6{grid-template-columns:1fr 1fr}
+  .procedure-journey-v6>div{border-bottom:1px solid var(--v6-line)}
+  .procedure-provider-grid-v6{grid-template-columns:1fr}
+  .procedure-decision-row{grid-template-columns:1fr}
+  .procedure-decision-row>div{border-right:0;border-bottom:1px solid var(--v6-line)}
+  .procedure-decision-row>div:last-child{border-bottom:0}
+}
+@media(max-width:600px){
+  .site-header .nav-wrap{width:calc(100% - 24px)!important}
+  .brand-logo{width:180px!important}
+  .procedure-hero-v6{min-height:440px}
+  .procedure-hero-v6 h1{font-size:39px}
+  .procedure-hero-v6 .procedure-hero-inner{padding:48px 0 62px!important}
+  .procedure-trust-strip-v6{margin-top:0}
+  .procedure-trust-grid{grid-template-columns:1fr 1fr!important}
+  .procedure-editorial-shell{padding:58px 0 70px}
+  .procedure-editorial-main h2{font-size:26px!important}
+  .procedure-at-glance{grid-template-columns:1fr}
+  .procedure-at-glance>div{border-right:0!important;border-bottom:1px solid var(--v6-line)!important}
+  .procedure-at-glance>div:last-child{border-bottom:0!important}
+  .procedure-journey-v6{grid-template-columns:1fr}
+  .procedure-journey-v6>div{border-right:0!important}
+  .procedure-related-v6{grid-template-columns:1fr}
+  .procedure-inline-cta-v6{align-items:flex-start;flex-direction:column}
+}

@@ -1,0 +1,21 @@
+@extends('layouts.site')
+@section('title', $page->seo_title ?: $page->title)
+@section('description', $page->seo_description ?: $page->description)
+@section('robots', $page->seo_robots ?: 'index,follow')
+@section('content')
+@php
+$locale=app()->getLocale();
+$copy=match($locale){
+'de'=>['k'=>'Wissenszentrum','title'=>'Praktische Ratgeber für Entscheidungen vor einer Behandlung im Ausland','lead'=>'Behandlungsseiten und Ratgeber helfen Ihnen, Anbieter, Leistungsumfang, Reiseplanung und Nachsorge mit besseren Fragen zu prüfen.','section'=>'Ausführliche Behandlungsratgeber','note'=>'Für Deutsch zeigen wir hier vollständig lokalisierte Behandlungsseiten. Allgemeine Langform-Ratgeber werden ergänzt, sobald die Übersetzung redaktionell geprüft ist.','button'=>'Behandlungen ansehen'],
+'ar'=>['k'=>'مركز المعرفة','title'=>'أدلة عملية لاتخاذ قرار أفضل قبل العلاج في الخارج','lead'=>'تساعدك صفحات العلاج والأدلة على طرح أسئلة أفضل حول مقدم الرعاية ونطاق العرض والسفر والمتابعة.','section'=>'أدلة علاج متعمقة','note'=>'نعرض هنا صفحات العلاج المترجمة بالكامل إلى العربية. ستتم إضافة الأدلة العامة الطويلة بعد مراجعة ترجمتها تحريرياً.','button'=>'استكشف العلاجات'],
+default=>['k'=>'Knowledge hub','title'=>'Useful information before treatment abroad','lead'=>'Treatment guides and practical articles help you ask better questions about provider responsibility, suitability, quotation scope, travel and follow-up.','section'=>'Decision articles','note'=>'Start with the subject that matches the decision you are trying to make.','button'=>'Explore treatments']};
+@endphp
+<section class="v104-content-hero"><div class="v104-container v104-content-hero-grid"><div><x-breadcrumbs :items="[['label'=>site_ui('home'),'url'=>route('home')],['label'=>site_ui('guides')]]"/><p class="v104-kicker">{{ $copy['k'] }}</p><h1>{{ $copy['title'] }}</h1><p class="v104-lead">{{ $copy['lead'] }}</p><div class="v104-actions"><a class="v104-btn v104-btn-dark" href="{{ route('treatments.index') }}">{{ $copy['button'] }} ↗</a></div></div><aside class="v104-principle-card"><span>{{ __('site.decision_snapshot') }}</span><div><b>{{ __('site.what_good_plan') }}</b><p>{{ $copy['note'] }}</p></div></aside></div></section>
+<section class="v108-media-band"><div class="v104-container"><div class="v108-media-band-inner"><img src="{{ asset('assets/img/v108/article-turkey.webp') }}" alt="" loading="lazy" aria-hidden="true"><div class="v108-media-caption"><strong>{{ $copy['title'] }}</strong><p>{{ $copy['lead'] }}</p></div></div></div></section>
+@if($locale==='en')
+<section class="v104-section v108-articles"><div class="v104-container"><div class="cn-section-head"><div><p class="v104-kicker">01</p><h2>{{ $copy['section'] }}</h2></div></div><div class="v108-article-grid">@forelse($guides as $guide)<a href="{{ route('guides.show',$guide) }}" class="v108-article-card"><img src="{{ guide_visual_url($guide) }}" alt="" loading="lazy" aria-hidden="true"><div><small>{{ __('site.article_kicker') }}</small><h3>{{ $guide->name }}</h3><p>{{ $guide->summary }}</p><b>{{ site_ui('read_guide') }} →</b></div></a>@empty<div class="v104-empty">{{ __('site.guides_preparing') }}</div>@endforelse</div></div></section>
+@else
+<section class="v104-section"><div class="v104-container"><div class="cn-section-head"><div><p class="v104-kicker">01</p><h2>{{ $copy['section'] }}</h2></div></div><div class="cn-treatment-grid v108-treatment-grid">@foreach($priorityProcedures->take(12) as $procedure)<a class="cn-treatment-card v108-treatment-card" href="{{ route('procedures.show',['specialty'=>$procedure->specialty,'procedure'=>$procedure]) }}"><div class="cn-treatment-visual v108-treatment-visual"><img src="{{ procedure_visual_url($procedure) }}" alt="{{ $procedure->name }}" loading="lazy"></div><small>{{ $procedure->specialty?->name }}</small><h3>{{ $procedure->name }}</h3><p>{{ procedure_card_summary($procedure) }}</p><b>{{ __('site.view_guide') }} →</b></a>@endforeach</div></div></section>
+@endif
+<section class="v104-end-cta"><div class="v104-container"><div><p class="v104-kicker">{{ site_ui('next_step') }}</p><h2>{{ __('site.present_cta') }}</h2><p>{{ __('site.present_cta_text') }}</p></div><a class="v104-btn v104-btn-dark" href="{{ route('treatment-plan') }}">{{ site_ui('start_enquiry') }} ↗</a></div></section>
+@endsection

@@ -1,0 +1,684 @@
+/* ==========================================================================
+   V7 additions — accessibility, clinical content, trust and legal modules.
+   Uses the existing token set (--navy, --teal, --sky, --ink, --muted, --line).
+   Loaded last so it can correct earlier rules without !important.
+   ========================================================================== */
+
+/* --- 1. Accessibility --------------------------------------------------- */
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 999;
+  background: var(--navy);
+  color: #fff;
+  padding: 12px 18px;
+  border-radius: 0 0 8px 0;
+  font-size: 13px;
+  font-weight: 750;
+}
+.skip-link:focus {
+  left: 0;
+}
+
+/* A single visible focus treatment. The site previously had almost none, so
+   keyboard users had no way of telling where they were. */
+:where(a, button, input, select, textarea, summary, [tabindex]):focus-visible {
+  outline: 3px solid var(--blue);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+.btn:focus-visible {
+  outline: 3px solid var(--navy);
+  outline-offset: 3px;
+}
+.doctor-slide :focus-visible,
+.cta-band :focus-visible,
+.section.dark :focus-visible {
+  outline-color: #fff;
+}
+main:focus {
+  outline: none;
+}
+
+.main-nav a[aria-current="page"] {
+  color: var(--teal);
+  box-shadow: inset 0 -3px 0 var(--teal);
+}
+.main-nav a[aria-current="true"] {
+  color: var(--navy);
+}
+
+.lang-switch {
+  display: inline-flex;
+  gap: 6px;
+  align-items: center;
+}
+.lang.is-pending {
+  opacity: 0.55;
+  text-decoration: underline dotted;
+  text-underline-offset: 3px;
+}
+
+/* Honeypot: hidden from people, reachable by bots. Not display:none, which
+   many bots detect. */
+.hp-field {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media (forced-colors: active) {
+  .btn,
+  .skip-link {
+    border: 1px solid ButtonText;
+  }
+}
+
+/* --- 2. Clinical content ------------------------------------------------ */
+
+.medical-byline {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: baseline;
+  font-size: 12px;
+  color: var(--muted);
+  background: #f7fafc;
+  border-left: 3px solid var(--line);
+  padding: 12px 16px;
+  border-radius: 0 8px 8px 0;
+  margin: 0 0 26px;
+}
+.medical-byline-status {
+  font-weight: 800;
+  color: #8a6116;
+  background: #fdf3e0;
+  border-radius: 20px;
+  padding: 3px 10px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.medical-byline-status.is-reviewed {
+  color: #0d6d5c;
+  background: #e7f8f5;
+}
+
+.clinical-glance {
+  margin: 28px 0 34px;
+}
+
+.clinical-split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin: 18px 0 10px;
+}
+.clinical-col {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 20px 22px;
+  background: #fff;
+}
+.clinical-col h4 {
+  margin: 0 0 10px;
+  font-size: 14px;
+  letter-spacing: -0.01em;
+}
+.clinical-col ul {
+  margin: 0;
+  padding-left: 18px;
+}
+.clinical-col li {
+  font-size: 13px;
+  margin: 7px 0;
+  color: #526d79;
+}
+.clinical-col.is-yes {
+  border-top: 3px solid var(--teal);
+}
+.clinical-col.is-no {
+  border-top: 3px solid #d98b3a;
+}
+
+.clinical-list {
+  margin: 12px 0 8px;
+  padding-left: 18px;
+}
+.clinical-list li {
+  margin: 8px 0;
+  color: #526d79;
+}
+.clinical-list.is-risk li::marker {
+  color: #d98b3a;
+}
+
+.clinical-note {
+  font-size: 12px;
+  color: var(--muted);
+  background: var(--sky);
+  border-radius: 8px;
+  padding: 12px 15px;
+  margin: 14px 0 30px;
+}
+
+.guide-pending {
+  background: #fdf7ec;
+  border: 1px solid #f0dcb6;
+  border-radius: 12px;
+  padding: 20px 22px;
+  margin: 0 0 22px;
+}
+.guide-pending b {
+  display: block;
+  margin-bottom: 6px;
+  color: #7a5510;
+}
+.guide-pending p {
+  margin: 0;
+  font-size: 13px;
+  color: #6b5a35;
+}
+
+/* --- 3. Cost transparency ---------------------------------------------- */
+
+.cost-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin: 20px 0 18px;
+}
+.cost-col {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 20px 22px;
+  background: #fff;
+}
+.cost-col h3 {
+  margin: 0 0 10px;
+  font-size: 15px;
+}
+.cost-col ul {
+  margin: 0;
+  padding-left: 18px;
+}
+.cost-col li {
+  font-size: 13px;
+  margin: 7px 0;
+  color: #526d79;
+}
+.cost-col.is-in {
+  border-top: 3px solid var(--teal);
+}
+.cost-col.is-out {
+  border-top: 3px solid var(--blue);
+}
+
+/* --- 4. Forms, consent and privacy ------------------------------------- */
+
+.consent-block {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 20px 22px;
+  margin: 26px 0 6px;
+  background: #fbfdfe;
+}
+.consent-block legend {
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--navy);
+  padding: 0 8px;
+}
+.consent-block .check {
+  margin: 14px 0;
+}
+.consent-block .check span {
+  font-size: 12.5px;
+  line-height: 1.55;
+  color: #4d6773;
+}
+.consent-block a {
+  color: var(--blue);
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.form-privacy-note {
+  font-size: 11.5px;
+  color: var(--muted);
+  line-height: 1.55;
+  margin: 12px 0 0;
+}
+.form-privacy-note a {
+  color: var(--blue);
+  text-decoration: underline;
+}
+
+.consultation-mini-form-v6 label {
+  display: block;
+  font-size: 12px;
+  font-weight: 750;
+  margin: 14px 0 6px;
+}
+
+/* --- 5. Trust modules --------------------------------------------------- */
+
+.accreditation-section {
+  border-top: 1px solid var(--line);
+}
+.verify-flag {
+  background: #fdf3e0;
+  border-left: 4px solid #d98b3a;
+  padding: 14px 16px;
+  border-radius: 0 8px 8px 0;
+  font-size: 13px;
+  color: #7a5510;
+  margin: 14px 0 22px;
+}
+
+.legal-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 18px 0 26px;
+  font-size: 13px;
+}
+.legal-table th,
+.legal-table td {
+  border: 1px solid var(--line);
+  padding: 11px 14px;
+  text-align: left;
+  vertical-align: top;
+}
+.legal-table th {
+  background: var(--sky);
+  font-weight: 750;
+  color: var(--navy);
+  width: 34%;
+}
+.accreditation-table th {
+  width: auto;
+}
+
+.how-we-are-paid .paid-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin: 22px 0 6px;
+}
+.how-we-are-paid .paid-grid > div {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 20px 22px;
+  background: #fff;
+}
+.how-we-are-paid .paid-grid h3 {
+  margin: 0 0 8px;
+  font-size: 15px;
+}
+.how-we-are-paid .paid-grid p {
+  margin: 0;
+  font-size: 13px;
+  color: #526d79;
+}
+
+/* --- 6. Legal document pages ------------------------------------------- */
+
+.legal-doc {
+  max-width: 820px;
+}
+.legal-doc h2 {
+  font-size: 24px;
+  letter-spacing: -0.02em;
+  margin: 40px 0 10px;
+}
+.legal-doc h2:first-child {
+  margin-top: 0;
+}
+.legal-doc p,
+.legal-doc li {
+  color: #526d79;
+}
+.legal-doc code {
+  background: var(--sky);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+.legal-flag {
+  background: #fdf3e0;
+  border-left: 4px solid #d98b3a;
+  padding: 14px 16px;
+  border-radius: 0 8px 8px 0;
+  font-size: 13px;
+  color: #7a5510 !important;
+}
+
+.legal-index-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin: 20px 0 22px;
+}
+.legal-index-link {
+  display: block;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 16px 18px;
+  background: #fff;
+  transition: 0.18s;
+}
+.legal-index-link:hover {
+  border-color: #add5e2;
+  box-shadow: 0 10px 25px rgba(20, 70, 90, 0.07);
+}
+.legal-index-link b {
+  display: block;
+  font-size: 14px;
+}
+.legal-index-link span {
+  display: block;
+  font-size: 11px;
+  color: #8a6116;
+  margin-top: 3px;
+}
+
+/* --- 7. Responsive ------------------------------------------------------ */
+
+@media (max-width: 760px) {
+  .clinical-split,
+  .cost-grid,
+  .how-we-are-paid .paid-grid,
+  .legal-index-grid {
+    grid-template-columns: 1fr;
+  }
+  .legal-table th {
+    width: 40%;
+  }
+  .medical-byline {
+    flex-direction: column;
+    gap: 6px;
+  }
+}
+
+/* Only the first hero slide carries the h1; the others are h2 for a correct
+   document outline but must look identical. */
+.slide-copy .slide-title {
+  font: inherit;
+  font-size: clamp(40px, 4.6vw, 66px);
+  line-height: 1.03;
+  letter-spacing: -0.045em;
+  font-weight: 800;
+  margin: 14px 0 22px;
+}
+.slide-copy .slide-title span {
+  color: #77e0cc;
+}
+
+/* --- 8. Layout defects carried over from V6 ---------------------------- */
+
+/* The treatments mega-menu is a five-column grid wider than the viewport, which
+   pushed ~69px of horizontal scroll onto every page at 1280px even while the
+   menu was closed. Constraining the panel to the viewport and letting the grid
+   reflow removes the scroll without hiding anything.
+   `width: max-content` was tried first and made it worse - the grid then sized
+   to its widest possible line rather than to the space available. */
+.nav-item.has-mega .mega-menu {
+  left: 50%;
+  transform: translateX(-50%) translateY(8px);
+  width: min(1180px, calc(100vw - 32px));
+  max-width: calc(100vw - 32px);
+  box-sizing: border-box;
+}
+.nav-item.has-mega.open .mega-menu,
+.nav-item.has-mega:hover .mega-menu {
+  transform: translateX(-50%) translateY(0);
+}
+.mega-menu .mega-grid {
+  min-width: 0;
+}
+.mega-grid > a {
+  min-width: 0;
+}
+.mega-grid > a span,
+.mega-grid > a b,
+.mega-grid > a small {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+/* Belt and braces: nothing on this site is meant to scroll sideways. */
+html,
+body {
+  overflow-x: clip;
+}
+
+/* --- 9. German entry point and contact routes -------------------------- */
+
+.contact-routes {
+  padding: 54px 0 60px;
+  background: var(--sky);
+  border-top: 1px solid var(--line);
+}
+.routes-grid,
+.de-contact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+}
+.de-contact-grid {
+  margin: 20px 0 26px;
+}
+.route {
+  display: block;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 22px 24px;
+  transition: 0.18s;
+}
+.route:hover {
+  border-color: #9fd2e0;
+  transform: translateY(-2px);
+  box-shadow: 0 14px 32px rgba(20, 70, 90, 0.10);
+}
+.route b {
+  display: block;
+  font-size: 15px;
+  color: var(--navy);
+  margin-bottom: 5px;
+}
+.route span {
+  display: block;
+  font-size: 12.5px;
+  color: #5b7683;
+  line-height: 1.5;
+}
+.route-wa {
+  border-top: 3px solid #25d366;
+}
+.route-call {
+  border-top: 3px solid var(--blue);
+}
+.route-plan {
+  border-top: 3px solid var(--teal);
+}
+
+.wa-float {
+  position: fixed;
+  left: 22px;
+  bottom: 22px;
+  z-index: 60;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: #25d366;
+  color: #fff;
+  box-shadow: 0 10px 26px rgba(6, 60, 30, 0.30);
+  transition: 0.18s;
+}
+.wa-float:hover {
+  transform: scale(1.06);
+}
+.wa-float svg {
+  width: 28px;
+  height: 28px;
+}
+
+.reply-promise {
+  background: #e9f7f4;
+  border-left: 4px solid var(--teal);
+  border-radius: 0 10px 10px 0;
+  padding: 16px 18px;
+  margin: 0 0 26px;
+}
+.reply-promise b {
+  display: block;
+  font-size: 14px;
+  color: var(--navy);
+  margin-bottom: 4px;
+}
+.reply-promise span {
+  font-size: 12.5px;
+  color: #4d6773;
+  line-height: 1.55;
+}
+.reply-promise a {
+  color: var(--blue);
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.worry-link {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 26px 24px 0;
+}
+.worry-link a {
+  font-weight: 750;
+  color: var(--blue);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.callback-block {
+  max-width: 720px;
+}
+.callback-form {
+  margin-top: 22px;
+}
+.callback-form label {
+  display: block;
+  font-size: 12px;
+  font-weight: 750;
+  margin: 16px 0 6px;
+}
+.callback-form .check {
+  font-weight: 500;
+}
+
+.lang-tag {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  background: var(--sky);
+  color: #5b7683;
+  border-radius: 20px;
+  padding: 2px 8px;
+  margin-left: 6px;
+}
+
+@media (max-width: 860px) {
+  .routes-grid,
+  .de-contact-grid {
+    grid-template-columns: 1fr;
+  }
+  .wa-float {
+    left: 16px;
+    bottom: 84px;
+  }
+}
+/* v7:video-css:start */
+/* --- 10. Video poster frames ------------------------------------------- */
+
+/* template-fidelity.css sets `.conversion-video-v6 .video-placeholder` with
+   !important on every declaration, including a flat
+   linear-gradient(rgba(10,47,60,.83), rgba(10,47,60,.88)) over the thumbnail —
+   at 83-88% the poster was invisible, and the caption was centred directly on
+   top of the poster's play control. Matching that selector and specificity is
+   the only way to override it without editing the original stylesheet. */
+.conversion-video-v6 .video-placeholder,
+.video-placeholder {
+  background-image:
+    linear-gradient(to top, rgba(8, 40, 58, 0.94) 0%, rgba(8, 40, 58, 0.82) 24%,
+                    rgba(8, 40, 58, 0.12) 60%, rgba(8, 40, 58, 0.06) 100%),
+    var(--video-thumb) !important;
+  background-size: cover !important;
+  background-position: center !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  justify-content: flex-end !important;
+  text-align: left !important;
+  padding: 32px 30px 28px !important;
+  cursor: pointer;
+  transition: background-image 0.25s;
+}
+.conversion-video-v6 .video-placeholder:hover,
+.video-placeholder:hover {
+  background-image:
+    linear-gradient(to top, rgba(8, 40, 58, 0.90) 0%, rgba(8, 40, 58, 0.74) 24%,
+                    rgba(8, 40, 58, 0.04) 60%, rgba(8, 40, 58, 0.02) 100%),
+    var(--video-thumb) !important;
+}
+.conversion-video-v6 .video-placeholder h3,
+.video-placeholder h3 {
+  text-align: left !important;
+  margin: 0 0 7px !important;
+  font-size: 22px !important;
+}
+.conversion-video-v6 .video-placeholder p,
+.video-placeholder p {
+  text-align: left !important;
+  margin: 0 !important;
+  max-width: 560px;
+  font-size: 13px;
+  line-height: 1.55;
+  color: #cfe6ee !important;
+}
+.video-consent-note {
+  text-align: left !important;
+}
+
+/* The poster already draws a play control, so the text glyph is redundant.
+   Kept in the DOM for assistive tech, hidden from sight. */
+.video-placeholder .play.big {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  clip-path: inset(50%);
+}
+.video-placeholder:focus-visible {
+  outline: 3px solid var(--blue);
+  outline-offset: -3px;
+}
+/* v7:video-css:end */

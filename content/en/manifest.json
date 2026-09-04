@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "site": "Turkelite Medcare",
+  "locale": "en",
+  "source": "FINAL multilingual content factory",
+  "datasets": [
+    "settings",
+    "site_pages",
+    "specialties",
+    "conditions",
+    "procedures",
+    "clinics",
+    "doctors",
+    "guides",
+    "patient_services",
+    "patient_stories",
+    "legal_documents"
+  ],
+  "locales": [
+    "en",
+    "de",
+    "ar"
+  ],
+  "seo_priority_procedures": 20
+}

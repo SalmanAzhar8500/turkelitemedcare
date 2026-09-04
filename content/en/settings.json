@@ -1,0 +1,122 @@
+[
+  {
+    "key": "site_name",
+    "value": "Turkelite Medcare"
+  },
+  {
+    "key": "legal_name",
+    "value": "Turkelite Medcare"
+  },
+  {
+    "key": "contact_email",
+    "value": "info@turkelitemedcare.com"
+  },
+  {
+    "key": "contact_phone",
+    "value": "+49 30 23125 400"
+  },
+  {
+    "key": "whatsapp_number",
+    "value": "+49 30 23125 400"
+  },
+  {
+    "key": "support_hours",
+    "value": "Mon–Fri · 08:00–18:00 CET"
+  },
+  {
+    "key": "mail_mailer",
+    "value": "smtp"
+  },
+  {
+    "key": "mail_host",
+    "value": "smtp.hostinger.com"
+  },
+  {
+    "key": "mail_port",
+    "value": "2587"
+  },
+  {
+    "key": "mail_username",
+    "value": "info@turkelitemedcare.com"
+  },
+  {
+    "key": "mail_encryption",
+    "value": "tls"
+  },
+  {
+    "key": "mail_from_address",
+    "value": "info@turkelitemedcare.com"
+  },
+  {
+    "key": "mail_from_name",
+    "value": "Turkelite Medcare"
+  },
+  {
+    "key": "logo_path",
+    "value": "assets/img/content/brand/logo.webp"
+  },
+  {
+    "key": "favicon_path",
+    "value": "assets/img/content/brand/favicon.webp"
+  },
+  {
+    "key": "footer_description_en",
+    "value": null
+  },
+  {
+    "key": "footer_trust_note_en",
+    "value": null
+  },
+  {
+    "key": "footer_treatments_heading_en",
+    "value": null
+  },
+  {
+    "key": "footer_support_heading_en",
+    "value": null
+  },
+  {
+    "key": "footer_company_heading_en",
+    "value": null
+  },
+  {
+    "key": "footer_about_en",
+    "value": null
+  },
+  {
+    "key": "footer_guides_en",
+    "value": null
+  },
+  {
+    "key": "footer_contact_en",
+    "value": null
+  },
+  {
+    "key": "footer_about_us_en",
+    "value": null
+  },
+  {
+    "key": "footer_for_clinics_en",
+    "value": null
+  },
+  {
+    "key": "footer_legal_privacy_en",
+    "value": null
+  },
+  {
+    "key": "footer_copyright_en",
+    "value": null
+  },
+  {
+    "key": "footer_medical_notice_en",
+    "value": null
+  },
+  {
+    "key": "footer_disclosure_en",
+    "value": null
+  },
+  {
+    "key": "recaptcha_site_key",
+    "value": null
+  }
+]

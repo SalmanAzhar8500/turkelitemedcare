@@ -1,0 +1,250 @@
+/* V103 Bizen-inspired visual direction.
+   Original implementation for Turkelitemedcare. It borrows the reference's
+   high-level visual language (editorial typography, strong blue accent,
+   generous white space, numbered service cards) but no ThemeForest source code. */
+
+:root {
+  --bzn-blue: #1657ff;
+  --bzn-blue-dark: #0b36bf;
+  --bzn-ink: #0c1220;
+  --bzn-navy: #0c1728;
+  --bzn-paper: #f7f8fb;
+  --bzn-soft: #eef2f7;
+  --bzn-line: #dfe4ec;
+  --bzn-muted: #687284;
+  --bzn-white: #ffffff;
+  --bzn-radius: 18px;
+  --bzn-shadow: 0 24px 70px rgba(21, 35, 58, .12);
+}
+
+html { background: var(--bzn-white); }
+body {
+  background: #fff;
+  color: var(--bzn-ink);
+  font-family: "DM Sans", Manrope, ui-sans-serif, system-ui, sans-serif;
+  line-height: 1.65;
+}
+h1,h2,h3,h4,.main-nav,.btn,.bzn-btn { font-family: "Sora", "DM Sans", sans-serif; }
+.container { width: min(1240px, calc(100% - 48px)); }
+
+/* Header: cleaner and more architectural. */
+.topbar { background: #0c1728; color: #cbd4e2; font-size: 11px; }
+.topbar-inner { height: 34px; }
+.site-header { background: rgba(255,255,255,.96); border-bottom: 1px solid #e8ebf1; backdrop-filter: blur(12px); }
+.nav-wrap { height: 84px; gap: 24px; }
+.brand-logo { width: auto !important; height: 54px !important; max-width: 206px; object-fit: contain; }
+.main-nav { gap: 24px; font-size: 12px; font-weight: 700; }
+.main-nav > a,.main-nav .nav-link { padding: 31px 0; color: #1e293b; }
+.main-nav > a:hover,.main-nav .nav-link:hover,.main-nav a[aria-current="page"] { color: var(--bzn-blue); }
+.main-nav a[aria-current="page"] { box-shadow: inset 0 -2px 0 var(--bzn-blue); }
+.nav-actions .search-toggle { display: none; }
+.btn-primary { background: var(--bzn-blue); border-radius: 999px; box-shadow: none; }
+.btn-primary:hover { background: var(--bzn-blue-dark); }
+.nav-actions .btn { padding: 12px 18px; }
+.treatments-mega .mega-menu { border-top-color: var(--bzn-blue); }
+.treatments-mega .mega-grid > a:hover { background: #f3f6ff; border-color: #dce5ff; }
+.treatments-mega .mini-icon,.treatments-mega .mega-head > a { color: var(--bzn-blue); }
+
+/* Core utilities */
+.bzn-section { padding: 112px 0; }
+.bzn-kicker { display:flex; align-items:center; gap:10px; margin-bottom:20px; color:#536074; font-size:11px; font-weight:800; letter-spacing:.14em; text-transform:uppercase; }
+.bzn-kicker > span { width:28px; height:2px; background:var(--bzn-blue); }
+.bzn-kicker-light { color:#b9c8df; }
+.bzn-kicker-light > span { background:#79a0ff; }
+.bzn-section-head { display:grid; grid-template-columns:minmax(0,1.08fr) minmax(300px,.72fr); align-items:end; gap:80px; margin-bottom:48px; }
+.bzn-section-head h2,.bzn-section-copy h2,.bzn-dark-copy h2,.bzn-testimonial h2,.bzn-final-cta h2 { margin:0; font-size:clamp(34px,4vw,60px); line-height:1.04; letter-spacing:-.045em; color:var(--bzn-ink); }
+.bzn-section-head p,.bzn-section-copy > p { color:var(--bzn-muted); margin:0 0 20px; font-size:15px; }
+.bzn-text-link { display:inline-flex; gap:9px; align-items:center; color:var(--bzn-ink); font-weight:800; font-size:13px; }
+.bzn-text-link span { color:var(--bzn-blue); transition:transform .2s ease; }
+.bzn-text-link:hover span { transform:translateX(4px); }
+.bzn-btn { display:inline-flex; align-items:center; justify-content:center; gap:12px; min-height:50px; padding:0 22px; border-radius:8px; font-size:12px; font-weight:800; text-decoration:none; transition:.2s ease; }
+.bzn-btn-primary { background:var(--bzn-blue); color:white; box-shadow:0 16px 35px rgba(22,87,255,.20); }
+.bzn-btn-primary:hover { background:var(--bzn-blue-dark); color:white; transform:translateY(-2px); }
+.bzn-btn-light { background:white; color:var(--bzn-ink); }
+.bzn-btn-light:hover { color:var(--bzn-blue); transform:translateY(-2px); }
+
+/* Hero */
+.bzn-hero { position:relative; overflow:hidden; background:#fff; padding:68px 0 112px; }
+.bzn-hero::before { content:""; position:absolute; width:520px; height:520px; left:-260px; top:-260px; border-radius:50%; background:#f0f4ff; }
+.bzn-hero-grid { display:grid; grid-template-columns:minmax(0,.88fr) minmax(520px,1.12fr); gap:78px; align-items:center; position:relative; }
+.bzn-hero-copy { position:relative; z-index:2; padding:30px 0; }
+.bzn-hero-copy h1 { max-width:720px; margin:0 0 24px; color:var(--bzn-ink); font-size:clamp(50px,5.6vw,82px); line-height:.98; letter-spacing:-.06em; font-weight:650; }
+.bzn-hero-copy > p { max-width:640px; margin:0; color:#5c6879; font-size:17px; line-height:1.7; }
+.bzn-hero-actions { display:flex; gap:26px; align-items:center; margin-top:34px; }
+.bzn-proof-row { display:flex; gap:0; margin-top:54px; border-top:1px solid var(--bzn-line); padding-top:24px; }
+.bzn-proof-row > div { min-width:128px; padding-right:28px; margin-right:28px; border-right:1px solid var(--bzn-line); }
+.bzn-proof-row > div:last-child { border-right:0; }
+.bzn-proof-row strong { display:block; color:var(--bzn-ink); font:700 24px/1 "Sora",sans-serif; }
+.bzn-proof-row span { display:block; margin-top:7px; color:#7b8491; font-size:10px; font-weight:700; text-transform:uppercase; letter-spacing:.08em; }
+.bzn-hero-visual { position:relative; min-height:610px; }
+.bzn-photo-frame { position:absolute; inset:0 0 0 52px; background-image:linear-gradient(180deg,rgba(5,13,30,0) 58%,rgba(5,13,30,.16)),var(--bzn-photo); background-position:center; background-size:cover; border-radius:28px 28px 128px 28px; box-shadow:var(--bzn-shadow); }
+.bzn-photo-frame::before { content:""; position:absolute; width:118px; height:118px; right:-20px; bottom:-22px; border:22px solid var(--bzn-blue); border-left-color:transparent; border-top-color:transparent; border-radius:0 0 100% 0; opacity:.96; }
+.bzn-hero-shape { position:absolute; left:0; top:52px; width:96px; height:310px; border-radius:48px; background:var(--bzn-blue); z-index:-1; }
+.bzn-float-card { position:absolute; display:flex; align-items:center; gap:12px; background:#fff; box-shadow:0 18px 48px rgba(16,31,53,.17); border:1px solid rgba(226,231,239,.8); z-index:3; }
+.bzn-float-card b,.bzn-float-card small { display:block; }
+.bzn-float-card b { color:#111827; font-size:11px; }
+.bzn-float-card small { margin-top:2px; color:#7b8491; font-size:9px; }
+.bzn-float-card-top { top:45px; right:-18px; padding:15px 18px; border-radius:12px; }
+.bzn-float-card-bottom { left:0; bottom:45px; padding:16px 20px 16px 14px; border-radius:12px; }
+.bzn-float-card-bottom strong { display:grid; width:46px; height:46px; place-items:center; background:#eef3ff; color:var(--bzn-blue); border-radius:8px; font:800 15px/1 "Sora",sans-serif; }
+.bzn-dot { width:9px; height:9px; border-radius:50%; background:#15b67a; box-shadow:0 0 0 5px #e4f8f0; }
+
+/* Feature rail */
+.bzn-feature-rail { position:relative; z-index:4; margin-top:-50px; padding-bottom:28px; }
+.bzn-feature-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:14px; }
+.bzn-feature-card { position:relative; min-height:250px; padding:28px 26px 24px; background:#fff; border:1px solid var(--bzn-line); border-radius:14px; box-shadow:0 14px 38px rgba(18,37,64,.07); transition:.25s ease; }
+.bzn-feature-card:hover { transform:translateY(-7px); border-color:#b9caff; box-shadow:0 22px 50px rgba(18,37,64,.12); }
+.bzn-feature-number { position:absolute; top:20px; right:22px; color:#bcc3ce; font:700 11px "Sora",sans-serif; }
+.bzn-feature-icon { display:grid; width:52px; height:52px; place-items:center; margin-bottom:24px; border-radius:10px; background:#eef3ff; color:var(--bzn-blue); }
+.bzn-feature-icon svg { width:27px; height:27px; }
+.bzn-feature-card h2 { margin:0 0 10px; color:#151c2b; font-size:16px; line-height:1.25; }
+.bzn-feature-card p { margin:0; color:#768091; font-size:11.5px; line-height:1.65; }
+.bzn-card-arrow { position:absolute; left:26px; bottom:20px; color:var(--bzn-blue); font-size:16px; }
+
+/* Intro / process */
+.bzn-intro { background:#fff; }
+.bzn-intro-grid { display:grid; grid-template-columns:minmax(0,.94fr) minmax(0,1.06fr); gap:90px; align-items:center; }
+.bzn-image-stack { position:relative; min-height:610px; }
+.bzn-city-photo { position:absolute; inset:0 48px 38px 0; background-image:linear-gradient(180deg,rgba(12,23,40,.02),rgba(12,23,40,.18)),var(--bzn-photo); background-position:center; background-size:cover; border-radius:20px; }
+.bzn-image-stack::after { content:""; position:absolute; right:0; top:58px; width:136px; height:136px; background:var(--bzn-blue); border-radius:12px; z-index:-1; }
+.bzn-image-stat { position:absolute; right:0; bottom:0; max-width:260px; background:var(--bzn-navy); color:white; padding:24px 25px; border-radius:12px; box-shadow:var(--bzn-shadow); }
+.bzn-image-stat strong,.bzn-image-stat span { display:block; }
+.bzn-image-stat strong { font:700 28px/1 "Sora",sans-serif; }
+.bzn-image-stat span { margin-top:8px; color:#c5d0e0; font-size:11px; line-height:1.5; }
+.bzn-section-copy { padding:30px 0; }
+.bzn-section-copy > p { margin:24px 0 28px; max-width:620px; }
+.bzn-process-list { border-top:1px solid var(--bzn-line); }
+.bzn-process-list a { display:grid; grid-template-columns:42px 1fr 28px; gap:16px; align-items:center; padding:20px 0; border-bottom:1px solid var(--bzn-line); }
+.bzn-process-list b { color:var(--bzn-blue); font:700 11px "Sora",sans-serif; }
+.bzn-process-list strong,.bzn-process-list small { display:block; }
+.bzn-process-list strong { color:#192231; font:700 14px "Sora",sans-serif; }
+.bzn-process-list small { margin-top:3px; color:#7a8595; font-size:11px; }
+.bzn-process-list i { color:#9ba4b1; font-style:normal; transition:.2s ease; }
+.bzn-process-list a:hover i { color:var(--bzn-blue); transform:translateX(4px); }
+
+/* Specialty cards */
+.bzn-specialties-section { background:var(--bzn-paper); }
+.bzn-specialty-grid { display:grid; grid-template-columns:repeat(3,1fr); border-left:1px solid var(--bzn-line); border-top:1px solid var(--bzn-line); }
+.bzn-specialty-card { min-height:264px; padding:28px; background:#fff; border-right:1px solid var(--bzn-line); border-bottom:1px solid var(--bzn-line); transition:.25s ease; }
+.bzn-specialty-card:hover { position:relative; z-index:2; transform:translateY(-4px); box-shadow:0 20px 55px rgba(17,34,57,.10); }
+.bzn-specialty-top { display:flex; justify-content:space-between; align-items:center; color:#a1a9b5; font:700 10px "Sora",sans-serif; }
+.bzn-specialty-top i { color:var(--bzn-blue); font-size:18px; font-style:normal; }
+.bzn-specialty-card h3 { margin:46px 0 11px; font-size:21px; letter-spacing:-.03em; }
+.bzn-specialty-card p { margin:0; color:#737e8f; font-size:12px; line-height:1.65; }
+.bzn-specialty-card small { display:block; margin-top:18px; color:var(--bzn-blue); font-size:10px; font-weight:800; text-transform:uppercase; letter-spacing:.08em; }
+
+/* Dark services */
+.bzn-dark-band { overflow:hidden; background:var(--bzn-navy); color:white; padding:108px 0; position:relative; }
+.bzn-dark-band::after { content:""; position:absolute; right:-190px; top:-180px; width:540px; height:540px; border:1px solid rgba(255,255,255,.08); border-radius:50%; box-shadow:0 0 0 75px rgba(255,255,255,.025),0 0 0 150px rgba(255,255,255,.018); }
+.bzn-dark-grid { display:grid; grid-template-columns:.9fr 1.1fr; gap:110px; position:relative; z-index:1; }
+.bzn-dark-copy h2 { color:white; }
+.bzn-dark-copy p { margin:22px 0 32px; color:#aebbd0; max-width:570px; }
+.bzn-service-list { border-top:1px solid rgba(255,255,255,.15); }
+.bzn-service-list a { display:grid; grid-template-columns:46px 1fr 28px; align-items:center; gap:15px; padding:23px 0; border-bottom:1px solid rgba(255,255,255,.15); color:white; }
+.bzn-service-list span { color:#7399ff; font:700 10px "Sora",sans-serif; }
+.bzn-service-list strong { font:600 16px "Sora",sans-serif; }
+.bzn-service-list i { color:#7f8da2; font-style:normal; font-size:18px; }
+.bzn-service-list a:hover i { color:#fff; }
+
+/* Doctors */
+.bzn-doctors-section { background:#fff; }
+.bzn-doctor-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:18px; }
+.bzn-doctor-card { overflow:hidden; border:1px solid var(--bzn-line); background:white; border-radius:12px; transition:.25s ease; }
+.bzn-doctor-card:hover { transform:translateY(-6px); box-shadow:0 22px 55px rgba(18,37,64,.11); }
+.bzn-doctor-photo { height:310px; background-image:linear-gradient(180deg,rgba(15,25,45,.00),rgba(15,25,45,.05)),var(--bzn-photo); background-position:center top; background-size:cover; background-color:#eef2f7; }
+.bzn-doctor-body { padding:22px; }
+.bzn-doctor-body small { color:var(--bzn-blue); font-size:9px; font-weight:800; text-transform:uppercase; letter-spacing:.1em; }
+.bzn-doctor-body h3 { margin:8px 0 4px; font-size:17px; }
+.bzn-doctor-body p { margin:0; color:#778191; font-size:11px; }
+.bzn-doctor-body span { display:block; margin-top:18px; color:#1d2735; font-size:10px; font-weight:800; }
+
+/* Testimonial */
+.bzn-testimonial { padding:105px 0; background:#edf2ff; }
+.bzn-testimonial-grid { display:grid; grid-template-columns:.9fr 1.1fr; gap:100px; align-items:start; }
+.bzn-testimonial h2 { font-size:clamp(32px,3.6vw,54px); }
+.bzn-quote { position:relative; padding-left:48px; border-left:3px solid var(--bzn-blue); }
+.bzn-quote blockquote { margin:0 0 28px; color:#192231; font:500 clamp(22px,2.3vw,34px)/1.45 "Sora",sans-serif; letter-spacing:-.03em; }
+.bzn-quote a strong,.bzn-quote a span,.bzn-quote > strong { display:block; }
+.bzn-quote a strong,.bzn-quote > strong { color:#111827; font-size:12px; }
+.bzn-quote a span { margin-top:5px; color:var(--bzn-blue); font-size:10px; font-weight:800; }
+
+/* Guides */
+.bzn-insights { background:#fff; }
+.bzn-guide-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; }
+.bzn-guide-card { min-height:300px; padding:30px; border:1px solid var(--bzn-line); border-radius:12px; background:#fff; transition:.25s ease; }
+.bzn-guide-card:hover { border-color:#b9caff; box-shadow:0 20px 52px rgba(18,37,64,.09); transform:translateY(-5px); }
+.bzn-guide-label { color:var(--bzn-blue); font-size:9px; font-weight:800; text-transform:uppercase; letter-spacing:.11em; }
+.bzn-guide-card h3 { margin:62px 0 12px; font-size:21px; line-height:1.25; letter-spacing:-.03em; }
+.bzn-guide-card p { margin:0; color:#768091; font-size:12px; line-height:1.65; }
+.bzn-guide-action { display:block; margin-top:24px; color:#1d2735; font-size:10px; font-weight:800; }
+
+/* Final CTA */
+.bzn-final-cta { position:relative; overflow:hidden; padding:88px 0; color:white; background-image:linear-gradient(90deg,rgba(8,19,37,.94),rgba(11,29,55,.78)),var(--bzn-photo); background-position:center; background-size:cover; }
+.bzn-final-cta-inner { display:flex; justify-content:space-between; align-items:end; gap:70px; }
+.bzn-final-cta-inner > div:first-child { max-width:800px; }
+.bzn-final-cta-inner > div:first-child > span { display:block; margin-bottom:14px; color:#9eb8ff; font-size:10px; font-weight:800; text-transform:uppercase; letter-spacing:.14em; }
+.bzn-final-cta h2 { color:white; }
+.bzn-final-cta-inner > div:last-child { flex:none; display:flex; flex-direction:column; align-items:flex-start; gap:18px; }
+.bzn-final-link { color:#fff; font-size:11px; font-weight:800; }
+
+/* Footer tune */
+.footer { background:#08111e; }
+.footer-grid { padding-top:74px; }
+.footer-grid h4 { color:#fff; }
+.footer-grid a:hover { color:#8eabff; }
+.floating-cta { background:var(--bzn-blue); }
+
+/* Inner page global tune, so V103 does not collapse back into the old aesthetic. */
+.page-hero { min-height:300px; background:#0c1728 !important; background-image:linear-gradient(100deg,rgba(8,17,30,.97),rgba(13,31,55,.88)),var(--page-photo) !important; }
+.page-hero h1 { font-family:"Sora",sans-serif; font-weight:600; letter-spacing:-.045em; }
+.template-section,.section { background:#fff; }
+.template-section.alt,.section.alt { background:var(--bzn-paper); }
+.specialty-card,.clinic-card,.procedure-card,.doctor-card,.list-card,.guide-card,.service-card,.sidebar-card,.form-card,.intake-form { border-radius:12px !important; border-color:var(--bzn-line) !important; box-shadow:none !important; background:#fff !important; }
+.specialty-card:hover,.clinic-card:hover,.procedure-card:hover,.doctor-card:hover,.guide-card:hover { border-color:#b9caff !important; box-shadow:0 18px 45px rgba(18,37,64,.09) !important; }
+
+@media (max-width: 1120px) {
+  .bzn-hero-grid { grid-template-columns:1fr 1fr; gap:42px; }
+  .bzn-hero-visual { min-height:520px; }
+  .bzn-feature-grid { grid-template-columns:repeat(2,1fr); }
+  .bzn-intro-grid,.bzn-dark-grid,.bzn-testimonial-grid { gap:55px; }
+  .bzn-doctor-grid { grid-template-columns:repeat(2,1fr); }
+}
+
+@media (max-width: 900px) {
+  .container { width:min(100% - 32px, 1240px); }
+  .bzn-section { padding:82px 0; }
+  .bzn-hero { padding-top:38px; }
+  .bzn-hero-grid,.bzn-intro-grid,.bzn-dark-grid,.bzn-testimonial-grid,.bzn-section-head { grid-template-columns:1fr; }
+  .bzn-hero-grid { gap:30px; }
+  .bzn-hero-copy h1 { font-size:clamp(44px,10vw,70px); }
+  .bzn-hero-visual { min-height:520px; }
+  .bzn-photo-frame { inset:0 12px 0 30px; }
+  .bzn-section-head { gap:20px; }
+  .bzn-specialty-grid { grid-template-columns:repeat(2,1fr); }
+  .bzn-guide-grid { grid-template-columns:1fr; }
+  .bzn-guide-card { min-height:auto; }
+  .bzn-guide-card h3 { margin-top:36px; }
+  .bzn-final-cta-inner { align-items:flex-start; flex-direction:column; }
+}
+
+@media (max-width: 640px) {
+  .bzn-hero { padding-bottom:86px; }
+  .bzn-hero-copy h1 { font-size:46px; }
+  .bzn-hero-copy > p { font-size:15px; }
+  .bzn-hero-actions { align-items:flex-start; flex-direction:column; gap:18px; }
+  .bzn-proof-row { gap:16px; flex-wrap:wrap; }
+  .bzn-proof-row > div { min-width:90px; padding-right:16px; margin-right:0; }
+  .bzn-hero-visual { min-height:430px; }
+  .bzn-photo-frame { inset:0 0 0 14px; border-radius:20px 20px 80px 20px; }
+  .bzn-float-card-top { right:4px; top:18px; }
+  .bzn-float-card-bottom { left:0; bottom:22px; }
+  .bzn-hero-shape { width:55px; height:220px; }
+  .bzn-feature-grid,.bzn-specialty-grid,.bzn-doctor-grid { grid-template-columns:1fr; }
+  .bzn-feature-card { min-height:220px; }
+  .bzn-image-stack { min-height:460px; }
+  .bzn-city-photo { inset:0 20px 40px 0; }
+  .bzn-image-stat { max-width:230px; }
+  .bzn-dark-band { padding:80px 0; }
+  .bzn-quote { padding-left:25px; }
+  .bzn-section-head h2,.bzn-section-copy h2,.bzn-dark-copy h2,.bzn-testimonial h2,.bzn-final-cta h2 { font-size:38px; }
+}

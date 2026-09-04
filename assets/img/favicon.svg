@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Turkelitemedcare">
+  <rect width="64" height="64" rx="14" fill="#113d56"/>
+  <path d="M32 15c-8.5 0-15 6-15 14.2 0 9.2 8.3 16.4 13.6 20.1a2.4 2.4 0 0 0 2.8 0C38.7 45.6 47 38.4 47 29.2 47 21 40.5 15 32 15Z" fill="#1fae96"/>
+  <path d="M32 23v14M25 30h14" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+</svg>

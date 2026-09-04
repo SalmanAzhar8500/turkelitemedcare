@@ -1,0 +1,493 @@
+[
+  {
+    "name": "Coordinated appointments",
+    "slug": "coordinated-appointments",
+    "summary": null,
+    "content": null,
+    "bullet_points": [
+      "Planning around the confirmed treatment timetable",
+      "One coordination contact from arrival to return home",
+      "Support tailored to the patient journey"
+    ],
+    "service_points": null,
+    "sort_order": 0,
+    "is_active": 1,
+    "seo_title": null,
+    "seo_description": null,
+    "seo_keywords": null,
+    "seo_robots": "index,follow",
+    "image_path": null,
+    "translations": {
+      "de": {
+        "name": "Koordinierte Termine",
+        "summary": "Koordinierte Termine als Teil einer klar geplanten medizinischen Reise. Wir halten praktische Schritte, Termine und Übergaben rund um den bestätigten Behandlungsplan zusammen.",
+        "content": "Koordinierte Termine\n\nWir strukturieren die praktischen Schritte rund um Ihren bestätigten Behandlungsplan. Dazu gehören die Abstimmung von Terminen, Reise- und Aufenthaltslogik, Kontaktwege und die Übergabe nach der Rückkehr. Medizinische Entscheidungen bleiben beim behandelnden Anbieter.",
+        "bullet_points": [
+          "Ein zentraler Koordinationskontakt",
+          "Abstimmung mit dem bestätigten Behandlungsplan",
+          "Klare Reise- und Terminübergaben"
+        ],
+        "service_points": [
+          "Vor der Reise strukturieren",
+          "Während der Reise koordinieren",
+          "Rückkehr und Nachsorge übergeben"
+        ],
+        "seo_title": "Koordinierte Termine | Turkelite Medcare",
+        "seo_description": "Koordinierte Termine für internationale Patienten: praktische Koordination rund um einen bestätigten Behandlungsplan in der Türkei."
+      },
+      "ar": {
+        "name": "تنسيق المواعيد",
+        "summary": "تنسيق المواعيد كجزء من رحلة علاجية مرتبة بوضوح. نجمع الخطوات العملية والمواعيد والتسليمات حول الخطة العلاجية المؤكدة.",
+        "content": "تنسيق المواعيد\n\nننظم الخطوات العملية حول خطتك العلاجية المؤكدة، بما يشمل منطق المواعيد والسفر والإقامة وطرق التواصل وتسليم المتابعة بعد العودة. تبقى القرارات الطبية مسؤولية مقدم العلاج.",
+        "bullet_points": [
+          "جهة تنسيق واحدة",
+          "تنظيم حول الخطة العلاجية المؤكدة",
+          "تسليمات واضحة للسفر والمواعيد"
+        ],
+        "service_points": [
+          "تنظيم ما قبل السفر",
+          "التنسيق أثناء الرحلة",
+          "تسليم خطة العودة والمتابعة"
+        ],
+        "seo_title": "تنسيق المواعيد | Turkelite Medcare",
+        "seo_description": "تنسيق المواعيد للمرضى الدوليين: تنسيق عملي حول خطة علاجية مؤكدة في تركيا."
+      }
+    }
+  },
+  {
+    "name": "Travel planning",
+    "slug": "travel-planning",
+    "summary": "Treatment dates determine the journey—not the other way around. We help build a practical itinerary around the clinic’s plan.",
+    "content": "Travel planning\n\nTreatment dates determine the journey—not the other way around. We help build a practical itinerary around the clinic’s plan.\n\nIncluded support is confirmed case by case and should reflect the treating provider’s timetable and clinical requirements.\n\n- Arrival and departure windows\n\n- Travel-document checklist\n\n- Companion planning\n\n- Recovery-aware itinerary",
+    "bullet_points": [
+      "Planning around the confirmed treatment timetable",
+      "One coordination contact from arrival to return home",
+      "Support tailored to the patient journey"
+    ],
+    "service_points": null,
+    "sort_order": 1,
+    "is_active": 1,
+    "seo_title": null,
+    "seo_description": null,
+    "seo_keywords": null,
+    "seo_robots": "index,follow",
+    "image_path": null,
+    "translations": {
+      "de": {
+        "name": "Reiseplanung",
+        "summary": "Reiseplanung als Teil einer klar geplanten medizinischen Reise. Wir halten praktische Schritte, Termine und Übergaben rund um den bestätigten Behandlungsplan zusammen.",
+        "content": "Reiseplanung\n\nWir strukturieren die praktischen Schritte rund um Ihren bestätigten Behandlungsplan. Dazu gehören die Abstimmung von Terminen, Reise- und Aufenthaltslogik, Kontaktwege und die Übergabe nach der Rückkehr. Medizinische Entscheidungen bleiben beim behandelnden Anbieter.",
+        "bullet_points": [
+          "Ein zentraler Koordinationskontakt",
+          "Abstimmung mit dem bestätigten Behandlungsplan",
+          "Klare Reise- und Terminübergaben"
+        ],
+        "service_points": [
+          "Vor der Reise strukturieren",
+          "Während der Reise koordinieren",
+          "Rückkehr und Nachsorge übergeben"
+        ],
+        "seo_title": "Reiseplanung | Turkelite Medcare",
+        "seo_description": "Reiseplanung für internationale Patienten: praktische Koordination rund um einen bestätigten Behandlungsplan in der Türkei."
+      },
+      "ar": {
+        "name": "تخطيط السفر",
+        "summary": "تخطيط السفر كجزء من رحلة علاجية مرتبة بوضوح. نجمع الخطوات العملية والمواعيد والتسليمات حول الخطة العلاجية المؤكدة.",
+        "content": "تخطيط السفر\n\nننظم الخطوات العملية حول خطتك العلاجية المؤكدة، بما يشمل منطق المواعيد والسفر والإقامة وطرق التواصل وتسليم المتابعة بعد العودة. تبقى القرارات الطبية مسؤولية مقدم العلاج.",
+        "bullet_points": [
+          "جهة تنسيق واحدة",
+          "تنظيم حول الخطة العلاجية المؤكدة",
+          "تسليمات واضحة للسفر والمواعيد"
+        ],
+        "service_points": [
+          "تنظيم ما قبل السفر",
+          "التنسيق أثناء الرحلة",
+          "تسليم خطة العودة والمتابعة"
+        ],
+        "seo_title": "تخطيط السفر | Turkelite Medcare",
+        "seo_description": "تخطيط السفر للمرضى الدوليين: تنسيق عملي حول خطة علاجية مؤكدة في تركيا."
+      }
+    }
+  },
+  {
+    "name": "Follow-up organisation",
+    "slug": "follow-up-organisation",
+    "summary": null,
+    "content": null,
+    "bullet_points": [
+      "Planning around the confirmed treatment timetable",
+      "One coordination contact from arrival to return home",
+      "Support tailored to the patient journey"
+    ],
+    "service_points": null,
+    "sort_order": 2,
+    "is_active": 1,
+    "seo_title": null,
+    "seo_description": null,
+    "seo_keywords": null,
+    "seo_robots": "index,follow",
+    "image_path": null,
+    "translations": {
+      "de": {
+        "name": "Organisation der Nachsorge",
+        "summary": "Organisation der Nachsorge als Teil einer klar geplanten medizinischen Reise. Wir halten praktische Schritte, Termine und Übergaben rund um den bestätigten Behandlungsplan zusammen.",
+        "content": "Organisation der Nachsorge\n\nWir strukturieren die praktischen Schritte rund um Ihren bestätigten Behandlungsplan. Dazu gehören die Abstimmung von Terminen, Reise- und Aufenthaltslogik, Kontaktwege und die Übergabe nach der Rückkehr. Medizinische Entscheidungen bleiben beim behandelnden Anbieter.",
+        "bullet_points": [
+          "Ein zentraler Koordinationskontakt",
+          "Abstimmung mit dem bestätigten Behandlungsplan",
+          "Klare Reise- und Terminübergaben"
+        ],
+        "service_points": [
+          "Vor der Reise strukturieren",
+          "Während der Reise koordinieren",
+          "Rückkehr und Nachsorge übergeben"
+        ],
+        "seo_title": "Organisation der Nachsorge | Turkelite Medcare",
+        "seo_description": "Organisation der Nachsorge für internationale Patienten: praktische Koordination rund um einen bestätigten Behandlungsplan in der Türkei."
+      },
+      "ar": {
+        "name": "تنظيم المتابعة",
+        "summary": "تنظيم المتابعة كجزء من رحلة علاجية مرتبة بوضوح. نجمع الخطوات العملية والمواعيد والتسليمات حول الخطة العلاجية المؤكدة.",
+        "content": "تنظيم المتابعة\n\nننظم الخطوات العملية حول خطتك العلاجية المؤكدة، بما يشمل منطق المواعيد والسفر والإقامة وطرق التواصل وتسليم المتابعة بعد العودة. تبقى القرارات الطبية مسؤولية مقدم العلاج.",
+        "bullet_points": [
+          "جهة تنسيق واحدة",
+          "تنظيم حول الخطة العلاجية المؤكدة",
+          "تسليمات واضحة للسفر والمواعيد"
+        ],
+        "service_points": [
+          "تنظيم ما قبل السفر",
+          "التنسيق أثناء الرحلة",
+          "تسليم خطة العودة والمتابعة"
+        ],
+        "seo_title": "تنظيم المتابعة | Turkelite Medcare",
+        "seo_description": "تنظيم المتابعة للمرضى الدوليين: تنسيق عملي حول خطة علاجية مؤكدة في تركيا."
+      }
+    }
+  },
+  {
+    "name": "Language support",
+    "slug": "language-support",
+    "summary": null,
+    "content": null,
+    "bullet_points": [
+      "Planning around the confirmed treatment timetable",
+      "One coordination contact from arrival to return home",
+      "Support tailored to the patient journey"
+    ],
+    "service_points": null,
+    "sort_order": 3,
+    "is_active": 1,
+    "seo_title": null,
+    "seo_description": null,
+    "seo_keywords": null,
+    "seo_robots": "index,follow",
+    "image_path": null,
+    "translations": {
+      "de": {
+        "name": "Sprachunterstützung",
+        "summary": "Sprachunterstützung als Teil einer klar geplanten medizinischen Reise. Wir halten praktische Schritte, Termine und Übergaben rund um den bestätigten Behandlungsplan zusammen.",
+        "content": "Sprachunterstützung\n\nWir strukturieren die praktischen Schritte rund um Ihren bestätigten Behandlungsplan. Dazu gehören die Abstimmung von Terminen, Reise- und Aufenthaltslogik, Kontaktwege und die Übergabe nach der Rückkehr. Medizinische Entscheidungen bleiben beim behandelnden Anbieter.",
+        "bullet_points": [
+          "Ein zentraler Koordinationskontakt",
+          "Abstimmung mit dem bestätigten Behandlungsplan",
+          "Klare Reise- und Terminübergaben"
+        ],
+        "service_points": [
+          "Vor der Reise strukturieren",
+          "Während der Reise koordinieren",
+          "Rückkehr und Nachsorge übergeben"
+        ],
+        "seo_title": "Sprachunterstützung | Turkelite Medcare",
+        "seo_description": "Sprachunterstützung für internationale Patienten: praktische Koordination rund um einen bestätigten Behandlungsplan in der Türkei."
+      },
+      "ar": {
+        "name": "الدعم اللغوي",
+        "summary": "الدعم اللغوي كجزء من رحلة علاجية مرتبة بوضوح. نجمع الخطوات العملية والمواعيد والتسليمات حول الخطة العلاجية المؤكدة.",
+        "content": "الدعم اللغوي\n\nننظم الخطوات العملية حول خطتك العلاجية المؤكدة، بما يشمل منطق المواعيد والسفر والإقامة وطرق التواصل وتسليم المتابعة بعد العودة. تبقى القرارات الطبية مسؤولية مقدم العلاج.",
+        "bullet_points": [
+          "جهة تنسيق واحدة",
+          "تنظيم حول الخطة العلاجية المؤكدة",
+          "تسليمات واضحة للسفر والمواعيد"
+        ],
+        "service_points": [
+          "تنظيم ما قبل السفر",
+          "التنسيق أثناء الرحلة",
+          "تسليم خطة العودة والمتابعة"
+        ],
+        "seo_title": "الدعم اللغوي | Turkelite Medcare",
+        "seo_description": "الدعم اللغوي للمرضى الدوليين: تنسيق عملي حول خطة علاجية مؤكدة في تركيا."
+      }
+    }
+  },
+  {
+    "name": "Treatment coordination",
+    "slug": "treatment-coordination",
+    "summary": "We keep the case organised from the first enquiry through clinic review and scheduling.",
+    "content": "",
+    "bullet_points": [],
+    "service_points": null,
+    "sort_order": 4,
+    "is_active": 1,
+    "seo_title": null,
+    "seo_description": null,
+    "seo_keywords": null,
+    "seo_robots": "index,follow",
+    "image_path": null,
+    "translations": {
+      "de": {
+        "name": "Behandlungskoordination",
+        "summary": "Behandlungskoordination als Teil einer klar geplanten medizinischen Reise. Wir halten praktische Schritte, Termine und Übergaben rund um den bestätigten Behandlungsplan zusammen.",
+        "content": "Behandlungskoordination\n\nWir strukturieren die praktischen Schritte rund um Ihren bestätigten Behandlungsplan. Dazu gehören die Abstimmung von Terminen, Reise- und Aufenthaltslogik, Kontaktwege und die Übergabe nach der Rückkehr. Medizinische Entscheidungen bleiben beim behandelnden Anbieter.",
+        "bullet_points": [
+          "Ein zentraler Koordinationskontakt",
+          "Abstimmung mit dem bestätigten Behandlungsplan",
+          "Klare Reise- und Terminübergaben"
+        ],
+        "service_points": [
+          "Vor der Reise strukturieren",
+          "Während der Reise koordinieren",
+          "Rückkehr und Nachsorge übergeben"
+        ],
+        "seo_title": "Behandlungskoordination | Turkelite Medcare",
+        "seo_description": "Behandlungskoordination für internationale Patienten: praktische Koordination rund um einen bestätigten Behandlungsplan in der Türkei."
+      },
+      "ar": {
+        "name": "تنسيق العلاج",
+        "summary": "تنسيق العلاج كجزء من رحلة علاجية مرتبة بوضوح. نجمع الخطوات العملية والمواعيد والتسليمات حول الخطة العلاجية المؤكدة.",
+        "content": "تنسيق العلاج\n\nننظم الخطوات العملية حول خطتك العلاجية المؤكدة، بما يشمل منطق المواعيد والسفر والإقامة وطرق التواصل وتسليم المتابعة بعد العودة. تبقى القرارات الطبية مسؤولية مقدم العلاج.",
+        "bullet_points": [
+          "جهة تنسيق واحدة",
+          "تنظيم حول الخطة العلاجية المؤكدة",
+          "تسليمات واضحة للسفر والمواعيد"
+        ],
+        "service_points": [
+          "تنظيم ما قبل السفر",
+          "التنسيق أثناء الرحلة",
+          "تسليم خطة العودة والمتابعة"
+        ],
+        "seo_title": "تنسيق العلاج | Turkelite Medcare",
+        "seo_description": "تنسيق العلاج للمرضى الدوليين: تنسيق عملي حول خطة علاجية مؤكدة في تركيا."
+      }
+    }
+  },
+  {
+    "name": "Accommodation",
+    "slug": "accommodation",
+    "summary": "We help patients choose a stay that works for the treatment location, expected recovery and companion needs.",
+    "content": "Accommodation\n\nWe help patients choose a stay that works for the treatment location, expected recovery and companion needs.\n\nIncluded support is confirmed case by case and should reflect the treating provider’s timetable and clinical requirements.\n\n- Clinic-proximity options\n\n- Recovery-friendly room needs\n\n- Stay-length alignment\n\n- Companion accommodation",
+    "bullet_points": [
+      "Planning around the confirmed treatment timetable",
+      "One coordination contact from arrival to return home",
+      "Support tailored to the patient journey"
+    ],
+    "service_points": null,
+    "sort_order": 5,
+    "is_active": 1,
+    "seo_title": null,
+    "seo_description": null,
+    "seo_keywords": null,
+    "seo_robots": "index,follow",
+    "image_path": null,
+    "translations": {
+      "de": {
+        "name": "Unterkunft",
+        "summary": "Unterkunft als Teil einer klar geplanten medizinischen Reise. Wir halten praktische Schritte, Termine und Übergaben rund um den bestätigten Behandlungsplan zusammen.",
+        "content": "Unterkunft\n\nWir strukturieren die praktischen Schritte rund um Ihren bestätigten Behandlungsplan. Dazu gehören die Abstimmung von Terminen, Reise- und Aufenthaltslogik, Kontaktwege und die Übergabe nach der Rückkehr. Medizinische Entscheidungen bleiben beim behandelnden Anbieter.",
+        "bullet_points": [
+          "Ein zentraler Koordinationskontakt",
+          "Abstimmung mit dem bestätigten Behandlungsplan",
+          "Klare Reise- und Terminübergaben"
+        ],
+        "service_points": [
+          "Vor der Reise strukturieren",
+          "Während der Reise koordinieren",
+          "Rückkehr und Nachsorge übergeben"
+        ],
+        "seo_title": "Unterkunft | Turkelite Medcare",
+        "seo_description": "Unterkunft für internationale Patienten: praktische Koordination rund um einen bestätigten Behandlungsplan in der Türkei."
+      },
+      "ar": {
+        "name": "الإقامة",
+        "summary": "الإقامة كجزء من رحلة علاجية مرتبة بوضوح. نجمع الخطوات العملية والمواعيد والتسليمات حول الخطة العلاجية المؤكدة.",
+        "content": "الإقامة\n\nننظم الخطوات العملية حول خطتك العلاجية المؤكدة، بما يشمل منطق المواعيد والسفر والإقامة وطرق التواصل وتسليم المتابعة بعد العودة. تبقى القرارات الطبية مسؤولية مقدم العلاج.",
+        "bullet_points": [
+          "جهة تنسيق واحدة",
+          "تنظيم حول الخطة العلاجية المؤكدة",
+          "تسليمات واضحة للسفر والمواعيد"
+        ],
+        "service_points": [
+          "تنظيم ما قبل السفر",
+          "التنسيق أثناء الرحلة",
+          "تسليم خطة العودة والمتابعة"
+        ],
+        "seo_title": "الإقامة | Turkelite Medcare",
+        "seo_description": "الإقامة للمرضى الدوليين: تنسيق عملي حول خطة علاجية مؤكدة في تركيا."
+      }
+    }
+  },
+  {
+    "name": "Airport & clinic transfers",
+    "slug": "airport-clinic-transfers",
+    "summary": "Where selected, private transfers can connect airport, accommodation and clinic appointments in one itinerary.",
+    "content": "Airport & clinic transfers\n\nWhere selected, private transfers can connect airport, accommodation and clinic appointments in one itinerary.\n\nIncluded support is confirmed case by case and should reflect the treating provider’s timetable and clinical requirements.\n\n- Airport pickup coordination\n\n- Clinic appointment transfers\n\n- Driver contact details\n\n- Schedule changes managed centrally",
+    "bullet_points": [
+      "Planning around the confirmed treatment timetable",
+      "One coordination contact from arrival to return home",
+      "Support tailored to the patient journey"
+    ],
+    "service_points": null,
+    "sort_order": 6,
+    "is_active": 1,
+    "seo_title": null,
+    "seo_description": null,
+    "seo_keywords": null,
+    "seo_robots": "index,follow",
+    "image_path": null,
+    "translations": {
+      "de": {
+        "name": "Flughafen- und Kliniktransfers",
+        "summary": "Flughafen- und Kliniktransfers als Teil einer klar geplanten medizinischen Reise. Wir halten praktische Schritte, Termine und Übergaben rund um den bestätigten Behandlungsplan zusammen.",
+        "content": "Flughafen- und Kliniktransfers\n\nWir strukturieren die praktischen Schritte rund um Ihren bestätigten Behandlungsplan. Dazu gehören die Abstimmung von Terminen, Reise- und Aufenthaltslogik, Kontaktwege und die Übergabe nach der Rückkehr. Medizinische Entscheidungen bleiben beim behandelnden Anbieter.",
+        "bullet_points": [
+          "Ein zentraler Koordinationskontakt",
+          "Abstimmung mit dem bestätigten Behandlungsplan",
+          "Klare Reise- und Terminübergaben"
+        ],
+        "service_points": [
+          "Vor der Reise strukturieren",
+          "Während der Reise koordinieren",
+          "Rückkehr und Nachsorge übergeben"
+        ],
+        "seo_title": "Flughafen- und Kliniktransfers | Turkelite Medcare",
+        "seo_description": "Flughafen- und Kliniktransfers für internationale Patienten: praktische Koordination rund um einen bestätigten Behandlungsplan in der Türkei."
+      },
+      "ar": {
+        "name": "التنقل بين المطار والعيادة",
+        "summary": "التنقل بين المطار والعيادة كجزء من رحلة علاجية مرتبة بوضوح. نجمع الخطوات العملية والمواعيد والتسليمات حول الخطة العلاجية المؤكدة.",
+        "content": "التنقل بين المطار والعيادة\n\nننظم الخطوات العملية حول خطتك العلاجية المؤكدة، بما يشمل منطق المواعيد والسفر والإقامة وطرق التواصل وتسليم المتابعة بعد العودة. تبقى القرارات الطبية مسؤولية مقدم العلاج.",
+        "bullet_points": [
+          "جهة تنسيق واحدة",
+          "تنظيم حول الخطة العلاجية المؤكدة",
+          "تسليمات واضحة للسفر والمواعيد"
+        ],
+        "service_points": [
+          "تنظيم ما قبل السفر",
+          "التنسيق أثناء الرحلة",
+          "تسليم خطة العودة والمتابعة"
+        ],
+        "seo_title": "التنقل بين المطار والعيادة | Turkelite Medcare",
+        "seo_description": "التنقل بين المطار والعيادة للمرضى الدوليين: تنسيق عملي حول خطة علاجية مؤكدة في تركيا."
+      }
+    }
+  },
+  {
+    "name": "Language & communication",
+    "slug": "language-communication",
+    "summary": "We reduce practical communication friction while keeping medical explanations and consent directly between patient and clinician.",
+    "content": "Language & communication\n\nWe reduce practical communication friction while keeping medical explanations and consent directly between patient and clinician.\n\nIncluded support is confirmed case by case and should reflect the treating provider’s timetable and clinical requirements.\n\n- Coordinator language support\n\n- Appointment handovers\n\n- Translated logistics where appropriate\n\n- Direct clinician-patient consent",
+    "bullet_points": [
+      "Planning around the confirmed treatment timetable",
+      "One coordination contact from arrival to return home",
+      "Support tailored to the patient journey"
+    ],
+    "service_points": null,
+    "sort_order": 7,
+    "is_active": 1,
+    "seo_title": null,
+    "seo_description": null,
+    "seo_keywords": null,
+    "seo_robots": "index,follow",
+    "image_path": null,
+    "translations": {
+      "de": {
+        "name": "Sprache & Kommunikation",
+        "summary": "Sprache & Kommunikation als Teil einer klar geplanten medizinischen Reise. Wir halten praktische Schritte, Termine und Übergaben rund um den bestätigten Behandlungsplan zusammen.",
+        "content": "Sprache & Kommunikation\n\nWir strukturieren die praktischen Schritte rund um Ihren bestätigten Behandlungsplan. Dazu gehören die Abstimmung von Terminen, Reise- und Aufenthaltslogik, Kontaktwege und die Übergabe nach der Rückkehr. Medizinische Entscheidungen bleiben beim behandelnden Anbieter.",
+        "bullet_points": [
+          "Ein zentraler Koordinationskontakt",
+          "Abstimmung mit dem bestätigten Behandlungsplan",
+          "Klare Reise- und Terminübergaben"
+        ],
+        "service_points": [
+          "Vor der Reise strukturieren",
+          "Während der Reise koordinieren",
+          "Rückkehr und Nachsorge übergeben"
+        ],
+        "seo_title": "Sprache & Kommunikation | Turkelite Medcare",
+        "seo_description": "Sprache & Kommunikation für internationale Patienten: praktische Koordination rund um einen bestätigten Behandlungsplan in der Türkei."
+      },
+      "ar": {
+        "name": "اللغة والتواصل",
+        "summary": "اللغة والتواصل كجزء من رحلة علاجية مرتبة بوضوح. نجمع الخطوات العملية والمواعيد والتسليمات حول الخطة العلاجية المؤكدة.",
+        "content": "اللغة والتواصل\n\nننظم الخطوات العملية حول خطتك العلاجية المؤكدة، بما يشمل منطق المواعيد والسفر والإقامة وطرق التواصل وتسليم المتابعة بعد العودة. تبقى القرارات الطبية مسؤولية مقدم العلاج.",
+        "bullet_points": [
+          "جهة تنسيق واحدة",
+          "تنظيم حول الخطة العلاجية المؤكدة",
+          "تسليمات واضحة للسفر والمواعيد"
+        ],
+        "service_points": [
+          "تنظيم ما قبل السفر",
+          "التنسيق أثناء الرحلة",
+          "تسليم خطة العودة والمتابعة"
+        ],
+        "seo_title": "اللغة والتواصل | Turkelite Medcare",
+        "seo_description": "اللغة والتواصل للمرضى الدوليين: تنسيق عملي حول خطة علاجية مؤكدة في تركيا."
+      }
+    }
+  },
+  {
+    "name": "Aftercare coordination",
+    "slug": "aftercare-coordination",
+    "summary": "Before the patient flies home, the follow-up pathway should already be clear. We keep the handover organised after travel.",
+    "content": "Aftercare coordination\n\nBefore the patient flies home, the follow-up pathway should already be clear. We keep the handover organised after travel.\n\nIncluded support is confirmed case by case and should reflect the treating provider’s timetable and clinical requirements.\n\n- Discharge document tracking\n\n- Follow-up appointment reminders\n\n- Clinic communication after return\n\n- Escalation back to provider when needed",
+    "bullet_points": [
+      "Planning around the confirmed treatment timetable",
+      "One coordination contact from arrival to return home",
+      "Support tailored to the patient journey"
+    ],
+    "service_points": null,
+    "sort_order": 8,
+    "is_active": 1,
+    "seo_title": null,
+    "seo_description": null,
+    "seo_keywords": null,
+    "seo_robots": "index,follow",
+    "image_path": null,
+    "translations": {
+      "de": {
+        "name": "Koordination der Nachsorge",
+        "summary": "Koordination der Nachsorge als Teil einer klar geplanten medizinischen Reise. Wir halten praktische Schritte, Termine und Übergaben rund um den bestätigten Behandlungsplan zusammen.",
+        "content": "Koordination der Nachsorge\n\nWir strukturieren die praktischen Schritte rund um Ihren bestätigten Behandlungsplan. Dazu gehören die Abstimmung von Terminen, Reise- und Aufenthaltslogik, Kontaktwege und die Übergabe nach der Rückkehr. Medizinische Entscheidungen bleiben beim behandelnden Anbieter.",
+        "bullet_points": [
+          "Ein zentraler Koordinationskontakt",
+          "Abstimmung mit dem bestätigten Behandlungsplan",
+          "Klare Reise- und Terminübergaben"
+        ],
+        "service_points": [
+          "Vor der Reise strukturieren",
+          "Während der Reise koordinieren",
+          "Rückkehr und Nachsorge übergeben"
+        ],
+        "seo_title": "Koordination der Nachsorge | Turkelite Medcare",
+        "seo_description": "Koordination der Nachsorge für internationale Patienten: praktische Koordination rund um einen bestätigten Behandlungsplan in der Türkei."
+      },
+      "ar": {
+        "name": "تنسيق الرعاية اللاحقة",
+        "summary": "تنسيق الرعاية اللاحقة كجزء من رحلة علاجية مرتبة بوضوح. نجمع الخطوات العملية والمواعيد والتسليمات حول الخطة العلاجية المؤكدة.",
+        "content": "تنسيق الرعاية اللاحقة\n\nننظم الخطوات العملية حول خطتك العلاجية المؤكدة، بما يشمل منطق المواعيد والسفر والإقامة وطرق التواصل وتسليم المتابعة بعد العودة. تبقى القرارات الطبية مسؤولية مقدم العلاج.",
+        "bullet_points": [
+          "جهة تنسيق واحدة",
+          "تنظيم حول الخطة العلاجية المؤكدة",
+          "تسليمات واضحة للسفر والمواعيد"
+        ],
+        "service_points": [
+          "تنظيم ما قبل السفر",
+          "التنسيق أثناء الرحلة",
+          "تسليم خطة العودة والمتابعة"
+        ],
+        "seo_title": "تنسيق الرعاية اللاحقة | Turkelite Medcare",
+        "seo_description": "تنسيق الرعاية اللاحقة للمرضى الدوليين: تنسيق عملي حول خطة علاجية مؤكدة في تركيا."
+      }
+    }
+  }
+]

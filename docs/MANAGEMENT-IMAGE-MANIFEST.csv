@@ -1,0 +1,101 @@
+specialty,procedure_slug,procedure_name,image,width,height,sha256
+bariatric-surgery,adjustable-gastric-band,Adjustable Gastric Band,public/assets/img/final/procedure-adjustable-gastric-band.webp,1400,933,70367a0955fdb59ddf0bd3982caf57cc3f250032772f237fb83219bdd811d5c4
+bariatric-surgery,duodenal-switch,Duodenal Switch,public/assets/img/final/procedure-duodenal-switch.webp,1400,933,c1abaa95307f7dd84596f5aaf46bc1f9a18fab617e0d75104006a5bd390b5b00
+bariatric-surgery,endoscopic-sleeve-gastroplasty,Endoscopic Sleeve Gastroplasty,public/assets/img/final/procedure-endoscopic-sleeve-gastroplasty.webp,1400,933,1d2ecca50d872caf22d372ef3818618b015319d5336c1a7888ee46c84be95f36
+bariatric-surgery,gastric-balloon,Gastric Balloon,public/assets/img/final/procedure-gastric-balloon.webp,1400,933,98d47acb94c6d5b01585e143b9896be308877be8503568b9c07aacc500157a2a
+bariatric-surgery,gastric-band-removal-conversion,Gastric Band Removal / Conversion,public/assets/img/final/procedure-gastric-band-removal-conversion.webp,1400,933,5950cba051b471b5cc837b4d2bf81af09b415d4f7c3815cfe634bf93ad8a9699
+bariatric-surgery,one-anastomosis-gastric-bypass,One-Anastomosis Gastric Bypass,public/assets/img/final/procedure-one-anastomosis-gastric-bypass.webp,1400,933,4765af90ebb274aa0b1e3dac503054796770f357f361f5035ca1f0fc76821809
+bariatric-surgery,revisional-bariatric-surgery,Revisional Bariatric Surgery,public/assets/img/final/procedure-revisional-bariatric-surgery.webp,1400,933,1a0be9b37f651141ff03d16e1ea499533ac350360e0a6d801194197ed3319149
+bariatric-surgery,roux-en-y-gastric-bypass,Roux-en-Y Gastric Bypass,public/assets/img/final/procedure-roux-en-y-gastric-bypass.webp,1400,933,8e4abbdf64da502d69d93f8b5b92ed8ce180e13bd35c28742a2cf24c5c0a4e35
+bariatric-surgery,sadi-s,SADI-S,public/assets/img/final/procedure-sadi-s.webp,1400,933,7a3e79053cc37e25bd21c6a05ad308138c26e22a7c8c8500cf6829832c992324
+bariatric-surgery,sleeve-gastrectomy,Sleeve Gastrectomy,public/assets/img/final/procedure-sleeve-gastrectomy.webp,1400,933,40a17ea42d5cdf4c462c6c7ac87284c9342709e90cf46db93c5777ea3c0de96f
+cosmetic-surgery,blepharoplasty,Blepharoplasty,public/assets/img/final/procedure-blepharoplasty.webp,1400,933,5aeeeed95e407a04dd6fc5be0ee5a5e7ec53d2317c02a8c2df4c07da28bb5049
+cosmetic-surgery,body-lift,Body Lift,public/assets/img/final/procedure-body-lift.webp,1400,933,00059ce4676f683f8585b70435dbcc8d7bd2554b9aa966b4ae0e6ebe86e7d790
+cosmetic-surgery,breast-augmentation,Breast Augmentation,public/assets/img/final/procedure-breast-augmentation.webp,1400,933,84ce9044925eb8653123564243342c2e291e1206886ecf3eca9d4ce70343021c
+cosmetic-surgery,breast-lift,Breast Lift,public/assets/img/final/procedure-breast-lift.webp,1400,933,b8affc1db2e6afcf9fa1fe9fb775fe4b49603ae3d26b6bcd4cc7456325bffab1
+cosmetic-surgery,breast-reduction,Breast Reduction,public/assets/img/final/procedure-breast-reduction.webp,1400,933,8805e971d01335f6b49959fd217e95df2b5af825101500f61ab02c904c843945
+cosmetic-surgery,facelift-neck-lift,Facelift / Neck Lift,public/assets/img/final/procedure-facelift-neck-lift.webp,1400,933,3a8f56d04e64290b3d2622151ac0046e3603374924d08efc985632f5de4b32c9
+cosmetic-surgery,gynecomastia-surgery,Gynecomastia Surgery,public/assets/img/final/procedure-gynecomastia-surgery.webp,1400,933,cf17e1033ade10818d920833e007acc9194ad3f162dcfaff85659fa56b0d0c27
+cosmetic-surgery,liposuction,Liposuction,public/assets/img/final/procedure-liposuction.webp,1400,933,8f898f17ed641f24e8d5b6721697b780208975def5f84ffd904f793ff51214f9
+cosmetic-surgery,rhinoplasty,Rhinoplasty,public/assets/img/final/procedure-rhinoplasty.webp,1400,933,c921c5b205c7cffb85fe829a57e11db89beef630a707cbeb6bfd7e7a75ace644
+cosmetic-surgery,tummy-tuck-abdominoplasty,Tummy Tuck / Abdominoplasty,public/assets/img/final/procedure-tummy-tuck-abdominoplasty.webp,1400,933,f0610eb43a14617ec63a1477f82ae9170b5a71095f9c36f98b2d03b5b1d0192f
+dental,all-on-4,All-on-4,public/assets/img/final/procedure-all-on-4.webp,1400,933,d5dfd667104b4b2dc4405f8090888111dcabc9ec98ad263b20c8fd88fa4d4b10
+dental,all-on-6,All-on-6,public/assets/img/final/procedure-all-on-6.webp,1400,933,6539a3d9f692168eca41418572a3a2902f4e399283d2e8d6f49c7ee4ffa33fbd
+dental,bone-grafting-and-sinus-lift,Bone Grafting & Sinus Lift,public/assets/img/final/procedure-bone-grafting-and-sinus-lift.webp,1400,933,0dd2c66e78a9a2f0db4ef25e2ddfa92e75baf9c07af9f8a3bd3bc60fb8b9529c
+dental,dental-bridges,Dental Bridges,public/assets/img/final/procedure-dental-bridges.webp,1400,933,bf433668dbba3addefe46f20d480dc708262030996f4f545542d3d6e894df5f0
+dental,dental-crowns,Dental Crowns,public/assets/img/final/procedure-dental-crowns.webp,1400,933,198a197073593b9a2e5d8b36ddb82b4bcb929958e6f26e23c01dae24693d1f88
+dental,dental-implants,Dental Implants,public/assets/img/final/procedure-dental-implants.webp,1400,933,7765c400111597160bca252cd94520bf571be11953d422bbb9ab1f620a802024
+dental,dental-veneers,Dental Veneers,public/assets/img/final/procedure-dental-veneers.webp,1400,933,e1fcb5afdb992f622fbb465161cbc0157d52f8d2cca87d7a45a3a6c6eaf822bb
+dental,orthodontics-and-aligners,Orthodontics & Aligners,public/assets/img/final/procedure-orthodontics-and-aligners.webp,1400,933,9bbf0d0d8fa9302d0c480fdb02eb561bafad1b69da4db02c9aa51a5db4dea03d
+dental,periodontal-treatment,Periodontal Treatment,public/assets/img/final/procedure-periodontal-treatment.webp,1400,933,7476ed6bfbc6dacf10e57655a06ba04dc46b3558de989d26d0800ffcca9227d6
+dental,root-canal-treatment,Root Canal Treatment,public/assets/img/final/procedure-root-canal-treatment.webp,1400,933,67067ee7d1241cd82de7e31d8649f3a770ee653d13a6e92fdd7d342aeb18a38f
+ent,adenoidectomy,Adenoidectomy,public/assets/img/final/procedure-adenoidectomy.webp,1400,933,989b46e0fe14f7cd3d3d94650ae1da976fd1b5c14b3c5cd43801fcd0ddac018f
+ent,cochlear-implant-surgery,Cochlear Implant Surgery,public/assets/img/final/procedure-cochlear-implant-surgery.webp,1400,933,70f2e218704402aba22dfcae4a04be1c78dfc4c4bcd8db6ca9cd038ef4c0d62d
+ent,functional-endoscopic-sinus-surgery,Functional Endoscopic Sinus Surgery,public/assets/img/final/procedure-functional-endoscopic-sinus-surgery.webp,1400,933,873b6b5d2b49a7eb7257107abd286a20154bf98c8811cd6d5267fe02a75f8535
+ent,septoplasty,Septoplasty,public/assets/img/final/procedure-septoplasty.webp,1400,933,71466a6575eea3db860cde1aebe2d7552bf7ec37e7c6d47f03489bc879d4bddc
+ent,sleep-apnea-surgery,Sleep Apnea Surgery,public/assets/img/final/procedure-sleep-apnea-surgery.webp,1400,933,0924b144061462161ac86f236eaaef5cf06c3f30d35bf262db4f09f60225a674
+ent,stapedectomy-stapedotomy,Stapedectomy / Stapedotomy,public/assets/img/final/procedure-stapedectomy-stapedotomy.webp,1400,933,28c4df9ea36eed8681ad1cdc18064cdb15293d8d38b6561c53f880b4733b934a
+ent,tonsillectomy,Tonsillectomy,public/assets/img/final/procedure-tonsillectomy.webp,1400,933,0d33af4b19b55d33f79bff3a86d914ca8c4c480aa1d76fcf7089785bf0f8288a
+ent,turbinate-reduction,Turbinate Reduction,public/assets/img/final/procedure-turbinate-reduction.webp,1400,933,b8590f8bdca1aa1fe1fa6d3c9e6ea71adb8397488163f11bc05ee2ff32af4745
+ent,tympanoplasty,Tympanoplasty,public/assets/img/final/procedure-tympanoplasty.webp,1400,933,a9f4c9edbe061bc7b01dcb0bdab34003418e661817a60da7d4f7cadb87e8121a
+ent,vocal-cord-surgery,Vocal Cord Surgery,public/assets/img/final/procedure-vocal-cord-surgery.webp,1400,933,c122a8f18adb88c6f768078f2f0a8d9c659aa4b420229b34223361433479bb7e
+eye-care,cataract-surgery,Cataract Surgery,public/assets/img/final/procedure-cataract-surgery.webp,1400,933,06952d69c841b0038fb1e8aed0d24005461af34c163898fa58fb661b832ed1d3
+eye-care,corneal-cross-linking,Corneal Cross-Linking,public/assets/img/final/procedure-corneal-cross-linking.webp,1400,933,47c6ac7533f5843b9449ada44e135f21d90d2972296c8a0796c7dba7896e067b
+eye-care,corneal-transplant,Corneal Transplant,public/assets/img/final/procedure-corneal-transplant.webp,1400,933,c2e5b2b4d83b9a0ec8746ff1e14710a70bf79e743e5aea49653437663e1aaf08
+eye-care,glaucoma-surgery,Glaucoma Surgery,public/assets/img/final/procedure-glaucoma-surgery.webp,1400,933,290c6e66d947760d17ea89c55061658cfd0feec68fbe554d918d68d894428474
+eye-care,implantable-collamer-lens-icl,Implantable Collamer Lens (ICL),public/assets/img/final/procedure-implantable-collamer-lens-icl.webp,1400,933,49f0f96d1c60f1baad85954748d5c6eb4d959457ef5f7c1cbec611a56f08257e
+eye-care,lasik,LASIK,public/assets/img/final/procedure-lasik.webp,1400,933,55bded2e7a3b0b597d6a75b15d6afcf848d2b36623f14da1190055ef861eaddc
+eye-care,prk,PRK,public/assets/img/final/procedure-prk.webp,1400,933,5bd4b5e127e6789e7bc764e53fa08bc7cdb634e2726ee9e33002758c6d69cdfd
+eye-care,refractive-lens-exchange,Refractive Lens Exchange,public/assets/img/final/procedure-refractive-lens-exchange.webp,1400,933,27ed9c2f36ebd7dc663d4d6046c8709a085f4c19eeae7a106948d762cd843fa4
+eye-care,retinal-vitrectomy-surgery,Retinal / Vitrectomy Surgery,public/assets/img/final/procedure-retinal-vitrectomy-surgery.webp,1400,933,37a814e94cc1cf9a722839eac2ec2781e4beeeac52ea4f406732d497a3b57dcb
+eye-care,smile-laser-eye-surgery,SMILE Laser Eye Surgery,public/assets/img/final/procedure-smile-laser-eye-surgery.webp,1400,933,3216d31d4e64051be8045a5d0939a168e3ccb6d05db910c01967c5ed3c6f5422
+fertility,egg-freezing,Egg Freezing,public/assets/img/final/procedure-egg-freezing.webp,1400,933,a2e12a478a037998446f9d231d08c867362213442e57306883ddb2497cd28af8
+fertility,embryo-transfer,Embryo Transfer,public/assets/img/final/procedure-embryo-transfer.webp,1400,933,c3cb69e49ce8f90ec66316bef5305204df859deadc23f9fdbc15259b2c4e2395
+fertility,fertility-assessment,Fertility Assessment,public/assets/img/final/procedure-fertility-assessment.webp,1400,933,b4dea65b878ed98f92aa21247ec007292b941db5a54cbb8bd6184c5865144e78
+fertility,fertility-related-hysteroscopy-surgery,Fertility-Related Hysteroscopy / Surgery,public/assets/img/final/procedure-fertility-related-hysteroscopy-surgery.webp,1400,933,fb09550f3b14a3e35b5793f5c73b919823b33e82ed8a60ca8e62bcd787a59ee0
+fertility,frozen-embryo-transfer,Frozen Embryo Transfer,public/assets/img/final/procedure-frozen-embryo-transfer.webp,1400,933,0e3552615e108ca27a2d0236b7cabd3c82bd5234655c6c0e8b3a322081dfd863
+fertility,in-vitro-fertilisation-ivf,In Vitro Fertilisation (IVF),public/assets/img/final/procedure-in-vitro-fertilisation-ivf.webp,1400,933,e4f415a4fcba89c163e10a98bb23882585b2beca315173df310f4440de464e6c
+fertility,intracytoplasmic-sperm-injection-icsi,Intracytoplasmic Sperm Injection (ICSI),public/assets/img/final/procedure-intracytoplasmic-sperm-injection-icsi.webp,1400,933,7dcaa40e0600b4e885714628566568f3518031ac7e7f0b2857f0c9bb0697bae2
+fertility,intrauterine-insemination-iui,Intrauterine Insemination (IUI),public/assets/img/final/procedure-intrauterine-insemination-iui.webp,1400,933,8ed4207dcb787b8ec1cb60c48fd539a4c29e92929ee929bf67e37ce286b81a05
+fertility,ovulation-induction,Ovulation Induction,public/assets/img/final/procedure-ovulation-induction.webp,1400,933,34861c2d60614e8c5243017ad692bf128e4ac3ba7d928b5a30a05eb04bc39029
+fertility,preimplantation-genetic-testing,Preimplantation Genetic Testing,public/assets/img/final/procedure-preimplantation-genetic-testing.webp,1400,933,b8ac5fe7489c96853c68654d089394f14b67d4f2c20f93a26a425946c8e74de6
+general-surgery,anal-fissure-surgery,Anal Fissure Surgery,public/assets/img/final/procedure-anal-fissure-surgery.webp,1400,933,05ac142eb4a2377354be17de16c574994f6b69e2544ee263da80bf786a090c88
+general-surgery,anal-fistula-surgery,Anal Fistula Surgery,public/assets/img/final/procedure-anal-fistula-surgery.webp,1400,933,d578ca9b6c09f26cb103d06c0073b1f8d978ca8762e1c31bb5de28be87ce30da
+general-surgery,femoral-hernia-repair,Femoral Hernia Repair,public/assets/img/final/procedure-femoral-hernia-repair.webp,1400,933,30793a1e99b9f17dc458db58a2233f4cacb3fe87dc7bd00b4f6cbcbe29eab7a3
+general-surgery,hemorrhoid-surgery,Hemorrhoid Surgery,public/assets/img/final/procedure-hemorrhoid-surgery.webp,1400,933,b35ebe80bd0466594ab6b07032190e12a8aad7bd6b65f2e4d049ac14021977ac
+general-surgery,hiatal-hernia-repair,Hiatal Hernia Repair,public/assets/img/final/procedure-hiatal-hernia-repair.webp,1400,933,169fbd2744fec359ffde86729e33213e683f2efd90d3231c913f93b43e1bb8e4
+general-surgery,inguinal-hernia-repair,Inguinal Hernia Repair,public/assets/img/final/procedure-inguinal-hernia-repair.webp,1400,933,b51123ddd98ec5796c3652fc82d18b94c899446ca708aeeca691dfb0c55181d6
+general-surgery,laparoscopic-cholecystectomy,Laparoscopic Cholecystectomy,public/assets/img/final/procedure-laparoscopic-cholecystectomy.webp,1400,933,d3f59d5286cc8b87a3b99a5f3f520c676a67e0f8258190c5c3303e10b39a053c
+general-surgery,pilonidal-sinus-surgery,Pilonidal Sinus Surgery,public/assets/img/final/procedure-pilonidal-sinus-surgery.webp,1400,933,bc85a9e445d3b110f08cf19fcb1f01cec90ff12dacfedf1850da48c4b46b87e3
+general-surgery,umbilical-hernia-repair,Umbilical Hernia Repair,public/assets/img/final/procedure-umbilical-hernia-repair.webp,1400,933,c6cd0ef65d95e222a7e5e4e0411e5f9d1af037dfee20cf656f89086e3082d066
+general-surgery,ventral-incisional-hernia-repair,Ventral / Incisional Hernia Repair,public/assets/img/final/procedure-ventral-incisional-hernia-repair.webp,1400,933,7ed6cc029e5393b52fcfccbbcd646004a6120ad4cc4cae954d9b247ab796ca90
+hair-restoration,beard-transplant,Beard Transplant,public/assets/img/final/procedure-beard-transplant.webp,1400,933,5c514cf463ccaf3a3329974ce31dc86e9acb3cbfea6e6e0d99cc7891014a25a4
+hair-restoration,dhi-hair-transplant,DHI Hair Transplant,public/assets/img/final/procedure-dhi-hair-transplant.webp,1400,933,8e45ea0c3fa3d84303849293b703afe04a7140e44be03102dbebaa27cf95f3cc
+hair-restoration,eyebrow-transplant,Eyebrow Transplant,public/assets/img/final/procedure-eyebrow-transplant.webp,1400,933,aac2221dc74f03e7629121a5f9825040e7da1151f8e45fa3f1b87e8567052bd2
+hair-restoration,female-hair-transplant,Female Hair Transplant,public/assets/img/final/procedure-female-hair-transplant.webp,1400,933,3b4b90e65ed9b0897c6946d66cfb93766fa37a882539f6bdb741bf4ad2a23515
+hair-restoration,fue-hair-transplant,FUE Hair Transplant,public/assets/img/final/procedure-fue-hair-transplant.webp,1400,933,28c5bab47ef1bfc967d25f8e39bc31498a94208ae2551f9adb8dfd2b0a868668
+hair-restoration,fut-hair-transplant,FUT Hair Transplant,public/assets/img/final/procedure-fut-hair-transplant.webp,1400,933,dd7e2934050ee068114ff75da17251850fd3d2e256221444497bb2dc9f297ab4
+hair-restoration,hair-transplant-repair-correction,Hair Transplant Repair / Correction,public/assets/img/final/procedure-hair-transplant-repair-correction.webp,1400,933,71ff5112d0d0bd33885ffb873ee948b8b465a6fbf8476ecbf989b3030d1ceb96
+hair-restoration,sapphire-fue,Sapphire FUE,public/assets/img/final/procedure-sapphire-fue.webp,1400,933,9d4de470dfefd61cbf7c082f594d7b1af77ff2e3a926df13feeddae2902f419f
+hair-restoration,scar-hair-transplant,Scar Hair Transplant,public/assets/img/final/procedure-scar-hair-transplant.webp,1400,933,033c0079f2aedb7652b4df63ca1f1ecc421947ff9b38236f86a95a303f615c87
+hair-restoration,unshaven-fue,Unshaven FUE,public/assets/img/final/procedure-unshaven-fue.webp,1400,933,406eb9610531ac17c4d6fedf618c6a3ad168035783e30545ee2d5651e04652b1
+orthopedics,acl-reconstruction,ACL Reconstruction,public/assets/img/final/procedure-acl-reconstruction.webp,1400,933,66bc7ea14b70fd3678251bf8807a79ce8adcd51e443af1946d140234b5d9b3fe
+orthopedics,carpal-tunnel-release,Carpal Tunnel Release,public/assets/img/final/procedure-carpal-tunnel-release.webp,1400,933,d2df58dd4af5cc9d2bf8159eafbb5ed9ec07b0df745c729f8235030d37a63c5e
+orthopedics,knee-arthroscopy,Knee Arthroscopy,public/assets/img/final/procedure-knee-arthroscopy.webp,1400,933,166c6e5be9e004710993e7d68c2ea9af11fe16e9ab7265b6f43726011a605791
+orthopedics,meniscus-repair,Meniscus Repair,public/assets/img/final/procedure-meniscus-repair.webp,1400,933,23e3b116bf7504a2e195a158199926e5d377f4a309882c2da0162be677e3c3ab
+orthopedics,rotator-cuff-repair,Rotator Cuff Repair,public/assets/img/final/procedure-rotator-cuff-repair.webp,1400,933,5b9a85334aaed78e3b4896c66b1ab8bec3cfa13179c14fece1db9cc3e21634af
+orthopedics,shoulder-arthroscopy,Shoulder Arthroscopy,public/assets/img/final/procedure-shoulder-arthroscopy.webp,1400,933,02a2e6792d40403dbcadb6ee920588281c2bd81db835c52b8c4132626c56e777
+orthopedics,spinal-decompression,Spinal Decompression,public/assets/img/final/procedure-spinal-decompression.webp,1400,933,79b7dd99db8f5d62d1eaf04e888a6483df0569aa447e9672b2369b189c1a9de6
+orthopedics,spinal-fusion,Spinal Fusion,public/assets/img/final/procedure-spinal-fusion.webp,1400,933,2235ee8e8ce0610a1560884d090d596a5cd11935011df2ed9f7a8281e6640a5c
+orthopedics,total-hip-replacement,Total Hip Replacement,public/assets/img/final/procedure-total-hip-replacement.webp,1400,933,0ad5d483971f5c412928658ed83abb2c11a137258679376781402964fc4ade59
+orthopedics,total-knee-replacement,Total Knee Replacement,public/assets/img/final/procedure-total-knee-replacement.webp,1400,933,78a73c01da5bfbd38fb63b184d10088b92162de6485c02ce312072ea3871656d
+urology,holep,HoLEP,public/assets/img/final/procedure-holep.webp,1400,933,513448055d06940a39c334cc8a3dfceca9ffc346d26b2da4bba8d23043b9a425
+urology,hydrocelectomy,Hydrocelectomy,public/assets/img/final/procedure-hydrocelectomy.webp,1400,933,c8817a6d872d69647852d47dd3e78b40c239cba089aaddf9e7a22f1679b1dc31
+urology,penile-implant-surgery,Penile Implant Surgery,public/assets/img/final/procedure-penile-implant-surgery.webp,1400,933,26fb71d2fd71974de4018605337c6730acd1e1830dea7a3a8a6461f746dab7ca
+urology,percutaneous-nephrolithotomy-pcnl,Percutaneous Nephrolithotomy (PCNL),public/assets/img/final/procedure-percutaneous-nephrolithotomy-pcnl.webp,1400,933,12c65dacd61750c5241a3cede7be2fe9cd1365442393a1a902a8988ccda337e0
+urology,robotic-prostatectomy,Robotic Prostatectomy,public/assets/img/final/procedure-robotic-prostatectomy.webp,1400,933,ef35910691c5c7e4b506c4806afd51365e6157ffb2643862b748bb25620e0b30
+urology,turp,TURP,public/assets/img/final/procedure-turp.webp,1400,933,deb53b1fea3e7ddbf7f99f649bc06be65f89026be6d7b5cf0df0a2a434206e59
+urology,ureteroscopy-and-laser-lithotripsy,Ureteroscopy & Laser Lithotripsy,public/assets/img/final/procedure-ureteroscopy-and-laser-lithotripsy.webp,1400,933,8524448abde4e3dd12950072a5dc05210f5f97bb56a8b7558bc846a5d17734ec
+urology,urethroplasty,Urethroplasty,public/assets/img/final/procedure-urethroplasty.webp,1400,933,47dcc06cec434a88a7f811700514dc499223cbaa55748e0ac90985e293d222cd
+urology,urinary-incontinence-surgery,Urinary Incontinence Surgery,public/assets/img/final/procedure-urinary-incontinence-surgery.webp,1400,933,b80c6893a5ff24e013996cb37cf10af17e2793cc270580f1949bf53c8cd566e2
+urology,varicocelectomy,Varicocelectomy,public/assets/img/final/procedure-varicocelectomy.webp,1400,933,8f900a125aec90f73a0d154c82611f56a7e8c68fb14e9f1bb9bf08844445223f

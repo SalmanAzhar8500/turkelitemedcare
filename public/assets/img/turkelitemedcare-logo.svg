@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 286 58" width="286" height="58" role="img" aria-labelledby="title desc">
+<title id="title">Turkelite medcare</title><desc id="desc">International patient coordination</desc>
+<defs><linearGradient id="brandg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#35c7b2"/><stop offset="1" stop-color="#1d9db3"/></linearGradient></defs>
+<g transform="translate(1 5)">
+  <rect width="48" height="48" rx="12" fill="url(#brandg)"/>
+  <path d="M24 10v28M10 24h28" stroke="#fff" stroke-width="3.8" stroke-linecap="round"/>
+  <circle cx="35.5" cy="13.5" r="3.2" fill="#fff"/>
+  <path d="M13 35c7-1 10-5 12-11 2-7 5-10 11-11" fill="none" stroke="#dffcf7" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="2 4"/>
+</g>
+<g font-family="Manrope,Segoe UI,Arial,sans-serif">
+  <text x="62" y="27" font-size="18.5" font-weight="750" fill="#173b49" letter-spacing="-.45">Turkelite</text>
+  <text x="139" y="27" font-size="18.5" font-weight="650" fill="#21bda5" letter-spacing="-.35">medcare</text>
+  <text x="62" y="41.5" font-size="6.2" font-weight="700" fill="#78909a" letter-spacing="1.25">INTERNATIONAL PATIENT COORDINATION</text>
+</g>
+</svg>

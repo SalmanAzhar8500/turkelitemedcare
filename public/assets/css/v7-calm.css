@@ -1,0 +1,462 @@
+/* ==========================================================================
+   V7 CALM THEME
+   Loaded last. Retunes the existing system rather than replacing it — every
+   rule here overrides a value, none introduce new layout.
+
+   THE BRIEF, STATED HONESTLY
+   The person reading this is often anxious, often alone, often late at night,
+   deciding whether to have surgery in another country. Design either raises
+   that arousal or lowers it. Everything below lowers it. This is not
+   decoration; it is the same information at a calmer volume.
+
+   1. NO PURE WHITE. Large fields of #fff are a glare source in a dim room.
+      Warm paper tones instead — cool white reads clinical, warm white reads
+      calm, and the difference is felt before it is noticed.
+   2. SATURATION IS FOR SMALL THINGS. Big saturated slabs are high-arousal.
+      Large surfaces are desaturated; the teal is kept for accents, where it
+      still carries meaning.
+   3. AIR. Longer leading, a capped measure, more room between sections. Dense
+      text reads as urgent even when the words are gentle.
+   4. STOP SHOUTING. Uppercase headings and buttons raise the voice of every
+      sentence. Sentence case for headings and calls to action; small caps kept
+      only for genuine labels, where they aid scanning.
+   5. SOFT EDGES, SOFT SHADOWS. Diffuse low-opacity shadows and consistent
+      radii. Hard edges and tight drop shadows read as alert.
+   6. SLOWER MOTION. Transitions eased and lengthened. Fast motion is a
+      startle cue. Fully disabled under prefers-reduced-motion.
+   7. TEXTURE. A very fine grain over the dark panels. It removes gradient
+      banding and gives flat colour something for the eye to settle on,
+      the way paper does and a screen usually does not.
+   ========================================================================== */
+
+:root {
+  /* --- surfaces: warm, low-glare ------------------------------------- */
+  --paper: #f7f6f2;          /* page ground — replaces #fff */
+  --paper-raised: #fcfbf8;   /* cards sitting on the ground */
+  --paper-sunken: #f1f2ee;   /* alternating bands */
+
+  /* --- brand, gently desaturated for large fields --------------------- */
+  --navy: #1b4257;
+  --navy2: #12303f;
+  --teal: #2a9c8a;
+  --blue: #2b7ca8;
+  --sky: #eaf2f2;
+  --ink: #22383f;
+  --muted: #6d8189;
+  --line: #dfe4de;
+
+  --brass: #c99155;          /* the warm counterpoint from the artwork */
+
+  /* --- soft, warm-tinted shadows -------------------------------------- */
+  --shadow: 0 20px 46px rgba(40, 55, 60, 0.07), 0 3px 10px rgba(40, 55, 60, 0.04);
+  --shadow-soft: 0 10px 28px rgba(40, 55, 60, 0.05);
+  --radius: 18px;
+
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+/* --- 1. Ground ---------------------------------------------------------- */
+
+body {
+  background: var(--paper);
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.site-header {
+  background: rgba(250, 249, 246, 0.92);
+  backdrop-filter: saturate(140%) blur(10px);
+  border-bottom-color: var(--line);
+}
+
+.section.alt,
+.template-section.alt {
+  background: var(--paper-sunken);
+}
+
+/* Cards were pure white on white — barely separated, and glaring together.
+   A warmer raised tone on a warmer ground reads as a card without needing
+   a heavier border. */
+.specialty-card,
+.clinic-card,
+.procedure-card,
+.doctor-card,
+.hub-card,
+.list-card,
+.guide-card,
+.service-card,
+.feature-grid > div,
+.journey > div,
+.sidebar-card,
+.mini-form,
+.form-card,
+.intake-form,
+.related-card,
+.contact-cards > div,
+.route,
+.legal-index-link,
+.clinical-col,
+.cost-col,
+.how-we-are-paid .paid-grid > div,
+.search-panel {
+  background: var(--paper-raised);
+  border-color: var(--line);
+  box-shadow: var(--shadow-soft);
+}
+
+.page-hero {
+  background: linear-gradient(150deg, #eef3f2, #f8f7f3 70%);
+  border-bottom-color: var(--line);
+}
+
+/* --- 2. Large saturated slabs, softened ---------------------------------- */
+
+.cta-band {
+  background: linear-gradient(120deg, #1d7566, #2a9c8a 70%, #34a795);
+}
+
+.info-banner {
+  background: #1b4257;
+}
+
+.footer {
+  background: #12303f;
+  color: #c3d2d3;
+}
+
+.section.dark {
+  background: #12303f;
+}
+
+/* --- 3. Air and measure -------------------------------------------------- */
+
+.section,
+.template-section {
+  padding: 104px 0;
+}
+
+.article p,
+.article li,
+.legal-doc p,
+.legal-doc li {
+  line-height: 1.8;
+  max-width: 68ch;   /* beyond ~75 characters the eye loses the line return */
+}
+
+.article h2,
+.legal-doc h2 {
+  margin-top: 52px;
+  letter-spacing: -0.015em;
+}
+
+.clinical-list li,
+.clinical-col li,
+.cost-col li {
+  margin: 10px 0;
+  line-height: 1.7;
+}
+
+.section-head {
+  margin-bottom: 42px;
+}
+
+/* --- 4. Volume ----------------------------------------------------------- */
+
+/* Uppercase headings and buttons raise the voice of every sentence around them.
+   template-fidelity.css sets these with !important, so matching that is the only
+   way to lower the volume without editing the original stylesheet.
+
+   The 10px uppercase button was also simply hard to read — small caps at tight
+   tracking is the least legible combination in common use, and this audience
+   skews over 45. */
+.btn,
+.template-heading h2,
+.section-head h2,
+.welcome-copy > h2,
+.service-copy h2,
+.service-detail-copy h2,
+.procedure-lead-card h2,
+.procedure-article-v5 > h2,
+.page-hero h1,
+.slide-copy h1,
+.specialty-hero h1,
+.procedure-hero-v5 h1,
+.treatments-landing-hero h1,
+.how-hero h1,
+.services-hero h1,
+.clinic-detail-hero h1,
+.doctor-info h3,
+.floating-cta,
+.text-link,
+/* Anything that is a heading, a name or a sentence — never a short label. */
+.appointment-panel h3,
+.assurance-card-grid h3,
+.welcome-feature h3,
+.offer-card h3,
+.news-body h3,
+.patient-story-link h3,
+.prefooter-contact h3,
+.procedure-snapshot h3,
+.procedure-sidebar-v5 h3,
+.specialty-procedure-body h3,
+.tile-caption h3,
+.procedure-faq summary,
+.testimonial-item cite,
+.service-list div,
+.procedure-decision-row.header > div,
+.clinic-photo-gallery-v5 figcaption,
+.treatment-filter button {
+  text-transform: none !important;
+}
+
+/* These stay in small caps: they are labels, and caps help the eye skip them
+   when scanning rather than read them as prose. */
+.eyebrow,
+.hero-kicker,
+.procedure-kicker,
+.procedure-stat-label,
+.footer-grid h4,
+.clinic-card small,
+.news-date {
+  text-transform: uppercase;
+}
+
+.template-heading h2,
+.section-head h2,
+.welcome-copy > h2,
+.service-copy h2,
+.service-detail-copy h2,
+.procedure-lead-card h2,
+.procedure-article-v5 > h2 {
+  font-size: clamp(28px, 2.6vw, 36px) !important;
+  line-height: 1.2 !important;
+  letter-spacing: -0.022em !important;
+  font-weight: 700 !important;
+  color: #24414d !important;
+}
+
+.btn {
+  border-radius: 10px !important;
+  letter-spacing: 0.004em !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  padding: 14px 22px !important;
+}
+.btn-sm {
+  font-size: 12px !important;
+  padding: 11px 16px !important;
+}
+
+.floating-cta {
+  border-radius: 28px;
+  background: var(--teal);
+  box-shadow: 0 10px 26px rgba(20, 70, 80, 0.16);
+  font-size: 12px;
+  letter-spacing: 0.004em;
+}
+
+.slide-copy h1,
+.page-hero h1,
+.specialty-hero h1 {
+  letter-spacing: -0.032em !important;
+  font-weight: 750 !important;
+}
+
+/* Small caps are genuinely useful on short labels — they aid scanning without
+   raising the voice of a sentence. Those are kept, only quietened. */
+.eyebrow,
+.breadcrumbs,
+.tag-row span {
+  letter-spacing: 0.13em;
+  opacity: 0.92;
+}
+
+.main-nav {
+  text-transform: none;
+  letter-spacing: 0.005em;
+  font-weight: 600;
+}
+
+/* Names and card headings read as prose now, so give them prose proportions. */
+.welcome-feature h3,
+.assurance-card-grid h3,
+.offer-card h3,
+.patient-story-link h3,
+.procedure-snapshot h3,
+.tile-caption h3,
+.appointment-panel h3 {
+  letter-spacing: -0.012em !important;
+  font-weight: 700 !important;
+}
+.procedure-faq summary {
+  letter-spacing: 0 !important;
+  font-weight: 700 !important;
+}
+
+/* Consent text is a sentence, not a label. It was rendering in uppercase at
+   ~9px in muted grey on a saturated teal panel — the worst contrast pairing on
+   the site, on the one line a patient most needs to read before agreeing. */
+.check span,
+.appointment-panel .check span,
+.consent-block .check span {
+  text-transform: none !important;
+  font-size: 12.5px !important;
+  letter-spacing: 0 !important;
+  line-height: 1.55 !important;
+  font-weight: 500 !important;
+}
+.appointment-panel .check span,
+.appointment-panel .check a {
+  color: #f2fbf8 !important;
+}
+.appointment-panel .check a {
+  text-decoration: underline;
+}
+.appointment-panel .form-privacy-note,
+.appointment-panel small {
+  color: #dff5ef !important;
+  font-size: 11.5px !important;
+}
+
+/* --- 5. Edges and shadows ------------------------------------------------ */
+
+.video-module,
+.procedure-card,
+.clinic-card,
+.media-placeholder,
+.clinic-visual {
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.btn,
+.search-input,
+.mini-form input,
+.mini-form select,
+.form-card input,
+.form-card textarea,
+.intake-form input,
+.intake-form select,
+.intake-form textarea,
+.callback-form input,
+.callback-form select {
+  border-radius: 10px;
+}
+
+.specialty-card:hover,
+.clinic-card:hover,
+.route:hover {
+  transform: translateY(-2px);          /* was -4px; a smaller lift is calmer */
+  box-shadow: var(--shadow);
+}
+
+.hub-card:hover {
+  transform: translateX(3px);
+}
+
+/* --- 6. Motion ----------------------------------------------------------- */
+
+.btn,
+.route,
+.specialty-card,
+.clinic-card,
+.hub-card,
+.list-card,
+.legal-index-link,
+.mega-menu,
+.wa-float,
+.treatment-tile:before {
+  transition-duration: 0.34s;
+  transition-timing-function: var(--ease);
+}
+
+/* --- 7. Grain ------------------------------------------------------------ */
+
+/* A very fine monochrome grain over the dark panels. It breaks up gradient
+   banding and gives large flat areas something for the eye to rest on — the
+   quality paper has and a backlit screen normally does not. Kept under 4% so it
+   registers as texture, never as noise.
+
+   Drawn as ::before, not ::after: the pseudo-element is then the first child, so
+   real content painted later sits above it naturally. An earlier attempt used
+   ::after plus `> * { position: relative }` to lift content clear — which
+   overrode `position: absolute` on the hero slides and collapsed the slider. */
+.home-hero,
+.doctor-hero,
+.procedure-hero-v6,
+.procedure-hero-v5,
+.page-hero,
+.section.dark,
+.cta-band,
+.footer,
+.info-banner {
+  position: relative;
+}
+.home-hero::before,
+.doctor-hero::before,
+.procedure-hero-v6::before,
+.procedure-hero-v5::before,
+.page-hero::before,
+.section.dark::before,
+.cta-band::before,
+.footer::before,
+.info-banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.04;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.82' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* --- 8. Detail ----------------------------------------------------------- */
+
+/* A hairline of the artwork's brass along the primary surfaces, so the warm
+   accent carries from the illustrations into the interface instead of living
+   only inside the images. */
+.cta-band {
+  border-top: 1px solid rgba(201, 145, 85, 0.38);
+}
+.medical-byline {
+  background: #f4f3ee;
+  border-left-color: var(--brass);
+}
+.notice {
+  background: #eff5f2;
+  border-left-color: var(--teal);
+  border-radius: 10px;
+}
+
+.specialty-icon,
+.hub-icon,
+.video-dot,
+.avatar {
+  background: var(--sky);
+  color: var(--teal);
+}
+
+::selection {
+  background: rgba(42, 156, 138, 0.20);
+}
+
+/* Scrollbar left visible but quietened — a bright scrollbar is a persistent
+   high-contrast edge in peripheral vision. */
+* {
+  scrollbar-color: #c8d2cd var(--paper);
+  scrollbar-width: thin;
+}
+
+/* --- 9. Reduced motion --------------------------------------------------- */
+
+@media (prefers-reduced-motion: reduce) {
+  .home-hero::after,
+  .page-hero::after,
+  .cta-band::after,
+  .footer::after,
+  .section.dark::after {
+    opacity: 0.02;
+  }
+}

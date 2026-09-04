@@ -1,0 +1,19 @@
+Turkelitemedcare FINAL Proofed Close Pass
+
+Applied refinements:
+1. Procedure cards now prefer real specialty photography when a dedicated procedure photo is missing.
+2. Broken DHI Hair Transplant card image overridden to a clean hair-restoration image.
+3. Procedure card summaries now avoid repetitive generic copy and read more like a guided service.
+4. English, German, and Arabic key homepage / CTA copy refined to sound more service-led and professionally proofread.
+5. Specialty page lead copy refined in EN / DE / AR.
+
+Key files edited:
+- app/Support/site.php
+- resources/views/pages/treatments/show.blade.php
+- resources/views/pages/treatments/index.blade.php
+- resources/views/pages/guides/index.blade.php
+- resources/views/pages/catalog/detail.blade.php
+- resources/views/doctors/show.blade.php
+- lang/en/site.php
+- lang/de/site.php
+- lang/ar/site.php

@@ -1,0 +1,1424 @@
+[
+  {
+    "slug": "home",
+    "title": "Medical treatment in Turkey, understood before you travel",
+    "description": "Understand treatment pathways, provider responsibilities, written scope, travel timing and follow-up before arranging medical care in Turkey.",
+    "template": "home",
+    "content": {
+      "hero": {
+        "kicker": "Medical treatment in Turkey, coordinated around you",
+        "headline": "Compare the care. Understand the journey. Decide with clarity.",
+        "lead": "Explore high-demand treatments, compare provider pathways and let one coordination team keep the practical journey connected from first question to return-home handover."
+      },
+      "welcome": {
+        "note": "Medical files can be requested securely later if a clinic needs them for review.",
+        "heading": "Welcome to Turkelite Medcare",
+        "features": [
+          {
+            "icon": "clinic",
+            "text": "Provider profiles are designed to show where care is delivered and who is responsible for the clinical plan. Profiles stay unpublished until verification is complete.",
+            "title": "Provider profiles with clear roles",
+            "number": "01"
+          },
+          {
+            "icon": "specialist",
+            "text": "Treatment suitability remains with the independent clinician who evaluates your case.",
+            "title": "Specialist-led decisions",
+            "number": "02"
+          },
+          {
+            "icon": "journey",
+            "text": "One point of contact keeps clinic communication, scheduling, travel, arrival, and follow-up connected.",
+            "title": "Whole-journey coordination",
+            "number": "03"
+          },
+          {
+            "icon": "support",
+            "text": "Journey planning for international patients travelling to partner clinics in Turkey.",
+            "title": "International support",
+            "number": "04"
+          }
+        ],
+        "button_label": "Start my request",
+        "form_heading": "Get treatment plan",
+        "contact_label": "Preferred contact",
+        "country_label": "Your country",
+        "specialty_label": "Specialty",
+        "contact_placeholder": "WhatsApp or email",
+        "country_placeholder": "Germany",
+        "specialty_placeholder": "Choose specialty"
+      },
+      "services": {
+        "cta": {
+          "href": "/patient-services",
+          "label": "Patient services"
+        },
+        "lead": "Before you travel, the clinical plan, provider choice, appointments, logistics and return-home follow-up all need to line up.",
+        "items": [
+          {
+            "text": "We keep clinic dates and handovers aligned.",
+            "title": "Coordinated appointments"
+          },
+          {
+            "text": "Flights, transfers and accommodation can be sequenced around the treatment plan.",
+            "title": "Travel planning"
+          },
+          {
+            "text": "We keep the post-treatment handover visible before departure.",
+            "title": "Follow-up organisation"
+          }
+        ],
+        "eyebrow": "Patient services",
+        "heading": "Your treatment trip should feel looked after",
+        "secondary": {
+          "href": "/how-it-works",
+          "label": "See how it works"
+        }
+      },
+      "specialties": {
+        "lead": "Choose a medical specialty, then explore the procedure pages already published in the treatment library.",
+        "eyebrow": "Treatment library",
+        "heading": "Explore our specialties"
+      },
+      "testimonial": {
+        "eyebrow": "Journey examples",
+        "heading": "See how a coordinated pathway fits together",
+        "lead": "Scenario-based examples show the sequence of research, provider review, travel planning and follow-up. They are not patient testimonials.",
+        "quote": "A useful journey example should show decisions and handovers, not promise an outcome.",
+        "cite": "Illustrative pathway — not a patient review"
+      },
+      "guides_videos": {
+        "lead": "Practical articles help you ask better questions about provider responsibility, consent, scope, travel timing and aftercare.",
+        "eyebrow": "Guides & articles",
+        "heading": "Prepare before you travel",
+        "video_meta": "Decision articles",
+        "video_text": "",
+        "guide_label": "Guide",
+        "video_label": "Article",
+        "guide_action": "Read guide",
+        "video_action": "Read treatment articles",
+        "video_heading": "Treatment decision checklist"
+      },
+      "specialist_teams": {
+        "lead": "Specialist profiles connect treatment pathways to the clinics and teams that provide the care.",
+        "eyebrow": "Specialists",
+        "heading": "Meet specialist teams",
+        "empty_text": "Published doctor profiles will appear here when they are added by the admin team.",
+        "empty_heading": "Specialist profiles are being prepared"
+      }
+    },
+    "is_active": 1,
+    "seo_title": "Medical Treatment in Turkey | Turkelite Medcare",
+    "seo_description": "Understand treatment pathways, provider responsibilities, travel timing and follow-up before arranging medical treatment in Turkey.",
+    "seo_keywords": null,
+    "seo_robots": "index,follow",
+    "translations": {
+      "de": {
+        "title": "Behandlung in der Türkei",
+        "description": "Behandlungen vergleichen und Klinik, Reise und Nachsorge für medizinische Versorgung in der Türkei koordiniert planen.",
+        "seo_title": "Behandlung in der Türkei | Turkelite Medcare",
+        "seo_description": "Behandlungen vergleichen und Klinik, Reise und Nachsorge für medizinische Versorgung in der Türkei koordiniert planen."
+      },
+      "ar": {
+        "title": "العلاج في تركيا",
+        "description": "قارن العلاجات وافهم تنسيق العيادة والسفر والمتابعة للعلاج الطبي في تركيا.",
+        "seo_title": "العلاج في تركيا | Turkelite Medcare",
+        "seo_description": "قارن العلاجات وافهم تنسيق العيادة والسفر والمتابعة للعلاج الطبي في تركيا."
+      }
+    }
+  },
+  {
+    "slug": "about",
+    "title": "About Us",
+    "description": "Who Turkelite Medcare is, what we coordinate, what independent providers remain responsible for, and how commercial relationships are disclosed.",
+    "template": "about",
+    "content": {
+      "hero": {
+        "lead": "A medical-travel coordination platform designed to connect international patients with selected independent providers in Turkey.",
+        "kicker": "About the platform",
+        "headline": "About Us"
+      },
+      "intro": {
+        "what_we_do": "Turkelite Medcare coordinates the practical journey around treatment delivered by independent providers in Turkey: treatment research, provider communication, scheduling, travel planning, arrival logistics and return-home handover.",
+        "what_we_do_not": "Turkelite Medcare is not a hospital or medical provider. It does not diagnose, prescribe, decide suitability, obtain clinical consent or perform treatment. Those responsibilities remain with the independent licensed provider.",
+        "what_we_do_heading": "What we do",
+        "what_we_do_not_heading": "What we do not do"
+      },
+      "hero_card": {
+        "text": "One team coordinating the journey around your care",
+        "label": "Care pathway",
+        "heading": "Plan -> Coordinate -> Return supported"
+      },
+      "transparency": {
+        "link": "/legal/terms.html",
+        "kicker": "Commercial transparency",
+        "heading": "How we are paid",
+        "link_label": "platform terms",
+        "paragraphs": [
+          "You should know who pays us before you rely on anything we tell you. Ask us directly and we will answer in writing who pays our fee, whether it differs between clinics, and whether any clinic can pay to be featured.",
+          "What we will commit to in public: a clinic's commercial terms with us never decide whether it is clinically right for you. Suitability is the treating clinician's judgement, and we do not overrule it or route around it."
+        ],
+        "link_prefix": "Full terms are in the"
+      },
+      "clinic_sidebar": {
+        "link": "/for-clinics",
+        "text": "The partner section is ready for an onboarding/application workflow.",
+        "kicker": "For clinics",
+        "heading": "Join the network",
+        "link_label": "Partner with us"
+      },
+      "contact_routes": [
+        {
+          "href": "https://wa.me/493023125400?text=Hello%2C%20I%20would%20like%20to%20ask%20about%20treatment%20in%20Turkey.",
+          "text": "Ask one question. No form, no commitment.",
+          "title": "Message us on WhatsApp",
+          "variant": "wa"
+        },
+        {
+          "href": "/contact#callback",
+          "text": "German or English, at a time that suits you.",
+          "title": "Request a callback",
+          "variant": "call"
+        },
+        {
+          "href": "/treatment-plan",
+          "text": "For when you are ready for a clinic to review your case.",
+          "title": "Start a treatment enquiry",
+          "variant": "plan"
+        }
+      ],
+      "clinic_standards": {
+        "items": [
+          {
+            "text": "Verify the legal provider and appropriate healthcare authorisations.",
+            "title": "Identity & licensing"
+          },
+          {
+            "text": "Confirm named clinicians and the procedures they perform.",
+            "title": "Specialist credentials"
+          },
+          {
+            "text": "Document assessment, consent, safety and follow-up processes.",
+            "title": "Patient pathway"
+          },
+          {
+            "text": "Have provider-specific medical claims reviewed before publication.",
+            "title": "Content approval"
+          }
+        ],
+        "heading": "How clinic onboarding should work"
+      }
+    },
+    "is_active": 1,
+    "seo_title": "About Turkelite Medcare | Medical Travel Coordination",
+    "seo_description": "What Turkelite Medcare coordinates, what independent clinics remain responsible for and how provider relationships are handled.",
+    "seo_keywords": null,
+    "seo_robots": "index,follow",
+    "translations": {
+      "de": {
+        "title": "Über uns",
+        "description": "Was Turkelite Medcare koordiniert, wofür unabhängige Kliniken verantwortlich bleiben und wie Anbieterbeziehungen gehandhabt werden.",
+        "content": {
+          "hero": {
+            "kicker": "Über Turkelite Medcare",
+            "headline": "Koordination statt Klinikverkauf",
+            "lead": "Wir verbinden internationale Patienten mit unabhängigen Behandlungsanbietern in der Türkei und halten die praktische Reise rund um die medizinische Versorgung zusammen."
+          },
+          "intro": {
+            "what_we_do_heading": "Was wir tun",
+            "what_we_do": "Wir strukturieren Behandlungsrecherche, Anbieterkommunikation, Terminabstimmung, Reiseplanung und die praktische Nachsorgeübergabe.",
+            "what_we_do_not_heading": "Was wir nicht tun",
+            "what_we_do_not": "Wir sind keine Klinik. Diagnose, Eignung, Einwilligung, Behandlung und klinische Nachsorge liegen beim unabhängigen behandelnden Anbieter."
+          }
+        },
+        "seo_title": "Über Turkelite Medcare | Patientenkoordination",
+        "seo_description": "Was Turkelite Medcare koordiniert, wofür unabhängige Kliniken verantwortlich bleiben und wie Anbieterbeziehungen gehandhabt werden."
+      },
+      "ar": {
+        "title": "من نحن",
+        "description": "ما الذي تنسقه Turkelite Medcare وما مسؤولية العيادات المستقلة وكيف نتعامل مع علاقات مقدمي الرعاية.",
+        "content": {
+          "hero": {
+            "kicker": "عن Turkelite Medcare",
+            "headline": "تنسيق الرعاية، لا بيع العيادات",
+            "lead": "نربط المرضى الدوليين بمقدمي رعاية مستقلين في تركيا وننسق الجوانب العملية حول الرعاية الطبية."
+          },
+          "intro": {
+            "what_we_do_heading": "ما الذي نفعله",
+            "what_we_do": "ننظم البحث عن العلاج والتواصل مع مقدم الرعاية والمواعيد والسفر وتسليم خطة المتابعة.",
+            "what_we_do_not_heading": "ما الذي لا نفعله",
+            "what_we_do_not": "لسنا عيادة. التشخيص والملاءمة والموافقة والعلاج والمتابعة السريرية مسؤولية مقدم الرعاية المستقل."
+          }
+        },
+        "seo_title": "من نحن | Turkelite Medcare",
+        "seo_description": "ما الذي تنسقه Turkelite Medcare وما مسؤولية العيادات المستقلة وكيف نتعامل مع علاقات مقدمي الرعاية."
+      }
+    }
+  },
+  {
+    "slug": "contact",
+    "title": "Contact",
+    "description": "Contact the Turkelite Medcare international patient team about a treatment enquiry, an existing journey or a provider-partnership question.",
+    "template": "contact",
+    "content": {
+      "form": {
+        "note": "Your enquiry continues through the treatment-coordination workflow.",
+        "heading": "Contact the coordination team"
+      },
+      "hero": {
+        "lead": "Use this page for general enquiries. Treatment-related enquiries should use the structured treatment request.",
+        "kicker": "Talk to us",
+        "headline": "Contact"
+      },
+      "callback": {
+        "lead": "Tell us when suits and which language you would prefer. We will call you. There is no obligation, and you do not need to share any medical detail to talk to us.",
+        "note": "Weekday callbacks, usually the same or next working day.",
+        "heading": "Request a callback"
+      },
+      "contact_info": [
+        {
+          "label": "Email",
+          "value": "{{brand.email}}"
+        },
+        {
+          "label": "Phone",
+          "value": "{{brand.phone}}"
+        },
+        {
+          "label": "Languages",
+          "value": "German, English, additional languages by arrangement"
+        }
+      ]
+    },
+    "is_active": 1,
+    "seo_title": "Contact Turkelite Medcare",
+    "seo_description": "Ask a question about treatment, provider coordination or your planned medical journey to Turkey.",
+    "seo_keywords": null,
+    "seo_robots": "index,follow",
+    "translations": {
+      "de": {
+        "title": "Kontakt",
+        "description": "Fragen zu Behandlung, Anbieterkoordination oder Ihrer geplanten medizinischen Reise in die Türkei.",
+        "content": {
+          "hero": {
+            "kicker": "Kontakt",
+            "headline": "Beginnen Sie mit einer Frage",
+            "lead": "Fragen Sie zu Behandlung, Klinikvergleich oder praktischer Reiseplanung."
+          }
+        },
+        "seo_title": "Kontakt | Turkelite Medcare",
+        "seo_description": "Fragen zu Behandlung, Anbieterkoordination oder Ihrer geplanten medizinischen Reise in die Türkei."
+      },
+      "ar": {
+        "title": "تواصل معنا",
+        "description": "اسأل عن العلاج أو تنسيق مقدم الرعاية أو رحلة العلاج المخطط لها إلى تركيا.",
+        "content": {
+          "hero": {
+            "kicker": "تواصل معنا",
+            "headline": "ابدأ بسؤال واحد",
+            "lead": "اسأل عن العلاج أو مقارنة العيادات أو التخطيط العملي للرحلة."
+          }
+        },
+        "seo_title": "تواصل معنا | Turkelite Medcare",
+        "seo_description": "اسأل عن العلاج أو تنسيق مقدم الرعاية أو رحلة العلاج المخطط لها إلى تركيا."
+      }
+    }
+  },
+  {
+    "slug": "for-clinics",
+    "title": "For Clinics",
+    "description": "Information for Turkish healthcare providers considering an international patient partnership with Turkelite Medcare, including onboarding principles.",
+    "template": "for-clinics",
+    "content": {
+      "hero": {
+        "lead": "We work with independent clinics that want a clear patient-coordination layer around their treatment pathways.",
+        "kicker": "Partner clinics",
+        "headline": "For Clinics"
+      },
+      "features": {
+        "cta": {
+          "href": "/contact",
+          "label": "Contact us"
+        },
+        "items": [
+          {
+            "text": "Verify the legal provider and appropriate healthcare authorisations.",
+            "title": "Identity and licensing"
+          },
+          {
+            "text": "Confirm named clinicians and the procedures they perform.",
+            "title": "Specialist credentials"
+          },
+          {
+            "text": "Document assessment, consent, safety and follow-up processes.",
+            "title": "Patient pathway"
+          },
+          {
+            "text": "Have provider-specific medical claims reviewed before publication.",
+            "title": "Content approval"
+          }
+        ],
+        "heading": "What a partner relationship should cover"
+      }
+    },
+    "is_active": 1,
+    "seo_title": null,
+    "seo_description": null,
+    "seo_keywords": null,
+    "seo_robots": "noindex,follow",
+    "translations": {
+      "de": {
+        "title": "Für Kliniken",
+        "description": "Für Kliniken",
+        "content": {}
+      },
+      "ar": {
+        "title": "للعيادات",
+        "description": "للعيادات",
+        "content": {}
+      }
+    }
+  },
+  {
+    "slug": "how-it-works",
+    "title": "How medical travel coordination works",
+    "description": "Understand the journey from initial research and independent provider review to confirmed dates, practical travel coordination and return-home follow-up.",
+    "template": "how-it-works",
+    "content": {
+      "cta": {
+        "eyebrow": "Ready to start?",
+        "heading": "Tell us what treatment you are considering."
+      },
+      "hero": {
+        "lead": "We organise the international-patient journey around independent clinical decisions made by the partner clinic. One coordinator keeps records, providers, travel logistics and communication moving in the same direction.",
+        "kicker": "The Turkelite Medcare model",
+        "headline": "From first enquiry to follow-up"
+      },
+      "model": {
+        "text": "Turkelite Medcare helps connect the practical journey around independent medical care. The patient chooses; the provider makes clinical decisions; our team coordinates information and logistics around the confirmed plan.",
+        "eyebrow": "Business model",
+        "heading": "One connected journey, three distinct responsibilities"
+      },
+      "roles": {
+        "clinic": {
+          "items": [
+            "Assesses clinical suitability",
+            "Explains treatment, risks and alternatives",
+            "Obtains informed consent",
+            "Provides treatment and clinical aftercare instructions"
+          ],
+          "label": "Partner clinic"
+        },
+        "eyebrow": "Responsibility map",
+        "heading": "Who is responsible for what?",
+        "patient": {
+          "items": [
+            "Provides accurate medical information",
+            "Asks questions and compares options",
+            "Chooses the provider",
+            "Follows clinical and travel instructions"
+          ],
+          "label": "Patient"
+        },
+        "coordinator": {
+          "items": [
+            "Structures and routes the case",
+            "Coordinates provider communication",
+            "Organises practical travel services",
+            "Keeps the journey and follow-up handover connected"
+          ],
+          "label": "Turkelite Medcare"
+        },
+        "partner_text": "Partner clinics remain independent healthcare providers. Clinical recommendations, consent, treatment, and medical follow-up remain with the provider.",
+        "partner_eyebrow": "Partner model",
+        "partner_heading": "Turkelite Medcare is the practical coordination layer, not the medical provider."
+      },
+      "steps": [
+        {
+          "text": "Choose a specialty or procedure, or simply describe the concern in your own words.",
+          "owner": "Patient",
+          "title": "Tell us what you need",
+          "number": "01"
+        },
+        {
+          "text": "Upload reports, images, medication details and relevant history requested for preliminary review.",
+          "owner": "Patient",
+          "title": "Share the requested records",
+          "number": "02"
+        },
+        {
+          "text": "We check completeness, organise the case, translate logistics where required and route it to suitable partner teams.",
+          "owner": "Turkelite Medcare",
+          "title": "Case preparation",
+          "number": "03"
+        },
+        {
+          "text": "The independent clinic or doctor evaluates the information and decides what assessment or treatment may be appropriate.",
+          "owner": "Partner clinic",
+          "title": "Clinical review",
+          "number": "04"
+        }
+      ],
+      "routes": {
+        "plan_text": "For when you are ready for a clinic to review your case.",
+        "plan_title": "Start a treatment enquiry",
+        "message_text": "Ask one question. No commitment.",
+        "callback_text": "German or English, at a time that suits you.",
+        "message_title": "Send us a message",
+        "callback_title": "Request a callback"
+      },
+      "summary": {
+        "items": [
+          "The patient explains the need and shares requested information.",
+          "Turkelite Medcare organises the information flow and practical journey.",
+          "The clinic assesses, recommends, consents and provides treatment."
+        ],
+        "heading": "Three clear roles"
+      },
+      "decisions": {
+        "items": [
+          {
+            "why": "The procedure must fit your clinical situation, not simply your preference.",
+            "decision": "Is this procedure suitable for me?",
+            "coordination": "We organise the records and questions the partner clinic asks for, so the clinical review can actually happen."
+          },
+          {
+            "why": "Quotes can look similar while covering different treatment, facility and aftercare items.",
+            "decision": "What exactly is included?",
+            "coordination": "We structure the clinic proposal so inclusions, exclusions and practical extras are comparable."
+          },
+          {
+            "why": "Clinical dates and recovery requirements should determine the journey, not the other way round.",
+            "decision": "When should I book travel?",
+            "coordination": "We sequence flights, transfers and accommodation around the clinic-confirmed plan."
+          },
+          {
+            "why": "Follow-up should not become unclear once you leave Turkey.",
+            "decision": "What happens after I return?",
+            "coordination": "We make the handover, contact route and provider instructions visible before departure."
+          }
+        ],
+        "heading": "The four decisions that should have an owner"
+      },
+      "experience": {
+        "text": "Every stage has a clear owner, a clear output, and a clear point at which clinical responsibility stays with the treating provider.",
+        "eyebrow": "Step by step",
+        "heading": "What the patient actually experiences"
+      },
+      "quotations": {
+        "why": "Why it matters",
+        "note": "A firm price can only follow clinical assessment. Any figure before a clinician reviews your case is an estimate and can change.",
+        "text": "Before a treatment journey is ready to book, each of these should have a clear answer and a clear owner.",
+        "eyebrow": "Before you book",
+        "decision": "Decision",
+        "excluded": "Frequently excluded - ask directly",
+        "included": "Usually included",
+        "cost_text": "Every clinic proposal should be broken down against the same checklist, so quotations can be compared on the same terms.",
+        "coordination": "How we coordinate it",
+        "cost_eyebrow": "Quotations",
+        "cost_heading": "What \"included\" actually means"
+      }
+    },
+    "is_active": 1,
+    "seo_title": "How Medical Travel Coordination Works | Turkelite Medcare",
+    "seo_description": "Understand the journey from initial research and independent provider review to confirmed dates, practical travel coordination and return-home follow-up.",
+    "seo_keywords": null,
+    "seo_robots": "index,follow",
+    "translations": {
+      "de": {
+        "title": "So funktioniert es",
+        "description": "Von der ersten Anfrage über Klinikprüfung und Terminbestätigung bis Reiseorganisation und Nachsorgeübergabe.",
+        "content": {
+          "hero": {
+            "kicker": "Der Ablauf",
+            "headline": "Die medizinische Entscheidung zuerst. Die Reise folgt danach.",
+            "lead": "Wir halten die praktischen Schritte zusammen, ohne die medizinische Verantwortung der Klinik zu ersetzen."
+          }
+        },
+        "seo_title": "So funktioniert medizinische Reisekoordination | Turkelite",
+        "seo_description": "Von der ersten Anfrage über Klinikprüfung und Terminbestätigung bis Reiseorganisation und Nachsorgeübergabe."
+      },
+      "ar": {
+        "title": "كيف تعمل الخدمة",
+        "description": "من الاستفسار الأول ومراجعة العيادة إلى تأكيد المواعيد وتنسيق السفر وتسليم المتابعة بعد العودة.",
+        "content": {
+          "hero": {
+            "kicker": "طريقة العمل",
+            "headline": "القرار الطبي أولاً، ثم تُبنى الرحلة حوله",
+            "lead": "نربط الخطوات العملية من دون أن نستبدل مسؤولية العيادة الطبية."
+          }
+        },
+        "seo_title": "كيف تعمل رحلة العلاج | Turkelite Medcare",
+        "seo_description": "من الاستفسار الأول ومراجعة العيادة إلى تأكيد المواعيد وتنسيق السفر وتسليم المتابعة بعد العودة."
+      }
+    }
+  },
+  {
+    "slug": "patient-services",
+    "title": "Everything around the treatment",
+    "description": "The practical services coordinated around your treatment: clinic communication, records, scheduling, transfers, accommodation and follow-up handover.",
+    "template": "patient-services",
+    "content": {
+      "cta": {
+        "eyebrow": "Patient support",
+        "heading": "Build the treatment and travel plan together.",
+        "button_label": "Start my request"
+      },
+      "hero": {
+        "lead": "Coordinated appointments, travel planning and return-home follow-up so the practical side of treatment stays connected.",
+        "kicker": "Practical support",
+        "headline": "Patient Services"
+      },
+      "services": {
+        "items": [
+          "Coordinated appointments",
+          "Travel planning",
+          "Follow-up organisation",
+          "Language support"
+        ],
+        "heading": "What we coordinate"
+      },
+      "pre_travel": {
+        "lead": "The exact requirements vary by treatment, but the practical package should be complete before departure.",
+        "items": [
+          {
+            "text": "Provider, appointment sequence, requested tests and next decision points.",
+            "title": "Confirmed clinical pathway",
+            "number": "01"
+          },
+          {
+            "text": "Arrival, accommodation, clinic visits, transfer contacts and expected departure window.",
+            "title": "Journey itinerary",
+            "number": "02"
+          },
+          {
+            "text": "Coordinator, clinic international desk and aftercare contact details.",
+            "title": "Named contacts",
+            "number": "03"
+          },
+          {
+            "text": "Discharge documents, warning signs, review timing and return-home communication route.",
+            "title": "Follow-up plan",
+            "number": "04"
+          }
+        ],
+        "eyebrow": "Before you travel",
+        "heading": "What a well-prepared patient should have"
+      },
+      "contact_routes": [
+        {
+          "href": "https://wa.me/493023125400?text=Hello%2C%20I%20would%20like%20to%20ask%20about%20treatment%20in%20Turkey.",
+          "text": "Ask one question. No form, no commitment.",
+          "title": "Message us on WhatsApp"
+        },
+        {
+          "href": "/contact#callback",
+          "text": "German or English, at a time that suits you.",
+          "title": "Request a callback"
+        },
+        {
+          "href": "/treatment-plan",
+          "text": "For when you are ready for a clinic to review your case.",
+          "title": "Start a treatment enquiry"
+        }
+      ],
+      "service_points": [
+        "Practical planning around the confirmed care timetable",
+        "One clear coordination contact and handover",
+        "Support tailored to the patient journey"
+      ]
+    },
+    "is_active": 1,
+    "seo_title": "International Patient Services | Turkelite Medcare",
+    "seo_description": "Practical coordination around independent medical care: appointments, provider communication, travel, arrival and follow-up handover.",
+    "seo_keywords": null,
+    "seo_robots": "index,follow",
+    "translations": {
+      "de": {
+        "title": "Patientenservice",
+        "description": "Praktische Koordination rund um unabhängige medizinische Versorgung: Termine, Anbieterkommunikation, Reise, Ankunft und Nachsorge.",
+        "content": {
+          "hero": {
+            "kicker": "Internationale Patientenbetreuung",
+            "headline": "Eine Reise. Ein Koordinationskontakt. Klare Zuständigkeiten.",
+            "lead": "Termine, Anbieterkommunikation, Ankunft, Transfers und Nachsorgeübergabe werden rund um den bestätigten klinischen Plan koordiniert."
+          }
+        },
+        "seo_title": "Patientenservice für Behandlung in der Türkei | Turkelite",
+        "seo_description": "Praktische Koordination rund um unabhängige medizinische Versorgung: Termine, Anbieterkommunikation, Reise, Ankunft und Nachsorge."
+      },
+      "ar": {
+        "title": "خدمات المرضى",
+        "description": "تنسيق عملي حول الرعاية الطبية المستقلة: المواعيد والتواصل والسفر والوصول وتسليم المتابعة.",
+        "content": {
+          "hero": {
+            "kicker": "دعم المرضى الدوليين",
+            "headline": "رحلة واحدة. جهة تنسيق واحدة. مسؤوليات واضحة.",
+            "lead": "ننسق المواعيد والتواصل والوصول والتنقل وتسليم المتابعة حول الخطة الطبية المؤكدة."
+          }
+        },
+        "seo_title": "خدمات المرضى الدوليين | Turkelite Medcare",
+        "seo_description": "تنسيق عملي حول الرعاية الطبية المستقلة: المواعيد والتواصل والسفر والوصول وتسليم المتابعة."
+      }
+    }
+  },
+  {
+    "slug": "treatments.index",
+    "title": "Start with what you need. Then understand your options.",
+    "description": "Explore 20 priority treatment guides first, then browse the wider treatment library. Understand questions, provider responsibility, travel planning and next steps.",
+    "template": "treatments.index",
+    "content": {
+      "hero": {
+        "lead": "Choose a medical specialty, then explore the published treatment pages already published for that pathway.",
+        "kicker": "Treatment library",
+        "headline": "Treatments",
+        "clinic_step": "Compare clinics and specialists",
+        "library_label": "How to use this library",
+        "condition_step": "Start from a condition or concern",
+        "primary_action": "Get treatment plan",
+        "procedure_step": "Explore relevant procedures",
+        "specialty_step": "Choose a specialty",
+        "secondary_action": "Browse specialties"
+      }
+    },
+    "is_active": 1,
+    "seo_title": "Treatments in Turkey | Turkelite Medcare",
+    "seo_description": "Explore 20 priority treatment guides plus the wider treatment library, organised for clearer medical-travel decisions.",
+    "seo_keywords": null,
+    "seo_robots": "index,follow",
+    "translations": {
+      "de": {
+        "title": "Behandlungen in der Türkei",
+        "description": "20 priorisierte Behandlungsratgeber plus die größere Bibliothek – strukturiert für bessere Entscheidungen zu medizinischen Reisen.",
+        "content": {
+          "hero": {
+            "kicker": "Behandlungsbibliothek",
+            "headline": "Behandlungen in der Türkei – für bessere Entscheidungen strukturiert",
+            "lead": "Beginnen Sie mit den 20 priorisierten Ratgebern oder nutzen Sie die größere Bibliothek als Orientierung."
+          }
+        },
+        "seo_title": "Behandlungen in der Türkei | Turkelite Medcare",
+        "seo_description": "20 priorisierte Behandlungsratgeber plus die größere Bibliothek – strukturiert für bessere Entscheidungen zu medizinischen Reisen."
+      },
+      "ar": {
+        "title": "العلاجات في تركيا",
+        "description": "استكشف 20 دليلاً علاجياً ذا أولوية إضافة إلى مكتبة العلاجات لاتخاذ قرارات أوضح حول العلاج والسفر.",
+        "content": {
+          "hero": {
+            "kicker": "مكتبة العلاج",
+            "headline": "علاجات في تركيا، مرتبة لاتخاذ قرار أفضل",
+            "lead": "ابدأ بالأدلة العشرين ذات الأولوية أو استخدم المكتبة الأوسع للاستكشاف."
+          }
+        },
+        "seo_title": "العلاجات في تركيا | Turkelite Medcare",
+        "seo_description": "استكشف 20 دليلاً علاجياً ذا أولوية إضافة إلى مكتبة العلاجات لاتخاذ قرارات أوضح حول العلاج والسفر."
+      }
+    }
+  },
+  {
+    "slug": "treatments.show",
+    "title": "Treatment specialty | Turkelite Medcare",
+    "description": "Open a treatment specialty pathway with the published condition and procedure pages.",
+    "template": "treatments.show",
+    "content": {
+      "hero": {
+        "lead": "Explore the current library and the published pages that sit behind this specialty.",
+        "kicker": "Treatment specialty",
+        "headline": "Specialty detail",
+        "empty_text": "No procedure content is published yet.",
+        "explore_label": "Explore",
+        "options_label": "Treatment options",
+        "assurance_plan": "Plan your journey",
+        "procedure_action": "Explore procedures",
+        "assurance_library": "Published library",
+        "assurance_guidance": "Personal guidance"
+      }
+    },
+    "is_active": 1,
+    "seo_title": null,
+    "seo_description": null,
+    "seo_keywords": null,
+    "seo_robots": "index,follow",
+    "translations": {
+      "de": {
+        "title": "Behandlungsbereich",
+        "description": "Behandlungsbereich",
+        "content": {}
+      },
+      "ar": {
+        "title": "مجال العلاج",
+        "description": "مجال العلاج",
+        "content": {}
+      }
+    }
+  },
+  {
+    "slug": "static/clinics",
+    "title": "Selected clinics in Turkey",
+    "description": "Profiles of the partner clinics in Istanbul, Antalya and Izmir connected to Turkelite Medcare treatment pathways, and how each is verified.",
+    "template": "static/clinics",
+    "content": {
+      "cta": {
+        "button": "Request clinic options",
+        "eyebrow": "Not sure which clinic fits your case?",
+        "heading": "Start with your treatment need, not the provider name."
+      },
+      "card": {
+        "view_label": "View clinic profile",
+        "partner_label": "Partner clinic",
+        "profile_label": "Profile",
+        "support_label": "Support",
+        "location_label": "Location",
+        "published_label": "Profile published",
+        "international_label": "International patients",
+        "partner_profile_label": "Partner profile"
+      },
+      "hero": {
+        "lead": "Explore published partner clinics by city, profile, and international-patient support.",
+        "kicker": "Partner network",
+        "headline": "Selected clinics in Turkey",
+        "card_label": "Network snapshot"
+      },
+      "empty": "No clinic profiles match the selected city yet.",
+      "stats": {
+        "profile_label": "partner clinic profiles",
+        "language_label": "core coordination languages",
+        "verified_label": "verified profile library",
+        "destination_label": "medical-travel destinations"
+      },
+      "routes": {
+        "plan_text": "For when you are ready for a clinic to review your case.",
+        "plan_title": "Start a treatment enquiry",
+        "message_text": "Ask one question. No commitment.",
+        "callback_text": "German or English, at a time that suits you.",
+        "message_title": "Send us a message",
+        "callback_title": "Request a callback"
+      },
+      "filters": {
+        "all": "All cities",
+        "label": "Filter clinics by city",
+        "reset": "Reset"
+      }
+    },
+    "is_active": 1,
+    "seo_title": null,
+    "seo_description": null,
+    "seo_keywords": null,
+    "seo_robots": "noindex,follow",
+    "translations": {
+      "de": {
+        "title": "Ausgewählte Kliniken in der Türkei",
+        "description": "Ausgewählte Kliniken in der Türkei",
+        "content": {}
+      },
+      "ar": {
+        "title": "عيادات مختارة في تركيا",
+        "description": "عيادات مختارة في تركيا",
+        "content": {}
+      }
+    }
+  },
+  {
+    "slug": "static/doctors",
+    "title": "Doctors",
+    "description": "Specialist profiles connected to Turkelite Medcare treatment pathways, and the clinics where each clinician practises.",
+    "template": "static/doctors",
+    "content": {},
+    "is_active": 1,
+    "seo_title": null,
+    "seo_description": null,
+    "seo_keywords": null,
+    "seo_robots": "noindex,follow",
+    "translations": {
+      "de": {
+        "title": "Ärzte",
+        "description": "Ärzte",
+        "content": {}
+      },
+      "ar": {
+        "title": "الأطباء",
+        "description": "الأطباء",
+        "content": {}
+      }
+    }
+  },
+  {
+    "slug": "static/guides",
+    "title": "Guides",
+    "description": "Practical guides for patients considering treatment abroad: choosing a clinic, questions to ask before consenting, travel and aftercare planning.",
+    "template": "static/guides",
+    "content": {},
+    "is_active": 1,
+    "seo_title": null,
+    "seo_description": null,
+    "seo_keywords": null,
+    "seo_robots": "noindex,follow",
+    "translations": {
+      "de": {
+        "title": "Ratgeber",
+        "description": "Ratgeber",
+        "content": {}
+      },
+      "ar": {
+        "title": "الأدلة",
+        "description": "الأدلة",
+        "content": {}
+      }
+    }
+  },
+  {
+    "slug": "legal",
+    "title": "Legal & Privacy",
+    "description": "Legal, privacy and compliance documents for Turkelite Medcare, including the medical disclaimer, complaints route and clinic selection standards.",
+    "template": "legal",
+    "content": {
+      "ui": {
+        "legal_flag": "The Impressum is a statutory requirement for publishing in Germany. The cookie policy also depends on a working consent banner. No document on this page replaces professional legal advice.",
+        "draft_label": "Draft - pending legal review",
+        "urgent_notice": "For urgent medical concerns, contact your treating provider or local emergency services.",
+        "important_notice_label": "Important notice"
+      },
+      "hero": {
+        "lead": "Clear information about how Turkelite Medcare coordinates care, protects information and works with independent healthcare providers.",
+        "kicker": "Trust & compliance",
+        "headline": "Legal & Privacy"
+      },
+      "notice": "These documents are structural drafts and must be reviewed by qualified counsel in the relevant jurisdictions before production publication.",
+      "sidebar": {
+        "text": "Contact the coordination team if you need help understanding a request or want to raise a concern about how your information is handled.",
+        "button": "Contact the team",
+        "kicker": "Need help?",
+        "heading": "Questions about your information?"
+      },
+      "documents": {
+        "intro": "Use the documents below to understand the platform, your rights and the responsibilities of Turkelite Medcare and its independent healthcare partners.",
+        "items": [
+          {
+            "url": "/legal/impressum.html",
+            "title": "Impressum / Legal notice"
+          },
+          {
+            "url": "/legal/privacy-policy.html",
+            "title": "Privacy notice"
+          },
+          {
+            "url": "/legal/cookie-policy.html",
+            "title": "Cookie policy"
+          },
+          {
+            "url": "/legal/terms.html",
+            "title": "Platform terms"
+          },
+          {
+            "url": "/legal/medical-disclaimer.html",
+            "title": "Medical disclaimer"
+          },
+          {
+            "url": "/legal/complaints.html",
+            "title": "Complaints process"
+          },
+          {
+            "url": "/legal/clinic-selection-standards.html",
+            "title": "Clinic selection standards"
+          },
+          {
+            "url": "/legal/patient-rights.html",
+            "title": "Patient rights and provider responsibilities"
+          }
+        ],
+        "heading": "Legal and privacy documents"
+      },
+      "hero_card": {
+        "text": "Medical decisions remain with independent partner providers.",
+        "label": "Role clarity",
+        "heading": "Coordinate with confidence"
+      },
+      "role_clarity": {
+        "heading": "Role clarity",
+        "paragraphs": [
+          "Turkelite Medcare is a coordination platform. We help organise communication, scheduling and practical travel support around treatment provided by independent healthcare providers.",
+          "Partner clinics and doctors remain responsible for clinical assessment, treatment recommendations, informed consent, medical care, billing for medical services and clinical aftercare."
+        ]
+      }
+    },
+    "is_active": 1,
+    "seo_title": null,
+    "seo_description": null,
+    "seo_keywords": null,
+    "seo_robots": "noindex,nofollow",
+    "translations": {
+      "de": {
+        "title": "Rechtliches & Datenschutz",
+        "description": "Rechtliches & Datenschutz",
+        "content": {}
+      },
+      "ar": {
+        "title": "القانون والخصوصية",
+        "description": "القانون والخصوصية",
+        "content": {}
+      }
+    }
+  },
+  {
+    "slug": "static/legal/clinic-selection-standards",
+    "title": "Clinic selection standards",
+    "description": "Clinic selection standards for Turkelite Medcare medical travel coordination. Draft for legal review before launch.",
+    "template": "static/legal/clinic-selection-standards",
+    "content": {},
+    "is_active": 1,
+    "seo_title": null,
+    "seo_description": null,
+    "seo_keywords": null,
+    "seo_robots": "noindex,nofollow",
+    "translations": {
+      "de": {
+        "title": "Clinic Selection Standards",
+        "description": "Clinic Selection Standards",
+        "content": {}
+      },
+      "ar": {
+        "title": "clinic selection standards",
+        "description": "clinic selection standards",
+        "content": {}
+      }
+    }
+  },
+  {
+    "slug": "static/legal/complaints",
+    "title": "Complaints process",
+    "description": "Complaints process for Turkelite Medcare medical travel coordination. Draft for legal review before launch.",
+    "template": "static/legal/complaints",
+    "content": {},
+    "is_active": 1,
+    "seo_title": null,
+    "seo_description": null,
+    "seo_keywords": null,
+    "seo_robots": "noindex,nofollow",
+    "translations": {
+      "de": {
+        "title": "Complaints",
+        "description": "Complaints",
+        "content": {}
+      },
+      "ar": {
+        "title": "complaints",
+        "description": "complaints",
+        "content": {}
+      }
+    }
+  },
+  {
+    "slug": "static/legal/cookie-policy",
+    "title": "Cookie policy",
+    "description": "Cookie policy for Turkelite Medcare medical travel coordination. Draft for legal review before launch.",
+    "template": "static/legal/cookie-policy",
+    "content": {},
+    "is_active": 1,
+    "seo_title": null,
+    "seo_description": null,
+    "seo_keywords": null,
+    "seo_robots": "noindex,nofollow",
+    "translations": {
+      "de": {
+        "title": "Cookie Policy",
+        "description": "Cookie Policy",
+        "content": {}
+      },
+      "ar": {
+        "title": "cookie policy",
+        "description": "cookie policy",
+        "content": {}
+      }
+    }
+  },
+  {
+    "slug": "static/legal/impressum",
+    "title": "Impressum / Legal notice",
+    "description": "Impressum / Legal notice for Turkelite Medcare medical travel coordination. Draft for legal review before launch.",
+    "template": "static/legal/impressum",
+    "content": {},
+    "is_active": 1,
+    "seo_title": null,
+    "seo_description": null,
+    "seo_keywords": null,
+    "seo_robots": "noindex,nofollow",
+    "translations": {
+      "de": {
+        "title": "Impressum",
+        "description": "Impressum",
+        "content": {}
+      },
+      "ar": {
+        "title": "impressum",
+        "description": "impressum",
+        "content": {}
+      }
+    }
+  },
+  {
+    "slug": "static/legal/medical-disclaimer",
+    "title": "Medical disclaimer",
+    "description": "Medical disclaimer for Turkelite Medcare medical travel coordination. Draft for legal review before launch.",
+    "template": "static/legal/medical-disclaimer",
+    "content": {},
+    "is_active": 1,
+    "seo_title": null,
+    "seo_description": null,
+    "seo_keywords": null,
+    "seo_robots": "noindex,nofollow",
+    "translations": {
+      "de": {
+        "title": "Medical Disclaimer",
+        "description": "Medical Disclaimer",
+        "content": {}
+      },
+      "ar": {
+        "title": "medical disclaimer",
+        "description": "medical disclaimer",
+        "content": {}
+      }
+    }
+  },
+  {
+    "slug": "static/legal/patient-rights",
+    "title": "Patient rights and provider responsibilities",
+    "description": "Patient rights and provider responsibilities for Turkelite Medcare medical travel coordination. Draft for legal review before launch.",
+    "template": "static/legal/patient-rights",
+    "content": {},
+    "is_active": 1,
+    "seo_title": null,
+    "seo_description": null,
+    "seo_keywords": null,
+    "seo_robots": "noindex,nofollow",
+    "translations": {
+      "de": {
+        "title": "Patient Rights",
+        "description": "Patient Rights",
+        "content": {}
+      },
+      "ar": {
+        "title": "patient rights",
+        "description": "patient rights",
+        "content": {}
+      }
+    }
+  },
+  {
+    "slug": "static/legal/privacy-policy",
+    "title": "Privacy notice",
+    "description": "Privacy notice for Turkelite Medcare medical travel coordination. Draft for legal review before launch.",
+    "template": "static/legal/privacy-policy",
+    "content": {},
+    "is_active": 1,
+    "seo_title": null,
+    "seo_description": null,
+    "seo_keywords": null,
+    "seo_robots": "noindex,nofollow",
+    "translations": {
+      "de": {
+        "title": "Privacy Policy",
+        "description": "Privacy Policy",
+        "content": {}
+      },
+      "ar": {
+        "title": "privacy policy",
+        "description": "privacy policy",
+        "content": {}
+      }
+    }
+  },
+  {
+    "slug": "static/legal/terms",
+    "title": "Platform terms",
+    "description": "Platform terms for Turkelite Medcare medical travel coordination. Draft for legal review before launch.",
+    "template": "static/legal/terms",
+    "content": {},
+    "is_active": 1,
+    "seo_title": null,
+    "seo_description": null,
+    "seo_keywords": null,
+    "seo_robots": "noindex,nofollow",
+    "translations": {
+      "de": {
+        "title": "Terms",
+        "description": "Terms",
+        "content": {}
+      },
+      "ar": {
+        "title": "terms",
+        "description": "terms",
+        "content": {}
+      }
+    }
+  },
+  {
+    "slug": "static/patient-stories",
+    "title": "Patient Stories",
+    "description": "Illustrative patient journeys showing how conditions, procedures, clinic selection, travel and follow-up connect across a treatment trip.",
+    "template": "static/patient-stories",
+    "content": {},
+    "is_active": 1,
+    "seo_title": null,
+    "seo_description": null,
+    "seo_keywords": null,
+    "seo_robots": "noindex,follow",
+    "translations": {
+      "de": {
+        "title": "Patientenerfahrungen",
+        "description": "Patientenerfahrungen",
+        "content": {}
+      },
+      "ar": {
+        "title": "تجارب المرضى",
+        "description": "تجارب المرضى",
+        "content": {}
+      }
+    }
+  },
+  {
+    "slug": "treatment-plan",
+    "title": "Get Your Treatment Plan",
+    "description": "Start a treatment enquiry. Tell us the specialty and concern, and we will prepare the information a partner clinic needs to review your case.",
+    "template": "treatment-plan",
+    "content": {
+      "form": {
+        "back": "Back",
+        "next": "Continue",
+        "error": "Please check the highlighted fields and try again.",
+        "step1": "What can we help with?",
+        "step2": "About you",
+        "step3": "Tell us anything useful",
+        "submit": "Submit Treatment Request",
+        "reply_text": "Monday to Friday, in German or English.",
+        "reply_heading": "A coordinator replies within one working day.",
+        "success_heading": "Request received"
+      },
+      "hero": {
+        "lead": "You do not need to know the exact procedure. Tell us what you are looking for and this structured request prepares the information for coordinator review.",
+        "kicker": "Start here",
+        "headline": "Get Your Treatment Plan",
+        "card_text": "One team coordinating the practical journey around your care.",
+        "card_label": "Care pathway",
+        "card_heading": "Plan, coordinate, return supported"
+      },
+      "aside": {
+        "heading": "What happens next?",
+        "privacy_heading": "Your information matters"
+      }
+    },
+    "is_active": 1,
+    "seo_title": "Request a Treatment Plan | Turkelite Medcare",
+    "seo_description": "Start a private treatment enquiry and organise the information a suitable partner clinic needs for an initial review.",
+    "seo_keywords": null,
+    "seo_robots": "noindex,follow",
+    "translations": {
+      "de": {
+        "title": "Behandlungsanfrage",
+        "description": "Starten Sie eine vertrauliche Anfrage und strukturieren Sie die Informationen für eine erste Prüfung durch eine passende Partnerklinik.",
+        "content": {
+          "hero": {
+            "kicker": "Starten Sie hier",
+            "headline": "Behandlungsanfrage vorbereiten",
+            "lead": "Sie müssen die genaue Behandlung nicht kennen. Beschreiben Sie Ihr Ziel oder Anliegen; wir strukturieren den nächsten Schritt für die Anbieterprüfung."
+          }
+        },
+        "seo_title": "Behandlungsanfrage starten | Turkelite Medcare",
+        "seo_description": "Starten Sie eine vertrauliche Anfrage und strukturieren Sie die Informationen für eine erste Prüfung durch eine passende Partnerklinik."
+      },
+      "ar": {
+        "title": "طلب العلاج",
+        "description": "ابدأ استفساراً خاصاً ورتب المعلومات التي تحتاجها عيادة شريكة مناسبة للمراجعة الأولية.",
+        "content": {
+          "hero": {
+            "kicker": "ابدأ من هنا",
+            "headline": "ابدأ طلب خطة العلاج",
+            "lead": "لا تحتاج إلى معرفة اسم الإجراء بالتحديد. أخبرنا بالهدف أو المشكلة وسنرتب الخطوة التالية للمراجعة من مقدم الرعاية."
+          }
+        },
+        "seo_title": "اطلب خطة علاج | Turkelite Medcare",
+        "seo_description": "ابدأ استفساراً خاصاً ورتب المعلومات التي تحتاجها عيادة شريكة مناسبة للمراجعة الأولية."
+      }
+    }
+  },
+  {
+    "slug": "stories.index",
+    "title": "Patient journey examples",
+    "description": "Illustrative journey examples showing how research, provider review, travel planning and follow-up handover can connect across a medical trip.",
+    "template": "stories.index",
+    "content": {
+      "hero": {
+        "lead": "See how research, clinical review, travel planning and follow-up can connect across a treatment journey.",
+        "kicker": "Patient journeys",
+        "headline": "Patient Stories",
+        "card_text": "Designed for transparent medical-travel planning",
+        "card_label": "Patient pathway",
+        "card_heading": "Concern -> Options -> Provider -> Journey"
+      },
+      "empty": {
+        "text": "Published patient journeys will appear here soon.",
+        "heading": "No patient stories are published yet"
+      },
+      "intro": {
+        "lead": "Each published story follows the journey from first research through provider review, travel preparation and follow-up planning.",
+        "eyebrow": "Journey examples",
+        "heading": "From question to coordinated plan",
+        "card_meta": "Patient journey",
+        "date_label": "Story",
+        "read_label": "Read story",
+        "published_label": "Published story"
+      }
+    },
+    "is_active": 1,
+    "seo_title": "Patient Journey Examples | Turkelite Medcare",
+    "seo_description": "Illustrative medical-travel journey examples. Published case studies will require verification and patient permission before public launch.",
+    "seo_keywords": null,
+    "seo_robots": "noindex,follow",
+    "translations": {
+      "de": {
+        "title": "Beispiele von Patientenreisen",
+        "description": "Beispiele von Patientenreisen",
+        "content": {}
+      },
+      "ar": {
+        "title": "أمثلة على رحلات المرضى",
+        "description": "أمثلة على رحلات المرضى",
+        "content": {}
+      }
+    }
+  },
+  {
+    "slug": "guides.index",
+    "title": "Medical Travel Guides | Turkelite Medcare",
+    "description": "Patient-friendly educational content for better-informed medical-travel decisions.",
+    "template": "guides.index",
+    "content": {
+      "hero": {
+        "lead": "Patient-friendly educational content supporting safer, better-informed medical-travel decisions.",
+        "kicker": "Knowledge hub",
+        "headline": "Guides",
+        "card_text": "One team coordinating the journey around your care.",
+        "card_label": "Care pathway",
+        "card_heading": "Plan -> Coordinate -> Return supported"
+      },
+      "listing": {
+        "label": "Guide",
+        "empty_text": "Published guide pages will appear here when they are added in the admin content library.",
+        "read_label": "Read guide",
+        "empty_label": "Guide library",
+        "empty_heading": "Guides are being prepared"
+      },
+      "contact_routes": [
+        {
+          "href": "/contact#message",
+          "text": "Ask one question. No commitment.",
+          "title": "Send us a message"
+        },
+        {
+          "href": "/contact#callback",
+          "text": "German or English, at a time that suits you.",
+          "title": "Request a callback"
+        },
+        {
+          "href": "/treatment-plan",
+          "text": "For when you are ready for a clinic to review your case.",
+          "title": "Start a treatment enquiry"
+        }
+      ]
+    },
+    "is_active": 1,
+    "seo_title": "Medical Travel Guides | Turkelite Medcare",
+    "seo_description": "Practical guides for comparing clinics, preparing questions, planning aftercare and understanding medical travel responsibilities.",
+    "seo_keywords": null,
+    "seo_robots": "index,follow",
+    "translations": {
+      "de": {
+        "title": "Ratgeber",
+        "description": "Praktische Ratgeber zu Klinikvergleich, Fragen, Nachsorgeplanung und Zuständigkeiten bei medizinischen Reisen.",
+        "seo_title": "Ratgeber für medizinische Reisen | Turkelite Medcare",
+        "seo_description": "Praktische Ratgeber zu Klinikvergleich, Fragen, Nachsorgeplanung und Zuständigkeiten bei medizinischen Reisen."
+      },
+      "ar": {
+        "title": "الأدلة",
+        "description": "أدلة عملية لمقارنة العيادات وتحضير الأسئلة وتخطيط المتابعة وفهم المسؤوليات في رحلة العلاج.",
+        "seo_title": "أدلة السفر للعلاج | Turkelite Medcare",
+        "seo_description": "أدلة عملية لمقارنة العيادات وتحضير الأسئلة وتخطيط المتابعة وفهم المسؤوليات في رحلة العلاج."
+      }
+    }
+  },
+  {
+    "slug": "doctors.index",
+    "title": "Doctors | Turkelite Medcare",
+    "description": "Published specialist profiles from the partner network.",
+    "template": "doctors.index",
+    "content": {
+      "hero": {
+        "lead": "Explore specialist profiles by medical focus, affiliated clinic, languages and treatment pathways.",
+        "kicker": "Medical teams",
+        "headline": "Doctors",
+        "card_text": "Credentials must be verified before publication.",
+        "card_label": "Provider transparency",
+        "card_heading": "Doctor -> Clinic -> Procedure"
+      },
+      "listing": {
+        "lead": "Specialist profiles are structured around the information international patients need before requesting a clinical review.",
+        "eyebrow": "Specialist network",
+        "heading": "Specialists across our treatment pathways",
+        "card_label": "Specialist profile",
+        "empty_text": "Published profiles will appear here when they are added by the admin team.",
+        "empty_heading": "Specialist profiles are being prepared"
+      }
+    },
+    "is_active": 1,
+    "seo_title": "Specialist Profiles | Turkelite Medcare",
+    "seo_description": "Specialist profiles connected to clinics and treatment pathways, with verification required before public launch.",
+    "seo_keywords": null,
+    "seo_robots": "noindex,follow",
+    "translations": {
+      "de": {
+        "title": "Facharztprofile",
+        "description": "Facharztprofile mit Zuordnung zu Kliniken und Behandlungswegen; Verifizierung vor öffentlicher Veröffentlichung erforderlich.",
+        "seo_title": "Facharztprofile | Turkelite Medcare",
+        "seo_description": "Facharztprofile mit Zuordnung zu Kliniken und Behandlungswegen; Verifizierung vor öffentlicher Veröffentlichung erforderlich."
+      },
+      "ar": {
+        "title": "ملفات الأطباء",
+        "description": "ملفات أطباء مرتبطة بالعيادات ومسارات العلاج مع ضرورة التحقق قبل الإطلاق العام.",
+        "seo_title": "ملفات الأطباء | Turkelite Medcare",
+        "seo_description": "ملفات أطباء مرتبطة بالعيادات ومسارات العلاج مع ضرورة التحقق قبل الإطلاق العام."
+      }
+    }
+  },
+  {
+    "slug": "clinics.index",
+    "title": "Clinics | Turkelite Medcare",
+    "description": "Compare published partner clinic profiles.",
+    "template": "clinics.index",
+    "content": {
+      "hero": {
+        "lead": "Explore published partner clinics by city, profile, and international-patient support.",
+        "kicker": "Partner network",
+        "headline": "Selected clinics in Turkey",
+        "card_label": "Network snapshot"
+      }
+    },
+    "is_active": 1,
+    "seo_title": "Partner Clinics | Turkelite Medcare",
+    "seo_description": "Provider profiles used to explain how clinic comparison and verification will work in the Turkelite Medcare platform.",
+    "seo_keywords": null,
+    "seo_robots": "noindex,follow",
+    "translations": {
+      "de": {
+        "title": "Partnerkliniken",
+        "description": "Anbieterprofile zur Darstellung von Klinikvergleich und Verifizierung auf der Turkelite-Medcare-Plattform.",
+        "seo_title": "Partnerkliniken | Turkelite Medcare",
+        "seo_description": "Anbieterprofile zur Darstellung von Klinikvergleich und Verifizierung auf der Turkelite-Medcare-Plattform."
+      },
+      "ar": {
+        "title": "العيادات الشريكة",
+        "description": "ملفات مقدمي الرعاية لشرح طريقة مقارنة العيادات والتحقق منها في منصة Turkelite Medcare.",
+        "seo_title": "العيادات الشريكة | Turkelite Medcare",
+        "seo_description": "ملفات مقدمي الرعاية لشرح طريقة مقارنة العيادات والتحقق منها في منصة Turkelite Medcare."
+      }
+    }
+  }
+]

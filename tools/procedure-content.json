@@ -1,0 +1,727 @@
+{
+  "_README": "Procedure-specific patient-education content. One key per 'specialty/slug'. Every entry must be signed off by a qualified clinician before the page is indexed; set reviewedBy/reviewedOn when that happens. Ranges are general patient-education figures, not a promise about any individual case.",
+
+  "dental/dental-implants": {
+    "reviewedBy": "",
+    "reviewedOn": "",
+    "what": [
+      "A dental implant is a small titanium or zirconia post placed into the jawbone to replace the root of a missing tooth. Once the bone has healed around the post — a process called osseointegration — an abutment and a crown, bridge or denture are attached on top. The implant itself is never visible; what you see is the restoration fixed to it.",
+      "Treatment normally runs in two stages. The implant is placed under local anaesthetic in a visit of roughly one to two hours, then left to integrate for around three to six months before the final restoration is fitted. Some cases allow a temporary tooth on the day of surgery, and a smaller number allow immediate loading with the definitive restoration, but whether that is possible depends on bone quality and bite forces rather than on preference."
+    ],
+    "why": "Implants are usually considered when one or more teeth are missing or failing and a patient wants a fixed replacement that does not rely on grinding down neighbouring teeth, as a conventional bridge does. They also stimulate the jawbone in a way that dentures do not, which slows the bone resorption that follows tooth loss.",
+    "suitable": [
+      "Adults with completed jaw growth and one or more missing or unrestorable teeth",
+      "Sufficient bone volume and density, or willingness to undergo grafting or a sinus lift first",
+      "Healthy gums, with any active periodontal disease treated beforehand",
+      "Able to maintain thorough daily cleaning around the implant"
+    ],
+    "notsuitable": [
+      "Active, untreated gum disease or widespread untreated decay",
+      "Heavy smoking, which measurably raises the risk of implant failure",
+      "Poorly controlled diabetes or conditions that impair bone healing",
+      "Certain bone medicines, including some bisphosphonates and denosumab, which need specialist assessment",
+      "Untreated severe bruxism without a plan to manage the grinding forces"
+    ],
+    "recovery": [
+      "First 48 hours: swelling, mild bruising and discomfort managed with simple analgesia; soft diet",
+      "First week: sutures often removed around day 7–10; avoid the surgical site when brushing",
+      "3–6 months: integration period, usually with a temporary tooth in place if the gap is visible",
+      "Second stage: abutment and final restoration fitted, typically over one to two appointments",
+      "Long term: professional maintenance every six to twelve months to monitor the tissue around the implant"
+    ],
+    "risks": [
+      "Failure to integrate, so the implant loosens and has to be removed and replaced",
+      "Infection at the surgical site, or peri-implantitis later if cleaning is inadequate",
+      "Nerve injury causing numbness or altered sensation in the lip, chin or tongue — uncommon, occasionally lasting",
+      "Sinus complications when implants are placed in the upper back jaw",
+      "Damage to adjacent teeth or restorations during placement",
+      "Mechanical problems over time: screw loosening, crown fracture, chipped porcelain"
+    ],
+    "alternatives": [
+      "Conventional fixed bridge supported by the neighbouring teeth",
+      "Removable partial or full denture",
+      "Resin-bonded bridge for a single front tooth",
+      "Leaving the gap, where the bite and appearance allow it"
+    ],
+    "glance": {
+      "Typical procedure time": "1–2 hours for a single implant",
+      "Anaesthesia": "Local anaesthetic, with sedation available",
+      "Time to final restoration": "Usually 3–6 months",
+      "Return-travel window": "Confirmed by the clinic, often 2–3 days after placement"
+    }
+  },
+
+  "dental/root-canal-treatment": {
+    "reviewedBy": "",
+    "reviewedOn": "",
+    "what": [
+      "Root canal treatment — endodontic treatment — removes infected or inflamed pulp from inside a tooth. The dentist opens the crown of the tooth, cleans and shapes the narrow canals inside each root, disinfects them, then fills and seals them so bacteria cannot recolonise the space. The aim is to keep a tooth that would otherwise need extraction.",
+      "Most treatments are completed in one or two visits of roughly 60 to 90 minutes under local anaesthetic. Molars have more canals than front teeth and take longer. Because the remaining tooth is more brittle once the pulp is gone, a back tooth is usually protected with a crown or onlay afterwards; this second stage is a separate appointment and a separate cost."
+    ],
+    "why": "Patients are usually referred after persistent toothache, prolonged sensitivity to heat or cold, pain on biting, a dental abscess, or an X-ray finding of infection at the root tip. It is also needed when trauma or deep decay has exposed the pulp.",
+    "suitable": [
+      "A tooth with irreversible pulpitis, pulp necrosis or apical infection",
+      "Enough sound tooth structure remaining to restore afterwards",
+      "Root canals that can be located and negotiated on assessment",
+      "Adequate surrounding bone and gum support"
+    ],
+    "notsuitable": [
+      "A vertical root fracture, which generally makes the tooth unsavable",
+      "Severe decay leaving too little tooth to restore",
+      "Advanced periodontal disease around the same tooth",
+      "Cases better served by extraction and an implant or bridge, on the clinician's assessment"
+    ],
+    "recovery": [
+      "First 24–48 hours: tenderness on biting is common; over-the-counter analgesia is usually enough",
+      "Avoid chewing firmly on the tooth until the permanent restoration is placed",
+      "Most people return to normal activity the same or next day",
+      "Definitive crown or onlay typically fitted within a few weeks",
+      "Follow-up X-ray commonly recommended at 6–12 months to confirm healing"
+    ],
+    "risks": [
+      "Persistent or recurrent infection requiring retreatment or apical surgery",
+      "A canal that cannot be fully cleaned because of curvature, calcification or unusual anatomy",
+      "Instrument separation inside a canal",
+      "Perforation of the root wall",
+      "Fracture of the treated tooth, particularly if the crown is delayed",
+      "Post-operative pain lasting longer than expected, sometimes needing a further visit"
+    ],
+    "alternatives": [
+      "Extraction, followed by an implant, bridge or denture — or by leaving the gap",
+      "Pulpotomy or pulp capping in selected cases where the pulp is still vital",
+      "Apicoectomy where a previous root canal has failed and retreatment is not viable",
+      "Monitoring with no immediate treatment, only where the tooth is symptom-free and the clinician judges it appropriate"
+    ],
+    "glance": {
+      "Typical procedure time": "60–90 minutes per visit, one or two visits",
+      "Anaesthesia": "Local anaesthetic",
+      "Restoration": "Crown or onlay usually needed on back teeth",
+      "Return-travel window": "Often the next day, confirmed by the clinic"
+    }
+  },
+
+  "dental/dental-veneers": {
+    "reviewedBy": "",
+    "reviewedOn": "",
+    "what": [
+      "A veneer is a thin shell of porcelain or composite bonded to the front surface of a tooth to change its colour, shape, length or alignment. Porcelain veneers are made in a laboratory and cemented at a second visit; composite veneers are shaped directly on the tooth in a single appointment.",
+      "Most porcelain veneers require a small amount of enamel to be removed — commonly around 0.3 to 0.7 mm — so the result sits flush with the neighbouring teeth. That reduction is permanent: once a tooth is prepared for a veneer, it will need a veneer or crown for the rest of its life. Minimal-preparation and no-preparation veneers exist but only suit a narrower set of cases."
+    ],
+    "why": "Veneers are usually considered for discoloration that does not respond to whitening, chipped or worn edges, small gaps, mildly rotated or uneven teeth, or an overall change in the look of the smile line. They address appearance, not disease.",
+    "suitable": [
+      "Healthy teeth and gums, with decay and gum disease treated first",
+      "Enough sound enamel for a reliable bond",
+      "A cosmetic concern confined to the visible front teeth",
+      "Realistic expectations agreed with the clinician at the planning stage"
+    ],
+    "notsuitable": [
+      "Active decay, untreated gum disease or root infection",
+      "Significant bruxism without a night guard and bite management",
+      "Substantial crowding or bite problems better corrected with orthodontics first",
+      "Heavily filled or structurally weak teeth, where a crown is the sounder option"
+    ],
+    "recovery": [
+      "Temporary veneers worn between preparation and fitting, usually one to two weeks",
+      "Sensitivity to hot and cold for a few days to a few weeks after preparation",
+      "Normal eating usually resumes within 24 hours of final bonding, avoiding very hard foods",
+      "A night guard is commonly advised for anyone who grinds",
+      "Routine hygiene visits to monitor the margins and gum health"
+    ],
+    "risks": [
+      "Irreversible enamel removal",
+      "Chipping, debonding or fracture, requiring repair or replacement",
+      "Ongoing sensitivity",
+      "Colour mismatch with surrounding natural teeth, or staining at the margins over time",
+      "Gum irritation or recession exposing the veneer edge",
+      "Pulp inflammation occasionally requiring root canal treatment later"
+    ],
+    "alternatives": [
+      "Professional tooth whitening for discoloration alone",
+      "Direct composite bonding, which removes little or no enamel and is reversible",
+      "Orthodontics or clear aligners for alignment and spacing",
+      "Crowns where the tooth is structurally compromised",
+      "Enamel reshaping and polishing for very minor irregularities"
+    ],
+    "glance": {
+      "Typical procedure time": "Two visits over roughly a week for porcelain",
+      "Anaesthesia": "Local anaesthetic, often minimal",
+      "Enamel removal": "Usually permanent",
+      "Return-travel window": "After the final fit, confirmed by the clinic"
+    }
+  },
+
+  "hair-restoration/fue-hair-transplant": {
+    "reviewedBy": "",
+    "reviewedOn": "",
+    "what": [
+      "Follicular unit excision (FUE) moves hair from the back and sides of the scalp — the donor area, which is genetically resistant to pattern hair loss — to thinning or bald regions. Individual follicular units of one to four hairs are removed one at a time with a punch typically under a millimetre across, then placed into recipient sites in the planned pattern.",
+      "A session commonly lasts six to eight hours under local anaesthetic and moves somewhere between 1,500 and 4,000 grafts, depending on donor density and the area being covered. FUE leaves scattered small dot scars across the donor zone rather than the single linear scar of a strip procedure, which is why it suits people who wear their hair short."
+    ],
+    "why": "Most patients are men with androgenetic alopecia at a stable stage, but FUE is also used for a receding hairline, thinning crowns, scar coverage and to refine the results of earlier surgery. It redistributes existing hair; it does not create new follicles or stop ongoing loss.",
+    "suitable": [
+      "A pattern of loss that has been stable long enough for a realistic plan to be made",
+      "Adequate donor density at the back and sides",
+      "Realistic expectations about coverage, given a fixed lifetime donor supply",
+      "General health that allows a long procedure under local anaesthetic"
+    ],
+    "notsuitable": [
+      "Rapidly progressing loss in a young patient, where medical treatment is usually recommended first",
+      "Diffuse unpatterned thinning that also affects the donor area",
+      "Active scalp disease, or scarring alopecias that are still inflamed",
+      "Bleeding disorders or anticoagulation that cannot safely be managed around surgery",
+      "Expectations of density matching an unaffected scalp"
+    ],
+    "recovery": [
+      "Days 1–3: swelling of the forehead is common; the recipient area is crusted and tender",
+      "Day 7–10: crusts clear with the washing routine set by the clinic",
+      "Weeks 2–6: transplanted hairs shed — this is expected and not a sign of failure",
+      "Months 3–4: new growth begins",
+      "Months 8–12: most of the result is visible; final density typically judged at 12–18 months",
+      "Strenuous exercise, swimming and direct sun are usually restricted for several weeks"
+    ],
+    "risks": [
+      "Poor graft survival, giving thinner coverage than planned",
+      "Visible donor depletion or over-harvesting",
+      "Folliculitis or infection in the recipient area",
+      "Numbness or altered sensation, usually temporary",
+      "Shock loss of existing hairs around the transplanted zone",
+      "An unnatural hairline design, which is difficult and sometimes impossible to correct",
+      "Continued loss of untransplanted hair, changing the result over time"
+    ],
+    "alternatives": [
+      "Medical therapy such as topical minoxidil or oral finasteride, on prescription and clinician assessment",
+      "DHI, where grafts are implanted with a pen-shaped tool",
+      "FUT strip harvesting where very high graft numbers are needed",
+      "Scalp micropigmentation for the appearance of density without surgery",
+      "Hair systems, or accepting the loss"
+    ],
+    "glance": {
+      "Typical procedure time": "6–8 hours, sometimes over two days",
+      "Anaesthesia": "Local anaesthetic",
+      "First visible growth": "Around 3–4 months",
+      "Final result assessed": "12–18 months"
+    }
+  },
+
+  "hair-restoration/dhi-hair-transplant": {
+    "reviewedBy": "",
+    "reviewedOn": "",
+    "what": [
+      "Direct Hair Implantation (DHI) is a variation of FUE. Grafts are harvested the same way, but instead of creating recipient channels first and then placing grafts into them, the surgeon loads each graft into a hollow implanter pen that makes the channel and sets the graft in one movement.",
+      "The practical differences are shorter time out of the body for each graft and tighter control over the angle, depth and direction of placement — which is why DHI is often chosen for hairlines and for adding density between existing hairs. It is slower per graft than standard FUE, so sessions may cover a smaller area or run longer."
+    ],
+    "why": "DHI is generally selected for frontal hairline work, for filling in among existing hair where channel creation risks damaging what is already there, and for smaller, detail-driven cases. It is a placement technique, not a different operation, and it does not change what the donor area can supply.",
+    "suitable": [
+      "Hairline design and frontal density work",
+      "Adding grafts between existing hairs without transecting them",
+      "Small to moderate session sizes",
+      "The same stability and donor-supply conditions that apply to any transplant"
+    ],
+    "notsuitable": [
+      "Very large sessions where standard FUE is usually more efficient",
+      "Unstable or diffuse loss involving the donor area",
+      "Active scalp disease or inflamed scarring alopecia",
+      "Anyone for whom transplantation itself is not yet appropriate"
+    ],
+    "recovery": [
+      "Recovery follows the same course as FUE",
+      "Crusting clears over roughly 7–10 days with the clinic's washing routine",
+      "Shedding of transplanted hairs at weeks 2–6 is expected",
+      "Growth from around month 3–4; result assessed at 12–18 months",
+      "Exercise, swimming and sun exposure restricted for several weeks"
+    ],
+    "risks": [
+      "The same risk profile as FUE: graft failure, infection, shock loss, numbness, donor depletion",
+      "Graft crush or damage if implanter technique is poor",
+      "Longer time in the chair for the same graft count",
+      "Marketing claims about superiority that outrun the evidence — the surgeon's skill matters more than the tool"
+    ],
+    "alternatives": [
+      "Standard FUE, which suits larger sessions",
+      "FUT strip harvesting for very high graft numbers",
+      "Medical therapy for ongoing loss",
+      "Scalp micropigmentation"
+    ],
+    "glance": {
+      "Typical procedure time": "6–9 hours",
+      "Anaesthesia": "Local anaesthetic",
+      "First visible growth": "Around 3–4 months",
+      "Final result assessed": "12–18 months"
+    }
+  },
+
+  "cosmetic-surgery/rhinoplasty": {
+    "reviewedBy": "",
+    "reviewedOn": "",
+    "what": [
+      "Rhinoplasty reshapes the bone and cartilage framework of the nose. In an open approach the surgeon makes a small incision across the columella, the strip of skin between the nostrils, and lifts the skin to work under direct vision. A closed approach keeps all incisions inside the nostrils. Cartilage may be trimmed, repositioned or grafted, and the nasal bones may be narrowed or straightened.",
+      "Where breathing is also a problem, septoplasty or turbinate reduction is often carried out at the same time; this combination is usually described as septorhinoplasty. Surgery typically takes two to four hours under general anaesthetic, with one night in hospital in many protocols."
+    ],
+    "why": "Patients seek rhinoplasty to change the shape, size, profile or symmetry of the nose, to correct a deformity after injury, or to improve nasal airflow. Functional and cosmetic goals often overlap, and the assessment should cover both.",
+    "suitable": [
+      "Completed facial growth — commonly from around 16–17 in women and 17–18 in men",
+      "Stable general health and no uncontrolled bleeding disorder",
+      "Specific, discussable goals rather than a general wish to look different",
+      "Understanding that this is one of the most technically demanding facial operations"
+    ],
+    "notsuitable": [
+      "Body dysmorphic disorder or expectations that cannot be met surgically",
+      "Active nasal or sinus infection at the time of surgery",
+      "Ongoing cocaine use or heavy smoking, both of which impair healing",
+      "Uncontrolled conditions that make general anaesthesia unsafe",
+      "Insufficient time to allow at least 12 months before judging the result"
+    ],
+    "recovery": [
+      "Days 1–7: splint or cast in place; swelling and bruising around the eyes peak at 48–72 hours",
+      "Around day 7: splint and any external sutures removed",
+      "Weeks 2–3: most people are back at desk work and socially presentable",
+      "Weeks 3–6: no contact sport, heavy lifting or glasses resting on the bridge unless the surgeon allows it",
+      "Months 3–12: fine swelling settles gradually, particularly at the tip",
+      "Final result usually judged at 12 months, longer for thick skin or revision cases"
+    ],
+    "risks": [
+      "Persistent or new breathing difficulty",
+      "Asymmetry, irregularity or a result that does not match what was planned",
+      "Revision surgery, which is needed in a meaningful minority of cases",
+      "Bleeding, infection, or septal perforation",
+      "Numbness of the nasal tip, usually temporary",
+      "Scarring at the columella in open approaches",
+      "Anaesthetic risks, including thrombosis"
+    ],
+    "alternatives": [
+      "Non-surgical rhinoplasty with dermal filler, for limited contour changes and with its own vascular risks",
+      "Septoplasty or turbinate reduction alone where the concern is purely functional",
+      "Camouflage with make-up or hairstyling",
+      "No treatment"
+    ],
+    "glance": {
+      "Typical procedure time": "2–4 hours",
+      "Anaesthesia": "General anaesthetic",
+      "Splint removed": "Around 7 days",
+      "Final result assessed": "12 months or more"
+    }
+  },
+
+  "cosmetic-surgery/liposuction": {
+    "reviewedBy": "",
+    "reviewedOn": "",
+    "what": [
+      "Liposuction removes localised fat deposits through small incisions using a cannula connected to suction. Tumescent fluid containing local anaesthetic and adrenaline is infiltrated first to reduce bleeding and ease fat removal. Variants add ultrasound, laser or power assistance, but the underlying principle is the same.",
+      "It is a contouring operation, not a weight-loss operation. There is a safe ceiling on how much fat can be removed in one session — many surgeons work to around five litres of aspirate as a threshold beyond which risk rises sharply and inpatient monitoring is expected. Compression garments are worn for several weeks afterwards."
+    ],
+    "why": "Liposuction is considered for disproportionate fat deposits that persist despite stable weight and consistent exercise — flanks, abdomen, thighs, arms, back, under the chin. It does not treat obesity, loose skin or cellulite.",
+    "suitable": [
+      "Stable weight close to a healthy range, with localised rather than generalised fat",
+      "Good skin elasticity, so the skin redrapes after volume is removed",
+      "Non-smoker or willing to stop well before surgery",
+      "Understanding that remaining fat cells still respond to weight gain"
+    ],
+    "notsuitable": [
+      "Using surgery as a weight-loss method",
+      "Significant skin laxity, where excision surgery gives a better result",
+      "Uncontrolled diabetes, cardiovascular disease or bleeding disorders",
+      "History of thrombosis without a managed prophylaxis plan",
+      "Multiple large-volume areas combined in a single session against the surgeon's advice"
+    ],
+    "recovery": [
+      "Days 1–3: soreness, bruising and fluid leakage from incision sites",
+      "Compression garment worn continuously for roughly 2–6 weeks as directed",
+      "Desk work usually resumes within 3–7 days depending on the areas treated",
+      "Exercise reintroduced from around weeks 3–4 with surgical approval",
+      "Swelling settles over 3–6 months; final contour typically judged at around 6 months",
+      "Manual lymphatic drainage is often recommended, though evidence for it varies"
+    ],
+    "risks": [
+      "Contour irregularity, rippling, asymmetry or over-resection",
+      "Seroma or haematoma formation",
+      "Prolonged swelling and altered sensation",
+      "Infection, and rarely necrotising soft-tissue infection",
+      "Fat embolism and venous thromboembolism — uncommon but serious",
+      "Fluid shifts and lidocaine toxicity in large-volume cases",
+      "Skin laxity becoming more apparent once volume is removed"
+    ],
+    "alternatives": [
+      "Supervised diet and exercise for generalised weight reduction",
+      "Non-invasive fat reduction such as cryolipolysis, with more modest effects",
+      "Abdominoplasty or body-lift surgery where loose skin is the main issue",
+      "No treatment"
+    ],
+    "glance": {
+      "Typical procedure time": "1–3 hours depending on areas",
+      "Anaesthesia": "General or tumescent local with sedation",
+      "Compression garment": "Roughly 2–6 weeks",
+      "Final contour assessed": "Around 6 months"
+    }
+  },
+
+  "bariatric-surgery/sleeve-gastrectomy": {
+    "reviewedBy": "",
+    "reviewedOn": "",
+    "what": [
+      "Sleeve gastrectomy removes roughly 75–80% of the stomach laparoscopically, leaving a narrow tube — the sleeve — running from the oesophagus to the duodenum. The section removed includes most of the fundus, which produces much of the body's ghrelin, so the operation reduces both capacity and appetite signalling. It is not reversible.",
+      "Surgery takes about one to two hours under general anaesthetic through several small incisions, with a hospital stay commonly of two to three nights. It is the most frequently performed bariatric operation worldwide, but it is one component of a long-term programme that includes dietary change, supplementation and follow-up — not a standalone event."
+    ],
+    "why": "It is considered for people with obesity where supervised non-surgical measures have not achieved durable results, particularly where obesity-related conditions such as type 2 diabetes, sleep apnoea, hypertension or joint disease are present. Eligibility thresholds vary by country and by clinic.",
+    "suitable": [
+      "Meeting the clinic's BMI and comorbidity criteria after full assessment",
+      "Completion of a multidisciplinary work-up including dietetic and psychological review",
+      "Commitment to lifelong dietary change, vitamin and mineral supplementation, and follow-up bloods",
+      "Fitness for laparoscopic surgery under general anaesthesia"
+    ],
+    "notsuitable": [
+      "Severe or poorly controlled gastro-oesophageal reflux, or Barrett's oesophagus — bypass is often preferred",
+      "Untreated eating disorder, active substance misuse or unstable mental health",
+      "Inability or unwillingness to attend long-term follow-up and take supplements",
+      "Pregnancy, or planned pregnancy within roughly 12–18 months of surgery",
+      "Medical conditions that make general anaesthesia or pneumoperitoneum unsafe"
+    ],
+    "recovery": [
+      "Hospital stay commonly 2–3 nights, with a leak test before discharge in many protocols",
+      "Staged diet: clear fluids, then full fluids, purée, soft food and finally normal textures over roughly 6–8 weeks under dietetic supervision",
+      "Desk work usually resumes at 2–4 weeks; heavy lifting avoided for around 6 weeks",
+      "Most weight loss occurs over the first 12–18 months",
+      "Lifelong supplementation and at least annual blood monitoring",
+      "Air travel is usually deferred until the clinic confirms it, commonly around 10–14 days, with thrombosis precautions"
+    ],
+    "risks": [
+      "Staple-line leak — uncommon but the most serious early complication, and one that typically presents after international patients have flown home",
+      "Bleeding, and venous thromboembolism",
+      "Stricture or narrowing of the sleeve",
+      "New or worsened reflux, sometimes requiring conversion to a bypass",
+      "Nutritional deficiencies including iron, vitamin B12, vitamin D and folate",
+      "Gallstones during rapid weight loss",
+      "Weight regain or insufficient weight loss",
+      "Loose skin that may prompt further surgery"
+    ],
+    "alternatives": [
+      "Roux-en-Y gastric bypass, often preferred where reflux is significant",
+      "One-anastomosis gastric bypass",
+      "Endoscopic sleeve gastroplasty or intragastric balloon, which are less invasive and generally less durable",
+      "Medical weight management including GLP-1 receptor agonists, under supervision",
+      "Structured lifestyle and dietetic programmes"
+    ],
+    "glance": {
+      "Typical procedure time": "1–2 hours",
+      "Anaesthesia": "General anaesthetic",
+      "Hospital stay": "Commonly 2–3 nights",
+      "Follow-up": "Lifelong supplementation and monitoring"
+    }
+  },
+
+  "bariatric-surgery/roux-en-y-gastric-bypass": {
+    "reviewedBy": "",
+    "reviewedOn": "",
+    "what": [
+      "Roux-en-Y gastric bypass creates a small stomach pouch, then joins it directly to a limb of small intestine, bypassing the rest of the stomach and the duodenum. A second connection further down returns digestive juices to the food stream, forming the Y shape the operation is named for. It restricts intake, alters gut hormone signalling and reduces absorption of some nutrients.",
+      "The operation is performed laparoscopically in most centres, takes roughly two to three hours, and usually involves a hospital stay of two to three nights. It has the longest track record of the mainstream bariatric procedures and is frequently the option chosen where reflux or type 2 diabetes is prominent."
+    ],
+    "why": "It is considered for the same population as sleeve gastrectomy, and is often favoured where there is significant gastro-oesophageal reflux, hiatus hernia, or type 2 diabetes, where the metabolic effect tends to be more pronounced. It is also used as a revision after a sleeve.",
+    "suitable": [
+      "Meeting the clinic's criteria after full multidisciplinary assessment",
+      "Significant reflux or Barrett's oesophagus, where a sleeve would be a poorer choice",
+      "Type 2 diabetes where a stronger metabolic effect is the goal",
+      "Willingness to commit to lifelong supplementation and monitoring"
+    ],
+    "notsuitable": [
+      "Inability to maintain lifelong vitamin and mineral supplementation",
+      "Untreated eating disorder or active substance misuse",
+      "Complex prior abdominal surgery making the anatomy hazardous, on the surgeon's judgement",
+      "Crohn's disease affecting the small bowel",
+      "Long-term need for medicines whose absorption would be unpredictable, without a management plan"
+    ],
+    "recovery": [
+      "Hospital stay commonly 2–3 nights",
+      "Staged diet from fluids to normal textures over roughly 6–8 weeks with dietetic supervision",
+      "Desk work usually at 2–4 weeks; heavy lifting avoided for around 6 weeks",
+      "Most weight loss over the first 12–18 months",
+      "Lifelong supplementation — including B12, iron, calcium and fat-soluble vitamins — with at least annual bloods",
+      "Air travel deferred until the clinic confirms, with thrombosis precautions"
+    ],
+    "risks": [
+      "Anastomotic leak — the most serious early complication",
+      "Internal hernia and bowel obstruction, which can occur years later and needs urgent assessment",
+      "Marginal ulcer, with a markedly higher risk in smokers and NSAID users",
+      "Dumping syndrome after sugary or high-fat meals",
+      "Nutritional deficiencies, more pronounced than after a sleeve",
+      "Bleeding, stricture and venous thromboembolism",
+      "Weight regain, gallstones and loose skin",
+      "Altered absorption of alcohol and of some medicines"
+    ],
+    "alternatives": [
+      "Sleeve gastrectomy",
+      "One-anastomosis gastric bypass",
+      "Endoscopic procedures or intragastric balloon",
+      "Medical weight management including GLP-1 receptor agonists",
+      "Structured lifestyle and dietetic programmes"
+    ],
+    "glance": {
+      "Typical procedure time": "2–3 hours",
+      "Anaesthesia": "General anaesthetic",
+      "Hospital stay": "Commonly 2–3 nights",
+      "Follow-up": "Lifelong supplementation and monitoring"
+    }
+  },
+
+  "eye-care/lasik": {
+    "reviewedBy": "",
+    "reviewedOn": "",
+    "what": [
+      "LASIK corrects short-sightedness, long-sightedness and astigmatism by reshaping the cornea. A thin hinged flap is created — with a femtosecond laser in most modern practice — then lifted so an excimer laser can remove a precise amount of tissue underneath. The flap is repositioned and seals without stitches.",
+      "The laser treatment itself takes well under a minute per eye; both eyes are usually treated in one visit lasting around 20 to 30 minutes in total. Topical anaesthetic drops are used rather than a general anaesthetic. Vision is typically functional within a day, which is why LASIK is chosen over surface treatments by patients who need to return to work quickly."
+    ],
+    "why": "People choose LASIK to reduce dependence on glasses or contact lenses. It corrects refractive error; it does not prevent age-related presbyopia, and most patients will still need reading glasses from their mid-forties onwards.",
+    "suitable": [
+      "Adults, typically 18 or older, with a stable prescription for at least 12 months",
+      "Adequate corneal thickness and a normal corneal topography",
+      "Refractive error within the range the clinic treats",
+      "Healthy eyes with no active disease, and realistic expectations about night vision and reading glasses"
+    ],
+    "notsuitable": [
+      "Keratoconus or suspicious corneal topography — a critical exclusion",
+      "Thin corneas relative to the correction required",
+      "Significant dry eye disease",
+      "Uncontrolled autoimmune or connective tissue disease, poorly controlled diabetes",
+      "Pregnancy or breastfeeding, when the prescription can shift",
+      "Advanced cataract or glaucoma, or an unstable prescription"
+    ],
+    "recovery": [
+      "First few hours: burning, watering and light sensitivity; rest with eyes closed",
+      "Day 1: most patients see well enough for everyday tasks and attend a next-day check",
+      "Week 1: no rubbing, swimming or eye make-up; protective shields often worn at night",
+      "Weeks 2–4: exercise and swimming reintroduced as directed",
+      "Dry eye and night-time halos are common early and usually settle over 3–6 months",
+      "Return travel is normally possible within a few days, but the day-one review should happen before flying"
+    ],
+    "risks": [
+      "Dry eye, occasionally persistent",
+      "Glare, halos and starbursts around lights at night",
+      "Under-correction or over-correction, sometimes requiring an enhancement",
+      "Flap complications: displacement, striae, or epithelial ingrowth",
+      "Infection or inflammation under the flap",
+      "Corneal ectasia — rare, serious, progressive weakening",
+      "Loss of some best-corrected vision in a small number of cases"
+    ],
+    "alternatives": [
+      "PRK or other surface ablation, which avoids a flap and suits thinner corneas",
+      "SMILE, a flapless intrastromal technique",
+      "Implantable collamer lens for high prescriptions or thin corneas",
+      "Refractive lens exchange, more often considered from middle age",
+      "Continuing with glasses or contact lenses"
+    ],
+    "glance": {
+      "Typical procedure time": "20–30 minutes for both eyes",
+      "Anaesthesia": "Anaesthetic eye drops",
+      "Functional vision": "Usually within 24 hours",
+      "Return-travel window": "After the day-one review, confirmed by the clinic"
+    }
+  },
+
+  "eye-care/cataract-surgery": {
+    "reviewedBy": "",
+    "reviewedOn": "",
+    "what": [
+      "Cataract surgery removes the eye's clouded natural lens and replaces it with a clear artificial intraocular lens. The standard technique, phacoemulsification, uses ultrasound through an incision of around 2–3 mm to break up the lens and aspirate it; the folded implant is then inserted into the remaining capsule, and the incision usually seals without stitches.",
+      "Each eye takes roughly 15 to 30 minutes under local anaesthetic, as a day case, with the second eye normally treated a week or more later. Lens choice matters as much as the surgery: a monofocal implant gives sharp vision at one distance, while multifocal, extended-depth-of-focus and toric options address a wider range at additional cost and with their own visual trade-offs."
+    ],
+    "why": "Surgery is considered when lens clouding blurs vision, causes glare or haloes, dulls colours or affects driving, reading and daily function. It is also performed to enable treatment or monitoring of other eye disease. It is the most commonly performed operation in many health systems.",
+    "suitable": [
+      "Vision affected by cataract to a degree that interferes with daily life",
+      "Realistic expectations, particularly about premium lens options",
+      "Able to lie reasonably flat and cooperate for the duration",
+      "Any co-existing eye disease assessed beforehand, since it limits the achievable result"
+    ],
+    "notsuitable": [
+      "No functional impairment yet, where monitoring is reasonable",
+      "Active ocular infection or inflammation until treated",
+      "Advanced macular or optic nerve disease that would cap visual improvement — surgery may still be offered, with expectations set accordingly",
+      "Inability to attend post-operative review and use drops as prescribed"
+    ],
+    "recovery": [
+      "Vision often improves within days, though it may be blurred or gritty at first",
+      "Anti-inflammatory and antibiotic drops for roughly 2–4 weeks on a tapering schedule",
+      "No rubbing, swimming or heavy lifting for around two weeks",
+      "A shield worn at night for the first week in many protocols",
+      "Final glasses prescription usually settled at 4–6 weeks",
+      "The next-day and one-week checks should be arranged before any return travel"
+    ],
+    "risks": [
+      "Posterior capsule opacification — common, and treated with a quick YAG laser procedure",
+      "Endophthalmitis — rare but sight-threatening infection",
+      "Posterior capsule rupture or dropped lens fragments during surgery",
+      "Cystoid macular oedema",
+      "Retinal detachment, with higher risk in short-sighted eyes",
+      "Refractive surprise, so glasses are still needed",
+      "Raised intraocular pressure, corneal swelling, or dysphotopsia — unwanted glare and shadows"
+    ],
+    "alternatives": [
+      "Updated glasses and brighter task lighting while the cataract is mild",
+      "Delaying surgery and monitoring",
+      "Refractive lens exchange, which is the same operation performed before a cataract has developed"
+    ],
+    "glance": {
+      "Typical procedure time": "15–30 minutes per eye",
+      "Anaesthesia": "Local anaesthetic, day case",
+      "Second eye": "Usually a week or more later",
+      "Final prescription": "Around 4–6 weeks"
+    }
+  },
+
+  "orthopedics/total-knee-replacement": {
+    "reviewedBy": "",
+    "reviewedOn": "",
+    "what": [
+      "Total knee replacement resurfaces the worn ends of the femur and tibia with metal components and inserts a plastic bearing between them; the back of the kneecap is resurfaced in some cases. The aim is to relieve pain from end-stage arthritis and restore functional movement, not to recreate a normal knee.",
+      "Surgery takes roughly one to two hours under spinal or general anaesthetic. Most centres now mobilise patients on the day of surgery, with a hospital stay of two to four nights. Rehabilitation, not the operation, determines most of the outcome — and it runs for months, which is the central planning problem for anyone having this done abroad."
+    ],
+    "why": "It is considered for advanced osteoarthritis, rheumatoid arthritis or post-traumatic arthritis where pain disturbs sleep and daily activity and non-surgical measures — weight management, physiotherapy, analgesia, injections — no longer control symptoms.",
+    "suitable": [
+      "Radiographic end-stage arthritis matching the reported symptoms",
+      "Non-surgical treatment already tried without adequate relief",
+      "Fit for anaesthesia and for an active rehabilitation programme",
+      "A realistic plan for supervised physiotherapy after returning home"
+    ],
+    "notsuitable": [
+      "Active infection anywhere in the body, particularly in or near the joint",
+      "Inadequate bone stock or a non-functioning extensor mechanism",
+      "Poorly controlled diabetes, or a body weight that substantially raises complication and revision risk",
+      "Smoking, until stopped, because of wound-healing and infection risk",
+      "No access to structured rehabilitation after discharge"
+    ],
+    "recovery": [
+      "Day 0–1: standing and walking with aids, usually the same day",
+      "Hospital stay commonly 2–4 nights",
+      "Weeks 1–6: daily physiotherapy; walking aids gradually reduced; range of motion is the priority",
+      "Weeks 6–12: most people walk without aids and return to desk work",
+      "Months 3–12: continued gains in strength and stamina; final outcome typically judged at 12 months",
+      "Air travel is high-risk for thrombosis after lower-limb surgery — the clinic should confirm timing and prophylaxis explicitly, commonly deferring flights for several weeks"
+    ],
+    "risks": [
+      "Venous thromboembolism — deep vein thrombosis and pulmonary embolism, a particular concern with long-haul travel",
+      "Prosthetic joint infection, which may require further surgery",
+      "Persistent pain or stiffness, and dissatisfaction despite technically sound surgery",
+      "Loosening or wear of components over time, leading to revision",
+      "Nerve or vessel injury, periprosthetic fracture",
+      "Manipulation under anaesthesia if the knee stiffens",
+      "Ongoing numbness around the scar"
+    ],
+    "alternatives": [
+      "Weight management, physiotherapy and structured exercise",
+      "Analgesia, including topical and oral options",
+      "Intra-articular corticosteroid injections",
+      "Partial or unicompartmental knee replacement where only one compartment is affected",
+      "Osteotomy in selected younger patients",
+      "Continuing with non-surgical management"
+    ],
+    "glance": {
+      "Typical procedure time": "1–2 hours",
+      "Anaesthesia": "Spinal or general anaesthetic",
+      "Hospital stay": "Commonly 2–4 nights",
+      "Rehabilitation": "Structured physiotherapy for 3–12 months"
+    }
+  },
+
+  "ent/septoplasty": {
+    "reviewedBy": "",
+    "reviewedOn": "",
+    "what": [
+      "Septoplasty straightens a deviated nasal septum — the partition of bone and cartilage between the nostrils. The surgeon works through incisions inside the nose, lifting the lining, then removing or repositioning the deviated portions before laying the lining back down. There is no external incision and no change to the outward shape of the nose.",
+      "It takes roughly 30 to 90 minutes, usually under general anaesthetic, and is commonly a day case or one overnight stay. Turbinate reduction is often performed at the same time, since enlarged turbinates frequently contribute to the blockage. If the external shape is also to be changed, the operation becomes a septorhinoplasty and is planned differently."
+    ],
+    "why": "It is offered for persistent nasal obstruction from a deviated septum that has not responded to medical treatment — typically one-sided blockage, mouth breathing, disturbed sleep, recurrent sinus infections or nosebleeds from a septal spur.",
+    "suitable": [
+      "Symptomatic obstruction confirmed on examination to match the deviation",
+      "Medical treatment such as nasal steroids already tried",
+      "Completed facial growth in most protocols",
+      "Fit for general anaesthesia"
+    ],
+    "notsuitable": [
+      "Blockage caused mainly by allergy, polyps or rhinitis, which medical treatment should address first",
+      "Active nasal or sinus infection until treated",
+      "Uncontrolled bleeding disorder or anticoagulation without a management plan",
+      "Expectation that the operation will change the appearance of the nose — it will not"
+    ],
+    "recovery": [
+      "Days 1–3: congestion, mild bleeding and headache are usual; the nose feels more blocked before it feels better",
+      "Splints or dissolvable packing removed at around 5–7 days if used",
+      "Saline irrigation for several weeks as directed",
+      "Desk work usually at 1–2 weeks; no heavy lifting or nose-blowing for around 2 weeks",
+      "Breathing typically improves noticeably from weeks 2–6 as swelling settles",
+      "Flying is usually deferred until the clinic confirms, commonly around 1–2 weeks"
+    ],
+    "risks": [
+      "Persistent or recurrent obstruction, sometimes needing revision",
+      "Septal perforation",
+      "Bleeding, infection, or septal haematoma",
+      "Change in the shape of the nose, including a saddle deformity — uncommon",
+      "Reduced sense of smell",
+      "Numbness of the upper teeth or nasal tip, usually temporary",
+      "Adhesions between the septum and the lateral nasal wall"
+    ],
+    "alternatives": [
+      "Nasal corticosteroid sprays, antihistamines and saline irrigation",
+      "Turbinate reduction alone",
+      "Treatment of allergy or sinus disease",
+      "Nasal dilator strips for symptomatic relief",
+      "No treatment where symptoms are tolerable"
+    ],
+    "glance": {
+      "Typical procedure time": "30–90 minutes",
+      "Anaesthesia": "General anaesthetic in most cases",
+      "Hospital stay": "Day case or one night",
+      "Breathing improvement": "Usually clear by weeks 2–6"
+    }
+  },
+
+  "general-surgery/laparoscopic-cholecystectomy": {
+    "reviewedBy": "",
+    "reviewedOn": "",
+    "what": [
+      "Laparoscopic cholecystectomy removes the gallbladder through four small incisions. The abdomen is inflated with carbon dioxide, a camera and instruments are introduced, the cystic duct and artery are clipped and divided, and the gallbladder is separated from the liver bed and withdrawn. An intraoperative cholangiogram may be performed to check the bile ducts.",
+      "The operation takes roughly 45 to 90 minutes under general anaesthetic and is a day case or single overnight stay in most centres. A small proportion of operations are converted to an open procedure when inflammation or anatomy makes the laparoscopic view unsafe — that is a judgement in favour of safety, not a complication."
+    ],
+    "why": "It is performed for symptomatic gallstones — biliary colic, cholecystitis, gallstone pancreatitis — and for gallbladder polyps or dysfunction meeting the clinic's criteria. Gallstones found incidentally without symptoms are usually monitored rather than operated on.",
+    "suitable": [
+      "Symptoms clearly attributable to the gallbladder, supported by imaging",
+      "Fit for general anaesthesia and pneumoperitoneum",
+      "No unresolved bile duct stones, or a plan to address them",
+      "Able to attend follow-up and seek care promptly if unwell after discharge"
+    ],
+    "notsuitable": [
+      "Asymptomatic gallstones in most cases",
+      "Suspected gallbladder cancer, which needs a different operation and pathway",
+      "Uncorrected coagulopathy",
+      "Late pregnancy, in most protocols",
+      "Severe cardiorespiratory disease making pneumoperitoneum unsafe"
+    ],
+    "recovery": [
+      "Day case or one night in hospital for most patients",
+      "Shoulder-tip pain from residual gas is common for a few days",
+      "Desk work usually resumes at 1–2 weeks; heavy lifting avoided for around 4 weeks",
+      "Wound care and suture or dressing removal as directed",
+      "Some people experience looser stools or fat intolerance for weeks to months",
+      "Flying is usually deferred until the clinic confirms, commonly around 7–10 days"
+    ],
+    "risks": [
+      "Bile duct injury — uncommon but the most serious complication, sometimes needing major reconstructive surgery",
+      "Bile leak, requiring drainage or endoscopic treatment",
+      "Retained stone in the common bile duct, presenting after discharge with jaundice or pain",
+      "Bleeding, wound infection, port-site hernia",
+      "Injury to bowel or blood vessels during access",
+      "Conversion to open surgery, with a longer recovery",
+      "Persistent symptoms afterwards, where the gallbladder was not the cause"
+    ],
+    "alternatives": [
+      "Dietary modification and analgesia for infrequent mild symptoms",
+      "Ursodeoxycholic acid in selected cases, with limited effectiveness",
+      "ERCP for duct stones, which does not treat the gallbladder itself",
+      "Percutaneous cholecystostomy in patients too unwell for surgery",
+      "Watchful waiting for asymptomatic stones"
+    ],
+    "glance": {
+      "Typical procedure time": "45–90 minutes",
+      "Anaesthesia": "General anaesthetic",
+      "Hospital stay": "Day case or one night",
+      "Return-travel window": "Often around 7–10 days, confirmed by the clinic"
+    }
+  }
+}
